@@ -1,0 +1,5624 @@
+Condition Name =vis
+Target Directory =/pl/meg/analysis/ica_output/processed_gfp/vis/2
+Subject Matlab Path = /pl/meg/analysis/ica_output/processed_gfp/vis/2/vis_2_ica_br1.mat
+Subject Len 82
+M87105265
+1.0
+Low
+M87197917
+1.0
+Low
+M87112743
+2.0
+Medium
+M87104714
+2.0
+Medium
+M87131012
+3.0
+High
+M87130656
+1.0
+Low
+M87117365
+3.0
+High
+M87168050
+3.0
+High
+M87100788
+2.0
+Medium
+M87189143
+1.0
+Low
+M87160162
+2.0
+Medium
+M87120532
+2.0
+Medium
+M87178513
+1.0
+Low
+M87177235
+2.0
+Medium
+M87187253
+3.0
+High
+M87196316
+2.0
+Medium
+M87102589
+nan
+nan
+M87137879
+nan
+nan
+M87195745
+3.0
+High
+M87120319
+2.0
+Medium
+M87133640
+3.0
+High
+M87104918
+2.0
+Medium
+M87135262
+3.0
+High
+M87158016
+2.0
+Medium
+M87106704
+1.0
+Low
+M87131845
+2.0
+Medium
+M87199117
+3.0
+High
+M87192301
+1.0
+Low
+M87196579
+2.0
+Medium
+M87190684
+2.0
+Medium
+M87149105
+3.0
+High
+M87186783
+2.0
+Medium
+M87160608
+2.0
+Medium
+M87111372
+1.0
+Low
+M87155237
+3.0
+High
+M87128044
+2.0
+Medium
+M87184856
+3.0
+High
+M87154350
+3.0
+High
+M87132364
+2.0
+Medium
+M87105689
+3.0
+High
+M87139741
+2.0
+Medium
+M87173380
+1.0
+Low
+M87113328
+3.0
+High
+M87186620
+3.0
+High
+M87138931
+2.0
+Medium
+M87177624
+3.0
+High
+M87152436
+1.0
+Low
+M87152059
+3.0
+High
+M87140340
+2.0
+Medium
+M87197917
+1.0
+Low
+M87105265
+1.0
+Low
+M87146442
+1.0
+Low
+M87193022
+2.0
+Medium
+M87151599
+2.0
+Medium
+M87131012
+3.0
+High
+M87104714
+2.0
+Medium
+M87175951
+3.0
+High
+M87112743
+2.0
+Medium
+M87161703
+2.0
+Medium
+M87120532
+2.0
+Medium
+M87184504
+2.0
+Medium
+M87172564
+3.0
+High
+M87104289
+1.0
+Low
+M87166199
+1.0
+Low
+M87170742
+3.0
+High
+M87114683
+3.0
+High
+M87152779
+1.0
+Low
+M87135262
+3.0
+High
+M87126689
+2.0
+Medium
+M87133640
+3.0
+High
+M87109237
+3.0
+High
+M87106704
+1.0
+Low
+M87196268
+2.0
+Medium
+M87149105
+3.0
+High
+M87190684
+2.0
+Medium
+M87116559
+3.0
+High
+M87111261
+1.0
+Low
+M87100718
+3.0
+High
+M87147424
+3.0
+High
+M87181301
+2.0
+Medium
+M87154350
+3.0
+High
+M87155634
+2.0
+Medium
+M87155237
+3.0
+High
+M87181340
+2.0
+Medium
+M87173380
+1.0
+Low
+M87161334
+2.0
+Medium
+M87191024
+3.0
+High
+M87186620
+3.0
+High
+M87113328
+3.0
+High
+M87183741
+2.0
+Medium
+M87197917
+1.0
+Low
+M87193022
+2.0
+Medium
+M87104714
+2.0
+Medium
+M87116480
+2.0
+Medium
+M87160162
+2.0
+Medium
+M87155705
+2.0
+Medium
+M87172564
+3.0
+High
+M87184673
+2.0
+Medium
+M87114683
+3.0
+High
+M87173481
+2.0
+Medium
+M87169425
+2.0
+Medium
+M87195745
+3.0
+High
+M87104918
+2.0
+Medium
+M87135262
+3.0
+High
+M87106704
+1.0
+Low
+M87199117
+3.0
+High
+M87149105
+3.0
+High
+M87124949
+1.0
+Low
+M87122548
+2.0
+Medium
+M87173380
+1.0
+Low
+M87181340
+2.0
+Medium
+M87132364
+2.0
+Medium
+M87123871
+2.0
+Medium
+M87177624
+3.0
+High
+M87113328
+3.0
+High
+   subject_name  ... cog_group
+0     M87100788  ...    Medium
+1     M87104714  ...    Medium
+2     M87104918  ...    Medium
+3     M87105265  ...       Low
+4     M87105689  ...      High
+..          ...  ...       ...
+77    M87106704  ...       Low
+78    M87112743  ...    Medium
+79    M87113328  ...      High
+80    M87120532  ...    Medium
+81    M87131012  ...      High
+
+[82 rows x 10 columns]
+Saved Subjects with Cognition Scores @/pl/meg/analysis/ica_output/data/subject_map_with_scores.csv
+Reading TC @ /pl/meg/analysis/ica_output/processed_gfp/vis/2/subj/data/agg/tc_vis_2.npy; TC.shape: (2, 82)
+Running T-tests for = /pl/meg/analysis/ica_output/processed_gfp/vis/2
+Gender T-TEST
+Current Column Cnt = 1; Colum Length = 82
+Len = 82
+              sum_sq    df         F    PR(>F)
+Intercept   3.686496   1.0  3.961701  0.049962
+C(group)    7.557317   1.0  8.121488  0.005561
+Residual   74.442683  80.0       NaN       NaN
+              sum_sq    df         F    PR(>F)
+Intercept   3.686496   1.0  3.961701  0.049962
+C(group)    7.557317   1.0  8.121488  0.005561
+Residual   74.442683  80.0       NaN       NaN
+Saving anova_table table @ /pl/meg/analysis/ica_output/processed_gfp/vis/2/subj/csv/stat/gender_anova_2_colnum_1.csv
+   A  B   mean(A)  mean(B)      diff        se         T   p-tukey    hedges
+0  F  M  0.296266 -0.31108  0.607346  0.213117  2.849822  0.004373  0.623687
+[0.0043728267380533925]
+True 0.0043728267380533925
+   reject                  pvals
+0    True  0.0043728267380533925
+Current Column Cnt = 2; Colum Length = 82
+Len = 82
+              sum_sq    df         F    PR(>F)
+Intercept   0.002103   1.0  0.002052  0.963985
+C(group)    0.004311   1.0  0.004206  0.948453
+Residual   81.995689  80.0       NaN       NaN
+              sum_sq    df         F    PR(>F)
+Intercept   0.002103   1.0  0.002052  0.963985
+C(group)    0.004311   1.0  0.004206  0.948453
+Residual   81.995689  80.0       NaN       NaN
+Saving anova_table table @ /pl/meg/analysis/ica_output/processed_gfp/vis/2/subj/csv/stat/gender_anova_2_colnum_2.csv
+   A  B   mean(A)  mean(B)      diff        se         T  p-tukey    hedges
+0  F  M -0.007076  0.00743 -0.014505  0.223667 -0.064852      0.9 -0.014193
+[0.9]
+False 0.9
+   reject pvals
+0   False   0.9
+Cognition Score T-TEST
+Current Column Cnt = 1; Colum Length = 82
+Len = 82
+              sum_sq    df          F    PR(>F)
+Intercept  13.279848   1.0  17.523445  0.000073
+C(group)   22.131180   2.0  14.601617  0.000004
+Residual   59.868820  79.0        NaN       NaN
+              sum_sq    df          F    PR(>F)
+Intercept  13.279848   1.0  17.523445  0.000073
+C(group)   22.131180   2.0  14.601617  0.000004
+Residual   59.868820  79.0        NaN       NaN
+Saving anova_table table @ /pl/meg/analysis/ica_output/processed_gfp/vis/2/subj/csv/stat/cog_group_anova_2_colnum_1.csv
+      A       B   mean(A)   mean(B)  ...        se         T   p-tukey    hedges
+0  High     Low -0.701317  0.652150  ...  0.269530 -5.021587  0.001000 -1.526822
+1  High  Medium -0.701317  0.206553  ...  0.219114 -4.143375  0.001000 -1.030422
+2   Low  Medium  0.652150  0.206553  ...  0.254011  1.754244  0.186574  0.504587
+
+[3 rows x 9 columns]
+[0.001, 0.001, 0.18657392753026736]
+[ True  True False] [0.0015     0.0015     0.18657393]
+                reject                                  pvals
+0  [True, True, False]  [0.0015, 0.0015, 0.18657392753026736]
+Current Column Cnt = 2; Colum Length = 82
+Len = 82
+              sum_sq    df         F    PR(>F)
+Intercept   0.316626   1.0  0.309991  0.579260
+C(group)    1.308967   2.0  0.640767  0.529604
+Residual   80.691033  79.0       NaN       NaN
+              sum_sq    df         F    PR(>F)
+Intercept   0.316626   1.0  0.309991  0.579260
+C(group)    1.308967   2.0  0.640767  0.529604
+Residual   80.691033  79.0       NaN       NaN
+Saving anova_table table @ /pl/meg/analysis/ica_output/processed_gfp/vis/2/subj/csv/stat/cog_group_anova_2_colnum_2.csv
+      A       B   mean(A)   mean(B)  ...        se         T   p-tukey    hedges
+0  High     Low -0.108291 -0.131266  ...  0.312910  0.073424  0.900000  0.022325
+1  High  Medium -0.108291  0.135668  ...  0.254379 -0.959034  0.594637 -0.238504
+2   Low  Medium -0.131266  0.135668  ...  0.294893 -0.905189  0.625412 -0.260366
+
+[3 rows x 9 columns]
+[0.9, 0.594636873690376, 0.6254124944979342]
+[False False False] [0.9 0.9 0.9]
+                  reject            pvals
+0  [False, False, False]  [0.9, 0.9, 0.9]
+Saved Gender Significance @/pl/meg/analysis/ica_output/processed_gfp/vis/2/subj/csv/stat/vis2_gen_sign_id.csv
+Saved Cognition Significance @2/pl/meg/analysis/ica_output/processed_gfp/vis/2/subj/csv/stat/vis2_cog_sign_id.csv
+Target Directory =/pl/meg/analysis/ica_output/processed_gfp/vis/3
+Subject Matlab Path = /pl/meg/analysis/ica_output/processed_gfp/vis/3/vis_3_ica_br1.mat
+Subject Len 82
+M87105265
+1.0
+Low
+M87197917
+1.0
+Low
+M87112743
+2.0
+Medium
+M87104714
+2.0
+Medium
+M87131012
+3.0
+High
+M87130656
+1.0
+Low
+M87117365
+3.0
+High
+M87168050
+3.0
+High
+M87100788
+2.0
+Medium
+M87189143
+1.0
+Low
+M87160162
+2.0
+Medium
+M87120532
+2.0
+Medium
+M87178513
+1.0
+Low
+M87177235
+2.0
+Medium
+M87187253
+3.0
+High
+M87196316
+2.0
+Medium
+M87102589
+nan
+nan
+M87137879
+nan
+nan
+M87195745
+3.0
+High
+M87120319
+2.0
+Medium
+M87133640
+3.0
+High
+M87104918
+2.0
+Medium
+M87135262
+3.0
+High
+M87158016
+2.0
+Medium
+M87106704
+1.0
+Low
+M87131845
+2.0
+Medium
+M87199117
+3.0
+High
+M87192301
+1.0
+Low
+M87196579
+2.0
+Medium
+M87190684
+2.0
+Medium
+M87149105
+3.0
+High
+M87186783
+2.0
+Medium
+M87160608
+2.0
+Medium
+M87111372
+1.0
+Low
+M87155237
+3.0
+High
+M87128044
+2.0
+Medium
+M87184856
+3.0
+High
+M87154350
+3.0
+High
+M87132364
+2.0
+Medium
+M87105689
+3.0
+High
+M87139741
+2.0
+Medium
+M87173380
+1.0
+Low
+M87113328
+3.0
+High
+M87186620
+3.0
+High
+M87138931
+2.0
+Medium
+M87177624
+3.0
+High
+M87152436
+1.0
+Low
+M87152059
+3.0
+High
+M87140340
+2.0
+Medium
+M87197917
+1.0
+Low
+M87105265
+1.0
+Low
+M87146442
+1.0
+Low
+M87193022
+2.0
+Medium
+M87151599
+2.0
+Medium
+M87131012
+3.0
+High
+M87104714
+2.0
+Medium
+M87175951
+3.0
+High
+M87112743
+2.0
+Medium
+M87161703
+2.0
+Medium
+M87120532
+2.0
+Medium
+M87184504
+2.0
+Medium
+M87172564
+3.0
+High
+M87104289
+1.0
+Low
+M87166199
+1.0
+Low
+M87170742
+3.0
+High
+M87114683
+3.0
+High
+M87152779
+1.0
+Low
+M87135262
+3.0
+High
+M87126689
+2.0
+Medium
+M87133640
+3.0
+High
+M87109237
+3.0
+High
+M87106704
+1.0
+Low
+M87196268
+2.0
+Medium
+M87149105
+3.0
+High
+M87190684
+2.0
+Medium
+M87116559
+3.0
+High
+M87111261
+1.0
+Low
+M87100718
+3.0
+High
+M87147424
+3.0
+High
+M87181301
+2.0
+Medium
+M87154350
+3.0
+High
+M87155634
+2.0
+Medium
+M87155237
+3.0
+High
+M87181340
+2.0
+Medium
+M87173380
+1.0
+Low
+M87161334
+2.0
+Medium
+M87191024
+3.0
+High
+M87186620
+3.0
+High
+M87113328
+3.0
+High
+M87183741
+2.0
+Medium
+M87197917
+1.0
+Low
+M87193022
+2.0
+Medium
+M87104714
+2.0
+Medium
+M87116480
+2.0
+Medium
+M87160162
+2.0
+Medium
+M87155705
+2.0
+Medium
+M87172564
+3.0
+High
+M87184673
+2.0
+Medium
+M87114683
+3.0
+High
+M87173481
+2.0
+Medium
+M87169425
+2.0
+Medium
+M87195745
+3.0
+High
+M87104918
+2.0
+Medium
+M87135262
+3.0
+High
+M87106704
+1.0
+Low
+M87199117
+3.0
+High
+M87149105
+3.0
+High
+M87124949
+1.0
+Low
+M87122548
+2.0
+Medium
+M87173380
+1.0
+Low
+M87181340
+2.0
+Medium
+M87132364
+2.0
+Medium
+M87123871
+2.0
+Medium
+M87177624
+3.0
+High
+M87113328
+3.0
+High
+   subject_name  ... cog_group
+0     M87100788  ...    Medium
+1     M87104714  ...    Medium
+2     M87104918  ...    Medium
+3     M87105265  ...       Low
+4     M87105689  ...      High
+..          ...  ...       ...
+77    M87106704  ...       Low
+78    M87112743  ...    Medium
+79    M87113328  ...      High
+80    M87120532  ...    Medium
+81    M87131012  ...      High
+
+[82 rows x 10 columns]
+Saved Subjects with Cognition Scores @/pl/meg/analysis/ica_output/data/subject_map_with_scores.csv
+Reading TC @ /pl/meg/analysis/ica_output/processed_gfp/vis/3/subj/data/agg/tc_vis_3.npy; TC.shape: (3, 82)
+Running T-tests for = /pl/meg/analysis/ica_output/processed_gfp/vis/3
+Gender T-TEST
+Current Column Cnt = 1; Colum Length = 82
+Len = 82
+              sum_sq    df         F    PR(>F)
+Intercept   0.064816   1.0  0.063338  0.801941
+C(group)    0.132874   1.0  0.129843  0.719544
+Residual   81.867126  80.0       NaN       NaN
+              sum_sq    df         F    PR(>F)
+Intercept   0.064816   1.0  0.063338  0.801941
+C(group)    0.132874   1.0  0.129843  0.719544
+Residual   81.867126  80.0       NaN       NaN
+Saving anova_table table @ /pl/meg/analysis/ica_output/processed_gfp/vis/3/subj/csv/stat/gender_anova_3_colnum_1.csv
+   A  B   mean(A)   mean(B)      diff        se         T   p-tukey   hedges
+0  F  M  0.039284 -0.041248  0.080533  0.223492  0.360338  0.728961  0.07886
+[0.7289606406106386]
+False 0.7289606406106386
+   reject               pvals
+0   False  0.7289606406106386
+Current Column Cnt = 2; Colum Length = 82
+Len = 82
+              sum_sq    df         F    PR(>F)
+Intercept   3.618052   1.0  3.880833  0.052301
+C(group)    7.417006   1.0  7.955708  0.006042
+Residual   74.582994  80.0       NaN       NaN
+              sum_sq    df         F    PR(>F)
+Intercept   3.618052   1.0  3.880833  0.052301
+C(group)    7.417006   1.0  7.955708  0.006042
+Residual   74.582994  80.0       NaN       NaN
+Saving anova_table table @ /pl/meg/analysis/ica_output/processed_gfp/vis/3/subj/csv/stat/gender_anova_3_colnum_2.csv
+   A  B   mean(A)   mean(B)      diff        se         T   p-tukey    hedges
+0  F  M  0.293503 -0.308178  0.601681  0.213318  2.820586  0.004794  0.617288
+[0.004793739344448822]
+True 0.004793739344448822
+   reject                 pvals
+0    True  0.004793739344448822
+Current Column Cnt = 3; Colum Length = 82
+Len = 82
+              sum_sq    df         F    PR(>F)
+Intercept   0.345404   1.0  0.339915  0.561518
+C(group)    0.708079   1.0  0.696826  0.406338
+Residual   81.291921  80.0       NaN       NaN
+              sum_sq    df         F    PR(>F)
+Intercept   0.345404   1.0  0.339915  0.561518
+C(group)    0.708079   1.0  0.696826  0.406338
+Residual   81.291921  80.0       NaN       NaN
+Saving anova_table table @ /pl/meg/analysis/ica_output/processed_gfp/vis/3/subj/csv/stat/gender_anova_3_colnum_3.csv
+   A  B   mean(A)  mean(B)      diff        se         T   p-tukey    hedges
+0  F  M -0.090686  0.09522 -0.185906  0.222706 -0.834761  0.403851 -0.182688
+[0.40385100977743793]
+False 0.40385100977743793
+   reject                pvals
+0   False  0.40385100977743793
+Cognition Score T-TEST
+Current Column Cnt = 1; Colum Length = 82
+Len = 82
+              sum_sq    df         F    PR(>F)
+Intercept   0.935425   1.0  0.917172  0.341140
+C(group)    1.427757   2.0  0.699948  0.499664
+Residual   80.572243  79.0       NaN       NaN
+              sum_sq    df         F    PR(>F)
+Intercept   0.935425   1.0  0.917172  0.341140
+C(group)    1.427757   2.0  0.699948  0.499664
+Residual   80.572243  79.0       NaN       NaN
+Saving anova_table table @ /pl/meg/analysis/ica_output/processed_gfp/vis/3/subj/csv/stat/cog_group_anova_3_colnum_1.csv
+      A       B   mean(A)   mean(B)  ...        se         T   p-tukey    hedges
+0  High     Low -0.186133  0.054684  ...  0.312679 -0.770173  0.702586 -0.234172
+1  High  Medium -0.186133  0.107788  ...  0.254192 -1.156294  0.481056 -0.287560
+2   Low  Medium  0.054684  0.107788  ...  0.294676 -0.180211  0.900000 -0.051835
+
+[3 rows x 9 columns]
+[0.7025859909371295, 0.48105622854825614, 0.9]
+[False False False] [0.9 0.9 0.9]
+                  reject            pvals
+0  [False, False, False]  [0.9, 0.9, 0.9]
+Current Column Cnt = 2; Colum Length = 82
+Len = 82
+              sum_sq    df          F    PR(>F)
+Intercept  12.877558   1.0  16.816095  0.000099
+C(group)   21.502772   2.0  14.039643  0.000006
+Residual   60.497228  79.0        NaN       NaN
+              sum_sq    df          F    PR(>F)
+Intercept  12.877558   1.0  16.816095  0.000099
+C(group)   21.502772   2.0  14.039643  0.000006
+Residual   60.497228  79.0        NaN       NaN
+Saving anova_table table @ /pl/meg/analysis/ica_output/processed_gfp/vis/3/subj/csv/stat/cog_group_anova_3_colnum_2.csv
+      A       B   mean(A)   mean(B)  ...        se         T   p-tukey    hedges
+0  High     Low -0.690613  0.644999  ...  0.270941 -4.929539  0.001000 -1.498835
+1  High  Medium -0.690613  0.202147  ...  0.220261 -4.053194  0.001000 -1.007995
+2   Low  Medium  0.644999  0.202147  ...  0.255340  1.734364  0.193711  0.498869
+
+[3 rows x 9 columns]
+[0.001, 0.001, 0.19371078764884453]
+[ True  True False] [0.0015     0.0015     0.19371079]
+                reject                                  pvals
+0  [True, True, False]  [0.0015, 0.0015, 0.19371078764884453]
+Current Column Cnt = 3; Colum Length = 82
+Len = 82
+              sum_sq    df         F    PR(>F)
+Intercept   0.229014   1.0  0.234735  0.629375
+C(group)    4.925390   2.0  2.524216  0.086567
+Residual   77.074610  79.0       NaN       NaN
+              sum_sq    df         F    PR(>F)
+Intercept   0.229014   1.0  0.234735  0.629375
+C(group)    4.925390   2.0  2.524216  0.086567
+Residual   77.074610  79.0       NaN       NaN
+Saving anova_table table @ /pl/meg/analysis/ica_output/processed_gfp/vis/3/subj/csv/stat/cog_group_anova_3_colnum_3.csv
+      A       B   mean(A)   mean(B)  ...        se         T   p-tukey    hedges
+0  High     Low  0.092098 -0.476836  ...  0.305817  1.860372  0.151735  0.565649
+1  High  Medium  0.092098  0.147883  ...  0.248614 -0.224387  0.900000 -0.055803
+2   Low  Medium -0.476836  0.147883  ...  0.288209 -2.167594  0.078139 -0.623482
+
+[3 rows x 9 columns]
+[0.15173511065441447, 0.9, 0.07813900811046903]
+[False False False] [0.22760267 0.9        0.22760267]
+                  reject                                          pvals
+0  [False, False, False]  [0.2276026659816217, 0.9, 0.2276026659816217]
+Saved Gender Significance @/pl/meg/analysis/ica_output/processed_gfp/vis/3/subj/csv/stat/vis3_gen_sign_id.csv
+Saved Cognition Significance @3/pl/meg/analysis/ica_output/processed_gfp/vis/3/subj/csv/stat/vis3_cog_sign_id.csv
+Target Directory =/pl/meg/analysis/ica_output/processed_gfp/vis/5
+Subject Matlab Path = /pl/meg/analysis/ica_output/processed_gfp/vis/5/vis_5_ica_br1.mat
+Subject Len 82
+M87105265
+1.0
+Low
+M87197917
+1.0
+Low
+M87112743
+2.0
+Medium
+M87104714
+2.0
+Medium
+M87131012
+3.0
+High
+M87130656
+1.0
+Low
+M87117365
+3.0
+High
+M87168050
+3.0
+High
+M87100788
+2.0
+Medium
+M87189143
+1.0
+Low
+M87160162
+2.0
+Medium
+M87120532
+2.0
+Medium
+M87178513
+1.0
+Low
+M87177235
+2.0
+Medium
+M87187253
+3.0
+High
+M87196316
+2.0
+Medium
+M87102589
+nan
+nan
+M87137879
+nan
+nan
+M87195745
+3.0
+High
+M87120319
+2.0
+Medium
+M87133640
+3.0
+High
+M87104918
+2.0
+Medium
+M87135262
+3.0
+High
+M87158016
+2.0
+Medium
+M87106704
+1.0
+Low
+M87131845
+2.0
+Medium
+M87199117
+3.0
+High
+M87192301
+1.0
+Low
+M87196579
+2.0
+Medium
+M87190684
+2.0
+Medium
+M87149105
+3.0
+High
+M87186783
+2.0
+Medium
+M87160608
+2.0
+Medium
+M87111372
+1.0
+Low
+M87155237
+3.0
+High
+M87128044
+2.0
+Medium
+M87184856
+3.0
+High
+M87154350
+3.0
+High
+M87132364
+2.0
+Medium
+M87105689
+3.0
+High
+M87139741
+2.0
+Medium
+M87173380
+1.0
+Low
+M87113328
+3.0
+High
+M87186620
+3.0
+High
+M87138931
+2.0
+Medium
+M87177624
+3.0
+High
+M87152436
+1.0
+Low
+M87152059
+3.0
+High
+M87140340
+2.0
+Medium
+M87197917
+1.0
+Low
+M87105265
+1.0
+Low
+M87146442
+1.0
+Low
+M87193022
+2.0
+Medium
+M87151599
+2.0
+Medium
+M87131012
+3.0
+High
+M87104714
+2.0
+Medium
+M87175951
+3.0
+High
+M87112743
+2.0
+Medium
+M87161703
+2.0
+Medium
+M87120532
+2.0
+Medium
+M87184504
+2.0
+Medium
+M87172564
+3.0
+High
+M87104289
+1.0
+Low
+M87166199
+1.0
+Low
+M87170742
+3.0
+High
+M87114683
+3.0
+High
+M87152779
+1.0
+Low
+M87135262
+3.0
+High
+M87126689
+2.0
+Medium
+M87133640
+3.0
+High
+M87109237
+3.0
+High
+M87106704
+1.0
+Low
+M87196268
+2.0
+Medium
+M87149105
+3.0
+High
+M87190684
+2.0
+Medium
+M87116559
+3.0
+High
+M87111261
+1.0
+Low
+M87100718
+3.0
+High
+M87147424
+3.0
+High
+M87181301
+2.0
+Medium
+M87154350
+3.0
+High
+M87155634
+2.0
+Medium
+M87155237
+3.0
+High
+M87181340
+2.0
+Medium
+M87173380
+1.0
+Low
+M87161334
+2.0
+Medium
+M87191024
+3.0
+High
+M87186620
+3.0
+High
+M87113328
+3.0
+High
+M87183741
+2.0
+Medium
+M87197917
+1.0
+Low
+M87193022
+2.0
+Medium
+M87104714
+2.0
+Medium
+M87116480
+2.0
+Medium
+M87160162
+2.0
+Medium
+M87155705
+2.0
+Medium
+M87172564
+3.0
+High
+M87184673
+2.0
+Medium
+M87114683
+3.0
+High
+M87173481
+2.0
+Medium
+M87169425
+2.0
+Medium
+M87195745
+3.0
+High
+M87104918
+2.0
+Medium
+M87135262
+3.0
+High
+M87106704
+1.0
+Low
+M87199117
+3.0
+High
+M87149105
+3.0
+High
+M87124949
+1.0
+Low
+M87122548
+2.0
+Medium
+M87173380
+1.0
+Low
+M87181340
+2.0
+Medium
+M87132364
+2.0
+Medium
+M87123871
+2.0
+Medium
+M87177624
+3.0
+High
+M87113328
+3.0
+High
+   subject_name  ... cog_group
+0     M87100788  ...    Medium
+1     M87104714  ...    Medium
+2     M87104918  ...    Medium
+3     M87105265  ...       Low
+4     M87105689  ...      High
+..          ...  ...       ...
+77    M87106704  ...       Low
+78    M87112743  ...    Medium
+79    M87113328  ...      High
+80    M87120532  ...    Medium
+81    M87131012  ...      High
+
+[82 rows x 10 columns]
+Saved Subjects with Cognition Scores @/pl/meg/analysis/ica_output/data/subject_map_with_scores.csv
+Reading TC @ /pl/meg/analysis/ica_output/processed_gfp/vis/5/subj/data/agg/tc_vis_5.npy; TC.shape: (5, 82)
+Running T-tests for = /pl/meg/analysis/ica_output/processed_gfp/vis/5
+Gender T-TEST
+Current Column Cnt = 1; Colum Length = 82
+Len = 82
+              sum_sq    df         F    PR(>F)
+Intercept   2.771119   1.0  2.904767  0.092199
+C(group)    5.680793   1.0  5.954772  0.016888
+Residual   76.319207  80.0       NaN       NaN
+              sum_sq    df         F    PR(>F)
+Intercept   2.771119   1.0  2.904767  0.092199
+C(group)    5.680793   1.0  5.954772  0.016888
+Residual   76.319207  80.0       NaN       NaN
+Saving anova_table table @ /pl/meg/analysis/ica_output/processed_gfp/vis/5/subj/csv/stat/gender_anova_5_colnum_1.csv
+   A  B   mean(A)   mean(B)      diff        se        T   p-tukey    hedges
+0  F  M -0.256864  0.269707 -0.526571  0.215786 -2.44024  0.014678 -0.534049
+[0.014678254214134157]
+True 0.014678254214134157
+   reject                 pvals
+0    True  0.014678254214134157
+Current Column Cnt = 2; Colum Length = 82
+Len = 82
+              sum_sq    df         F    PR(>F)
+Intercept   0.690669   1.0  0.685663  0.410107
+C(group)    1.415872   1.0  1.405609  0.239296
+Residual   80.584128  80.0       NaN       NaN
+              sum_sq    df         F    PR(>F)
+Intercept   0.690669   1.0  0.685663  0.410107
+C(group)    1.415872   1.0  1.405609  0.239296
+Residual   80.584128  80.0       NaN       NaN
+Saving anova_table table @ /pl/meg/analysis/ica_output/processed_gfp/vis/5/subj/csv/stat/gender_anova_5_colnum_2.csv
+   A  B   mean(A)   mean(B)      diff        se         T   p-tukey    hedges
+0  F  M -0.128236  0.134648 -0.262884  0.221734 -1.185584  0.235787 -0.259466
+[0.23578661007818624]
+False 0.23578661007818624
+   reject                pvals
+0   False  0.23578661007818624
+Current Column Cnt = 3; Colum Length = 82
+Len = 82
+              sum_sq    df         F    PR(>F)
+Intercept   0.167056   1.0  0.163665  0.686884
+C(group)    0.342464   1.0  0.335513  0.564058
+Residual   81.657536  80.0       NaN       NaN
+              sum_sq    df         F    PR(>F)
+Intercept   0.167056   1.0  0.163665  0.686884
+C(group)    0.342464   1.0  0.335513  0.564058
+Residual   81.657536  80.0       NaN       NaN
+Saving anova_table table @ /pl/meg/analysis/ica_output/processed_gfp/vis/5/subj/csv/stat/gender_anova_5_colnum_3.csv
+   A  B   mean(A)   mean(B)      diff        se         T   p-tukey    hedges
+0  F  M -0.063068  0.066221 -0.129288  0.223206 -0.579234  0.569425 -0.126766
+[0.569425147382914]
+False 0.569425147382914
+   reject              pvals
+0   False  0.569425147382914
+Current Column Cnt = 4; Colum Length = 82
+Len = 82
+              sum_sq    df         F    PR(>F)
+Intercept   0.000340   1.0  0.000331  0.985525
+C(group)    0.000696   1.0  0.000679  0.979276
+Residual   81.999304  80.0       NaN       NaN
+              sum_sq    df         F    PR(>F)
+Intercept   0.000340   1.0  0.000331  0.985525
+C(group)    0.000696   1.0  0.000679  0.979276
+Residual   81.999304  80.0       NaN       NaN
+Saving anova_table table @ /pl/meg/analysis/ica_output/processed_gfp/vis/5/subj/csv/stat/gender_anova_5_colnum_4.csv
+   A  B   mean(A)   mean(B)      diff        se         T  p-tukey    hedges
+0  F  M  0.002843 -0.002985  0.005829  0.223672  0.026058      0.9  0.005703
+[0.9]
+False 0.9
+   reject pvals
+0   False   0.9
+Current Column Cnt = 5; Colum Length = 82
+Len = 82
+              sum_sq    df         F    PR(>F)
+Intercept   1.406550   1.0  1.422256  0.236558
+C(group)    2.883428   1.0  2.915625  0.091604
+Residual   79.116572  80.0       NaN       NaN
+              sum_sq    df         F    PR(>F)
+Intercept   1.406550   1.0  1.422256  0.236558
+C(group)    2.883428   1.0  2.915625  0.091604
+Residual   79.116572  80.0       NaN       NaN
+Saving anova_table table @ /pl/meg/analysis/ica_output/processed_gfp/vis/5/subj/csv/stat/gender_anova_5_colnum_5.csv
+   A  B   mean(A)   mean(B)      diff        se        T   p-tukey    hedges
+0  F  M -0.183001  0.192151 -0.375152  0.219706 -1.70752  0.087726 -0.373693
+[0.08772561983482519]
+False 0.08772561983482519
+   reject                pvals
+0   False  0.08772561983482519
+Cognition Score T-TEST
+Current Column Cnt = 1; Colum Length = 82
+Len = 82
+              sum_sq    df         F    PR(>F)
+Intercept   7.802290   1.0  8.904242  0.003784
+C(group)   12.776713   2.0  7.290613  0.001243
+Residual   69.223287  79.0       NaN       NaN
+              sum_sq    df         F    PR(>F)
+Intercept   7.802290   1.0  8.904242  0.003784
+C(group)   12.776713   2.0  7.290613  0.001243
+Residual   69.223287  79.0       NaN       NaN
+Saving anova_table table @ /pl/meg/analysis/ica_output/processed_gfp/vis/5/subj/csv/stat/cog_group_anova_5_colnum_1.csv
+      A       B   mean(A)   mean(B)  ...        se         T   p-tukey    hedges
+0  High     Low  0.537563 -0.479539  ...  0.289823  3.509392  0.001404  1.067036
+1  High  Medium  0.537563 -0.167422  ...  0.235611  2.992155  0.008167  0.744124
+2   Low  Medium -0.479539 -0.167422  ...  0.273135 -1.142721  0.489164 -0.328690
+
+[3 rows x 9 columns]
+[0.0014039922196965593, 0.008166806547435623, 0.4891637943599261]
+[ True  True False] [0.00421198 0.01225021 0.48916379]
+                reject                                              pvals
+0  [True, True, False]  [0.004211976659089678, 0.012250209821153435, 0...
+Current Column Cnt = 2; Colum Length = 82
+Len = 82
+              sum_sq    df         F    PR(>F)
+Intercept   3.759202   1.0  4.084036  0.046678
+C(group)    9.283460   2.0  5.042823  0.008687
+Residual   72.716540  79.0       NaN       NaN
+              sum_sq    df         F    PR(>F)
+Intercept   3.759202   1.0  4.084036  0.046678
+C(group)    9.283460   2.0  5.042823  0.008687
+Residual   72.716540  79.0       NaN       NaN
+Saving anova_table table @ /pl/meg/analysis/ica_output/processed_gfp/vis/5/subj/csv/stat/cog_group_anova_5_colnum_2.csv
+      A       B   mean(A)   mean(B)  ...        se         T   p-tukey    hedges
+0  High     Low  0.373135 -0.569846  ...  0.297046  3.174532  0.004522  0.965222
+1  High  Medium  0.373135 -0.010191  ...  0.241483  1.587386  0.252316  0.394769
+2   Low  Medium -0.569846 -0.010191  ...  0.279942 -1.999180  0.113812 -0.575040
+
+[3 rows x 9 columns]
+[0.00452150439492327, 0.2523158033635369, 0.1138120636913571]
+[ True False False] [0.01356451 0.2523158  0.1707181 ]
+                 reject                                              pvals
+0  [True, False, False]  [0.01356451318476981, 0.2523158033635369, 0.17...
+Current Column Cnt = 3; Colum Length = 82
+Len = 82
+              sum_sq    df         F    PR(>F)
+Intercept   0.001427   1.0  0.001376  0.970502
+C(group)    0.097782   2.0  0.047158  0.953963
+Residual   81.902218  79.0       NaN       NaN
+              sum_sq    df         F    PR(>F)
+Intercept   0.001427   1.0  0.001376  0.970502
+C(group)    0.097782   2.0  0.047158  0.953963
+Residual   81.902218  79.0       NaN       NaN
+Saving anova_table table @ /pl/meg/analysis/ica_output/processed_gfp/vis/5/subj/csv/stat/cog_group_anova_5_colnum_3.csv
+      A       B   mean(A)   mean(B)  ...        se         T  p-tukey    hedges
+0  High     Low  0.007269 -0.065919  ...  0.315249  0.232159      0.9  0.070588
+1  High  Medium  0.007269  0.024325  ...  0.256282 -0.066552      0.9 -0.016551
+2   Low  Medium -0.065919  0.024325  ...  0.297098 -0.303752      0.9 -0.087371
+
+[3 rows x 9 columns]
+[0.9, 0.9, 0.9]
+[False False False] [0.9 0.9 0.9]
+                  reject            pvals
+0  [False, False, False]  [0.9, 0.9, 0.9]
+Current Column Cnt = 4; Colum Length = 82
+Len = 82
+              sum_sq    df         F    PR(>F)
+Intercept   1.014781   1.0  1.017799  0.316122
+C(group)    3.234217   2.0  1.621917  0.204027
+Residual   78.765783  79.0       NaN       NaN
+              sum_sq    df         F    PR(>F)
+Intercept   1.014781   1.0  1.017799  0.316122
+C(group)    3.234217   2.0  1.621917  0.204027
+Residual   78.765783  79.0       NaN       NaN
+Saving anova_table table @ /pl/meg/analysis/ica_output/processed_gfp/vis/5/subj/csv/stat/cog_group_anova_5_colnum_4.csv
+      A       B   mean(A)   mean(B)  ...        se         T   p-tukey    hedges
+0  High     Low  0.193867  0.169320  ...  0.309154  0.079402  0.900000  0.024142
+1  High  Medium  0.193867 -0.213496  ...  0.251326  1.620853  0.238020  0.403092
+2   Low  Medium  0.169320 -0.213496  ...  0.291354  1.313921  0.389116  0.377933
+
+[3 rows x 9 columns]
+[0.9, 0.23801974569317663, 0.38911593079302353]
+[False False False] [0.9       0.5836739 0.5836739]
+                  reject                                          pvals
+0  [False, False, False]  [0.9, 0.5836738961895354, 0.5836738961895354]
+Current Column Cnt = 5; Colum Length = 82
+Len = 82
+              sum_sq    df         F    PR(>F)
+Intercept   3.162037   1.0  3.264156  0.074617
+C(group)    5.471524   2.0  2.824115  0.065368
+Residual   76.528476  79.0       NaN       NaN
+              sum_sq    df         F    PR(>F)
+Intercept   3.162037   1.0  3.264156  0.074617
+C(group)    5.471524   2.0  2.824115  0.065368
+Residual   76.528476  79.0       NaN       NaN
+Saving anova_table table @ /pl/meg/analysis/ica_output/processed_gfp/vis/5/subj/csv/stat/cog_group_anova_5_colnum_5.csv
+      A       B   mean(A)   mean(B)  ...        se         T   p-tukey    hedges
+0  High     Low  0.342217 -0.343424  ...  0.304732  2.249981  0.064302  0.684110
+1  High  Medium  0.342217 -0.089517  ...  0.247731  1.742751  0.190676  0.433407
+2   Low  Medium -0.343424 -0.089517  ...  0.287186 -0.884121  0.637453 -0.254307
+
+[3 rows x 9 columns]
+[0.06430169333364011, 0.19067616528122033, 0.6374532192823407]
+[False False False] [0.19290508 0.28601425 0.63745322]
+                  reject                                              pvals
+0  [False, False, False]  [0.19290508000092033, 0.2860142479218305, 0.63...
+Saved Gender Significance @/pl/meg/analysis/ica_output/processed_gfp/vis/5/subj/csv/stat/vis5_gen_sign_id.csv
+Saved Cognition Significance @5/pl/meg/analysis/ica_output/processed_gfp/vis/5/subj/csv/stat/vis5_cog_sign_id.csv
+Target Directory =/pl/meg/analysis/ica_output/processed_gfp/vis/10
+Subject Matlab Path = /pl/meg/analysis/ica_output/processed_gfp/vis/10/vis_10_ica_br1.mat
+Subject Len 82
+M87105265
+1.0
+Low
+M87197917
+1.0
+Low
+M87112743
+2.0
+Medium
+M87104714
+2.0
+Medium
+M87131012
+3.0
+High
+M87130656
+1.0
+Low
+M87117365
+3.0
+High
+M87168050
+3.0
+High
+M87100788
+2.0
+Medium
+M87189143
+1.0
+Low
+M87160162
+2.0
+Medium
+M87120532
+2.0
+Medium
+M87178513
+1.0
+Low
+M87177235
+2.0
+Medium
+M87187253
+3.0
+High
+M87196316
+2.0
+Medium
+M87102589
+nan
+nan
+M87137879
+nan
+nan
+M87195745
+3.0
+High
+M87120319
+2.0
+Medium
+M87133640
+3.0
+High
+M87104918
+2.0
+Medium
+M87135262
+3.0
+High
+M87158016
+2.0
+Medium
+M87106704
+1.0
+Low
+M87131845
+2.0
+Medium
+M87199117
+3.0
+High
+M87192301
+1.0
+Low
+M87196579
+2.0
+Medium
+M87190684
+2.0
+Medium
+M87149105
+3.0
+High
+M87186783
+2.0
+Medium
+M87160608
+2.0
+Medium
+M87111372
+1.0
+Low
+M87155237
+3.0
+High
+M87128044
+2.0
+Medium
+M87184856
+3.0
+High
+M87154350
+3.0
+High
+M87132364
+2.0
+Medium
+M87105689
+3.0
+High
+M87139741
+2.0
+Medium
+M87173380
+1.0
+Low
+M87113328
+3.0
+High
+M87186620
+3.0
+High
+M87138931
+2.0
+Medium
+M87177624
+3.0
+High
+M87152436
+1.0
+Low
+M87152059
+3.0
+High
+M87140340
+2.0
+Medium
+M87197917
+1.0
+Low
+M87105265
+1.0
+Low
+M87146442
+1.0
+Low
+M87193022
+2.0
+Medium
+M87151599
+2.0
+Medium
+M87131012
+3.0
+High
+M87104714
+2.0
+Medium
+M87175951
+3.0
+High
+M87112743
+2.0
+Medium
+M87161703
+2.0
+Medium
+M87120532
+2.0
+Medium
+M87184504
+2.0
+Medium
+M87172564
+3.0
+High
+M87104289
+1.0
+Low
+M87166199
+1.0
+Low
+M87170742
+3.0
+High
+M87114683
+3.0
+High
+M87152779
+1.0
+Low
+M87135262
+3.0
+High
+M87126689
+2.0
+Medium
+M87133640
+3.0
+High
+M87109237
+3.0
+High
+M87106704
+1.0
+Low
+M87196268
+2.0
+Medium
+M87149105
+3.0
+High
+M87190684
+2.0
+Medium
+M87116559
+3.0
+High
+M87111261
+1.0
+Low
+M87100718
+3.0
+High
+M87147424
+3.0
+High
+M87181301
+2.0
+Medium
+M87154350
+3.0
+High
+M87155634
+2.0
+Medium
+M87155237
+3.0
+High
+M87181340
+2.0
+Medium
+M87173380
+1.0
+Low
+M87161334
+2.0
+Medium
+M87191024
+3.0
+High
+M87186620
+3.0
+High
+M87113328
+3.0
+High
+M87183741
+2.0
+Medium
+M87197917
+1.0
+Low
+M87193022
+2.0
+Medium
+M87104714
+2.0
+Medium
+M87116480
+2.0
+Medium
+M87160162
+2.0
+Medium
+M87155705
+2.0
+Medium
+M87172564
+3.0
+High
+M87184673
+2.0
+Medium
+M87114683
+3.0
+High
+M87173481
+2.0
+Medium
+M87169425
+2.0
+Medium
+M87195745
+3.0
+High
+M87104918
+2.0
+Medium
+M87135262
+3.0
+High
+M87106704
+1.0
+Low
+M87199117
+3.0
+High
+M87149105
+3.0
+High
+M87124949
+1.0
+Low
+M87122548
+2.0
+Medium
+M87173380
+1.0
+Low
+M87181340
+2.0
+Medium
+M87132364
+2.0
+Medium
+M87123871
+2.0
+Medium
+M87177624
+3.0
+High
+M87113328
+3.0
+High
+   subject_name  ... cog_group
+0     M87100788  ...    Medium
+1     M87104714  ...    Medium
+2     M87104918  ...    Medium
+3     M87105265  ...       Low
+4     M87105689  ...      High
+..          ...  ...       ...
+77    M87106704  ...       Low
+78    M87112743  ...    Medium
+79    M87113328  ...      High
+80    M87120532  ...    Medium
+81    M87131012  ...      High
+
+[82 rows x 10 columns]
+Saved Subjects with Cognition Scores @/pl/meg/analysis/ica_output/data/subject_map_with_scores.csv
+Reading TC @ /pl/meg/analysis/ica_output/processed_gfp/vis/10/subj/data/agg/tc_vis_10.npy; TC.shape: (10, 82)
+Running T-tests for = /pl/meg/analysis/ica_output/processed_gfp/vis/10
+Gender T-TEST
+Current Column Cnt = 1; Colum Length = 82
+Len = 82
+              sum_sq    df         F    PR(>F)
+Intercept   1.505998   1.0  1.526748  0.220217
+C(group)    3.087295   1.0  3.129833  0.080683
+Residual   78.912705  80.0       NaN       NaN
+              sum_sq    df         F    PR(>F)
+Intercept   1.505998   1.0  1.526748  0.220217
+C(group)    3.087295   1.0  3.129833  0.080683
+Residual   78.912705  80.0       NaN       NaN
+Saving anova_table table @ /pl/meg/analysis/ica_output/processed_gfp/vis/10/subj/csv/stat/gender_anova_10_colnum_1.csv
+   A  B  mean(A)   mean(B)      diff        se         T   p-tukey    hedges
+0  F  M -0.18936  0.198828 -0.388187  0.219422 -1.769133  0.076871 -0.387177
+[0.07687107598912157]
+False 0.07687107598912157
+   reject                pvals
+0   False  0.07687107598912157
+Current Column Cnt = 2; Colum Length = 82
+Len = 82
+              sum_sq    df         F    PR(>F)
+Intercept   0.700308   1.0  0.695402  0.406816
+C(group)    1.435630   1.0  1.425574  0.236017
+Residual   80.564370  80.0       NaN       NaN
+              sum_sq    df         F    PR(>F)
+Intercept   0.700308   1.0  0.695402  0.406816
+C(group)    1.435630   1.0  1.425574  0.236017
+Residual   80.564370  80.0       NaN       NaN
+Saving anova_table table @ /pl/meg/analysis/ica_output/processed_gfp/vis/10/subj/csv/stat/gender_anova_10_colnum_2.csv
+   A  B   mean(A)   mean(B)      diff        se         T   p-tukey    hedges
+0  F  M  0.129128 -0.135584  0.264712  0.221707  1.193974  0.232489  0.261302
+[0.23248898078736713]
+False 0.23248898078736713
+   reject                pvals
+0   False  0.23248898078736713
+Current Column Cnt = 3; Colum Length = 82
+Len = 82
+              sum_sq    df         F    PR(>F)
+Intercept   2.007079   1.0  2.061569  0.154953
+C(group)    4.114512   1.0  4.226216  0.043066
+Residual   77.885488  80.0       NaN       NaN
+              sum_sq    df         F    PR(>F)
+Intercept   2.007079   1.0  2.061569  0.154953
+C(group)    4.114512   1.0  4.226216  0.043066
+Residual   77.885488  80.0       NaN       NaN
+Saving anova_table table @ /pl/meg/analysis/ica_output/processed_gfp/vis/10/subj/csv/stat/gender_anova_10_colnum_3.csv
+   A  B   mean(A)   mean(B)      diff        se         T   p-tukey    hedges
+0  F  M  0.218604 -0.229534  0.448138  0.217989  2.055776  0.039802  0.449909
+[0.03980155395769425]
+True 0.03980155395769425
+   reject                pvals
+0    True  0.03980155395769425
+Current Column Cnt = 4; Colum Length = 82
+Len = 82
+              sum_sq    df         F    PR(>F)
+Intercept   0.030748   1.0  0.030021  0.862880
+C(group)    0.063033   1.0  0.061543  0.804709
+Residual   81.936967  80.0       NaN       NaN
+              sum_sq    df         F    PR(>F)
+Intercept   0.030748   1.0  0.030021  0.862880
+C(group)    0.063033   1.0  0.061543  0.804709
+Residual   81.936967  80.0       NaN       NaN
+Saving anova_table table @ /pl/meg/analysis/ica_output/processed_gfp/vis/10/subj/csv/stat/gender_anova_10_colnum_4.csv
+   A  B   mean(A)  mean(B)      diff        se         T  p-tukey    hedges
+0  F  M -0.027057  0.02841 -0.055467  0.223587 -0.248079  0.81078 -0.054292
+[0.8107804172832881]
+False 0.8107804172832881
+   reject               pvals
+0   False  0.8107804172832881
+Current Column Cnt = 5; Colum Length = 82
+Len = 82
+              sum_sq    df         F    PR(>F)
+Intercept   0.568176   1.0  0.562305  0.455533
+C(group)    1.164761   1.0  1.152726  0.286207
+Residual   80.835239  80.0       NaN       NaN
+              sum_sq    df         F    PR(>F)
+Intercept   0.568176   1.0  0.562305  0.455533
+C(group)    1.164761   1.0  1.152726  0.286207
+Residual   80.835239  80.0       NaN       NaN
+Saving anova_table table @ /pl/meg/analysis/ica_output/processed_gfp/vis/10/subj/csv/stat/gender_anova_10_colnum_5.csv
+   A  B  mean(A)   mean(B)      diff        se         T   p-tukey   hedges
+0  F  M -0.11631  0.122125 -0.238435  0.222079 -1.073651  0.282978 -0.23497
+[0.28297799147487834]
+False 0.28297799147487834
+   reject                pvals
+0   False  0.28297799147487834
+Current Column Cnt = 6; Colum Length = 82
+Len = 82
+              sum_sq    df         F    PR(>F)
+Intercept   0.809388   1.0  0.805955  0.372013
+C(group)    1.659246   1.0  1.652208  0.202367
+Residual   80.340754  80.0       NaN       NaN
+              sum_sq    df         F    PR(>F)
+Intercept   0.809388   1.0  0.805955  0.372013
+C(group)    1.659246   1.0  1.652208  0.202367
+Residual   80.340754  80.0       NaN       NaN
+Saving anova_table table @ /pl/meg/analysis/ica_output/processed_gfp/vis/10/subj/csv/stat/gender_anova_10_colnum_6.csv
+   A  B   mean(A)   mean(B)      diff        se         T   p-tukey    hedges
+0  F  M -0.138821  0.145762 -0.284582  0.221399 -1.285383  0.198657 -0.281307
+[0.19865718007954658]
+False 0.19865718007954658
+   reject                pvals
+0   False  0.19865718007954658
+Current Column Cnt = 7; Colum Length = 82
+Len = 82
+              sum_sq    df         F    PR(>F)
+Intercept   0.367313   1.0  0.361676  0.549278
+C(group)    0.752992   1.0  0.741435  0.391775
+Residual   81.247008  80.0       NaN       NaN
+              sum_sq    df         F    PR(>F)
+Intercept   0.367313   1.0  0.361676  0.549278
+C(group)    0.752992   1.0  0.741435  0.391775
+Residual   81.247008  80.0       NaN       NaN
+Saving anova_table table @ /pl/meg/analysis/ica_output/processed_gfp/vis/10/subj/csv/stat/gender_anova_10_colnum_7.csv
+   A  B   mean(A)   mean(B)      diff        se         T   p-tukey    hedges
+0  F  M  0.093518 -0.098194  0.191711  0.222644  0.861066  0.389202  0.188445
+[0.3892019121338932]
+False 0.3892019121338932
+   reject               pvals
+0   False  0.3892019121338932
+Current Column Cnt = 8; Colum Length = 82
+Len = 82
+              sum_sq    df         F    PR(>F)
+Intercept   1.379804   1.0  1.394245  0.241188
+C(group)    2.828599   1.0  2.858203  0.094802
+Residual   79.171401  80.0       NaN       NaN
+              sum_sq    df         F    PR(>F)
+Intercept   1.379804   1.0  1.394245  0.241188
+C(group)    2.828599   1.0  2.858203  0.094802
+Residual   79.171401  80.0       NaN       NaN
+Saving anova_table table @ /pl/meg/analysis/ica_output/processed_gfp/vis/10/subj/csv/stat/gender_anova_10_colnum_8.csv
+   A  B   mean(A)   mean(B)      diff        se         T   p-tukey    hedges
+0  F  M  0.181253 -0.190315  0.371568  0.219782  1.690622  0.090909  0.369994
+[0.09090869573501548]
+False 0.09090869573501548
+   reject                pvals
+0   False  0.09090869573501548
+Current Column Cnt = 9; Colum Length = 82
+Len = 82
+              sum_sq    df         F    PR(>F)
+Intercept   0.351631   1.0  0.346098  0.557988
+C(group)    0.720844   1.0  0.709500  0.402121
+Residual   81.279156  80.0       NaN       NaN
+              sum_sq    df         F    PR(>F)
+Intercept   0.351631   1.0  0.346098  0.557988
+C(group)    0.720844   1.0  0.709500  0.402121
+Residual   81.279156  80.0       NaN       NaN
+Saving anova_table table @ /pl/meg/analysis/ica_output/processed_gfp/vis/10/subj/csv/stat/gender_anova_10_colnum_9.csv
+   A  B  mean(A)   mean(B)      diff        se         T   p-tukey    hedges
+0  F  M  -0.0915  0.096075 -0.187574  0.222688 -0.842318  0.399608 -0.184342
+[0.3996084475160877]
+False 0.3996084475160877
+   reject               pvals
+0   False  0.3996084475160877
+Current Column Cnt = 10; Colum Length = 82
+Len = 82
+              sum_sq    df         F    PR(>F)
+Intercept   0.006968   1.0  0.006799  0.934488
+C(group)    0.014285   1.0  0.013939  0.906315
+Residual   81.985715  80.0       NaN       NaN
+              sum_sq    df         F    PR(>F)
+Intercept   0.006968   1.0  0.006799  0.934488
+C(group)    0.014285   1.0  0.013939  0.906315
+Residual   81.985715  80.0       NaN       NaN
+Saving anova_table table @ /pl/meg/analysis/ica_output/processed_gfp/vis/10/subj/csv/stat/gender_anova_10_colnum_10.csv
+   A  B  mean(A)   mean(B)      diff        se         T  p-tukey    hedges
+0  F  M -0.01288  0.013525 -0.026405  0.223654 -0.118062      0.9 -0.025838
+[0.9]
+False 0.9
+   reject pvals
+0   False   0.9
+Cognition Score T-TEST
+Current Column Cnt = 1; Colum Length = 82
+Len = 82
+              sum_sq    df         F    PR(>F)
+Intercept   2.475778   1.0  2.575710  0.112506
+C(group)    6.065025   2.0  3.154916  0.048062
+Residual   75.934975  79.0       NaN       NaN
+              sum_sq    df         F    PR(>F)
+Intercept   2.475778   1.0  2.575710  0.112506
+C(group)    6.065025   2.0  3.154916  0.048062
+Residual   75.934975  79.0       NaN       NaN
+Saving anova_table table @ /pl/meg/analysis/ica_output/processed_gfp/vis/10/subj/csv/stat/cog_group_anova_10_colnum_1.csv
+      A       B   mean(A)   mean(B)  ...        se         T   p-tukey    hedges
+0  High     Low  0.302813 -0.459262  ...  0.303548  2.510559  0.033187  0.763340
+1  High  Medium  0.302813 -0.009697  ...  0.246769  1.266405  0.416208  0.314944
+2   Low  Medium -0.459262 -0.009697  ...  0.286070 -1.571523  0.259288 -0.452029
+
+[3 rows x 9 columns]
+[0.03318690644014677, 0.4162084029230564, 0.25928778510499373]
+[False False False] [0.09956072 0.4162084  0.38893168]
+                  reject                                              pvals
+0  [False, False, False]  [0.0995607193204403, 0.4162084029230564, 0.388...
+Current Column Cnt = 2; Colum Length = 82
+Len = 82
+              sum_sq    df         F    PR(>F)
+Intercept   1.577206   1.0  1.588342  0.211273
+C(group)    3.553843   2.0  1.789467  0.173754
+Residual   78.446157  79.0       NaN       NaN
+              sum_sq    df         F    PR(>F)
+Intercept   1.577206   1.0  1.588342  0.211273
+C(group)    3.553843   2.0  1.789467  0.173754
+Residual   78.446157  79.0       NaN       NaN
+Saving anova_table table @ /pl/meg/analysis/ica_output/processed_gfp/vis/10/subj/csv/stat/cog_group_anova_10_colnum_2.csv
+      A       B   mean(A)   mean(B)  ...        se         T   p-tukey    hedges
+0  High     Low -0.241692  0.339706  ...  0.308526 -1.884437  0.144504 -0.572966
+1  High  Medium -0.241692  0.019755  ...  0.250816 -1.042384  0.546992 -0.259232
+2   Low  Medium  0.339706  0.019755  ...  0.290762  1.100391  0.513838  0.316514
+
+[3 rows x 9 columns]
+[0.1445044539395005, 0.5469924397929443, 0.5138378243992752]
+[False False False] [0.43351336 0.54699244 0.54699244]
+                  reject                                              pvals
+0  [False, False, False]  [0.43351336181850153, 0.5469924397929443, 0.54...
+Current Column Cnt = 3; Colum Length = 82
+Len = 82
+              sum_sq    df         F    PR(>F)
+Intercept   4.502347   1.0  4.765740  0.032000
+C(group)    7.366180   2.0  3.898556  0.024284
+Residual   74.633820  79.0       NaN       NaN
+              sum_sq    df         F    PR(>F)
+Intercept   4.502347   1.0  4.765740  0.032000
+C(group)    7.366180   2.0  3.898556  0.024284
+Residual   74.633820  79.0       NaN       NaN
+Saving anova_table table @ /pl/meg/analysis/ica_output/processed_gfp/vis/10/subj/csv/stat/cog_group_anova_10_colnum_3.csv
+      A       B   mean(A)   mean(B)  ...        se         T   p-tukey    hedges
+0  High     Low -0.408355  0.363447  ...  0.300936 -2.564669  0.028679 -0.779792
+1  High  Medium -0.408355  0.127552  ...  0.244646 -2.190544  0.074065 -0.544770
+2   Low  Medium  0.363447  0.127552  ...  0.283609  0.831761  0.667383  0.239246
+
+[3 rows x 9 columns]
+[0.0286792802566318, 0.07406549469018897, 0.6673833808497909]
+[False False False] [0.08603784 0.11109824 0.66738338]
+                  reject                                              pvals
+0  [False, False, False]  [0.0860378407698954, 0.11109824203528346, 0.66...
+Current Column Cnt = 4; Colum Length = 82
+Len = 82
+              sum_sq    df         F    PR(>F)
+Intercept   0.019039   1.0  0.019188  0.890181
+C(group)    3.613005   2.0  1.820630  0.168652
+Residual   78.386995  79.0       NaN       NaN
+              sum_sq    df         F    PR(>F)
+Intercept   0.019039   1.0  0.019188  0.890181
+C(group)    3.613005   2.0  1.820630  0.168652
+Residual   78.386995  79.0       NaN       NaN
+Saving anova_table table @ /pl/meg/analysis/ica_output/processed_gfp/vis/10/subj/csv/stat/cog_group_anova_10_colnum_4.csv
+      A       B   mean(A)   mean(B)  ...        se         T   p-tukey    hedges
+0  High     Low  0.026555 -0.394723  ...  0.308410  1.365968  0.360364  0.415325
+1  High  Medium  0.026555  0.157719  ...  0.250721 -0.523146  0.843781 -0.130102
+2   Low  Medium -0.394723  0.157719  ...  0.290652 -1.900698  0.139771 -0.546713
+
+[3 rows x 9 columns]
+[0.3603641814036591, 0.8437806989286261, 0.13977136307434157]
+[False False False] [0.54054627 0.8437807  0.41931409]
+                  reject                                              pvals
+0  [False, False, False]  [0.5405462721054887, 0.8437806989286261, 0.419...
+Current Column Cnt = 5; Colum Length = 82
+Len = 82
+              sum_sq    df         F    PR(>F)
+Intercept   0.001444   1.0  0.001419  0.970042
+C(group)    1.627198   2.0  0.799703  0.453067
+Residual   80.372802  79.0       NaN       NaN
+              sum_sq    df         F    PR(>F)
+Intercept   0.001444   1.0  0.001419  0.970042
+C(group)    1.627198   2.0  0.799703  0.453067
+Residual   80.372802  79.0       NaN       NaN
+Saving anova_table table @ /pl/meg/analysis/ica_output/processed_gfp/vis/10/subj/csv/stat/cog_group_anova_10_colnum_5.csv
+      A       B   mean(A)   mean(B)  ...        se         T   p-tukey    hedges
+0  High     Low  0.007313  0.253401  ...  0.312292 -0.788006  0.692393 -0.239595
+1  High  Medium  0.007313 -0.118560  ...  0.253877  0.495804  0.859408  0.123302
+2   Low  Medium  0.253401 -0.118560  ...  0.294311  1.263839  0.417691  0.363528
+
+[3 rows x 9 columns]
+[0.6923931305425954, 0.8594078249450007, 0.41769094866126455]
+[False False False] [0.85940782 0.85940782 0.85940782]
+                  reject                                              pvals
+0  [False, False, False]  [0.8594078249450007, 0.8594078249450007, 0.859...
+Current Column Cnt = 6; Colum Length = 82
+Len = 82
+              sum_sq    df         F    PR(>F)
+Intercept   2.618282   1.0  2.651851  0.107411
+C(group)    4.000047   2.0  2.025666  0.138701
+Residual   77.999953  79.0       NaN       NaN
+              sum_sq    df         F    PR(>F)
+Intercept   2.618282   1.0  2.651851  0.107411
+C(group)    4.000047   2.0  2.025666  0.138701
+Residual   77.999953  79.0       NaN       NaN
+Saving anova_table table @ /pl/meg/analysis/ica_output/processed_gfp/vis/10/subj/csv/stat/cog_group_anova_10_colnum_6.csv
+      A       B   mean(A)   mean(B)  ...        se         T   p-tukey    hedges
+0  High     Low  0.311406 -0.090270  ...  0.307648  1.305636  0.393789  0.396981
+1  High  Medium  0.311406 -0.180878  ...  0.250102  1.968333  0.121577  0.489508
+2   Low  Medium -0.090270 -0.180878  ...  0.289934  0.312511  0.900000  0.089890
+
+[3 rows x 9 columns]
+[0.3937888063117335, 0.12157673947743053, 0.9]
+[False False False] [0.59068321 0.36473022 0.9       ]
+                  reject                                          pvals
+0  [False, False, False]  [0.5906832094676003, 0.3647302184322916, 0.9]
+Current Column Cnt = 7; Colum Length = 82
+Len = 82
+              sum_sq    df         F    PR(>F)
+Intercept   0.035022   1.0  0.033900  0.854392
+C(group)    0.384414   2.0  0.186047  0.830597
+Residual   81.615586  79.0       NaN       NaN
+              sum_sq    df         F    PR(>F)
+Intercept   0.035022   1.0  0.033900  0.854392
+C(group)    0.384414   2.0  0.186047  0.830597
+Residual   81.615586  79.0       NaN       NaN
+Saving anova_table table @ /pl/meg/analysis/ica_output/processed_gfp/vis/10/subj/csv/stat/cog_group_anova_10_colnum_7.csv
+      A       B   mean(A)   mean(B)  ...        se         T   p-tukey    hedges
+0  High     Low  0.036015  0.098514  ...  0.314697 -0.198599  0.900000 -0.060384
+1  High  Medium  0.036015 -0.069662  ...  0.255833  0.413073  0.900000  0.102728
+2   Low  Medium  0.098514 -0.069662  ...  0.296577  0.567056  0.818682  0.163107
+
+[3 rows x 9 columns]
+[0.9, 0.9, 0.8186817950243332]
+[False False False] [0.9 0.9 0.9]
+                  reject            pvals
+0  [False, False, False]  [0.9, 0.9, 0.9]
+Current Column Cnt = 8; Colum Length = 82
+Len = 82
+              sum_sq    df         F    PR(>F)
+Intercept   5.247488   1.0  5.603022  0.020377
+C(group)    8.012862   2.0  4.277879  0.017220
+Residual   73.987138  79.0       NaN       NaN
+              sum_sq    df         F    PR(>F)
+Intercept   5.247488   1.0  5.603022  0.020377
+C(group)    8.012862   2.0  4.277879  0.017220
+Residual   73.987138  79.0       NaN       NaN
+Saving anova_table table @ /pl/meg/analysis/ica_output/processed_gfp/vis/10/subj/csv/stat/cog_group_anova_10_colnum_8.csv
+      A       B   mean(A)   mean(B)  ...        se         T   p-tukey    hedges
+0  High     Low -0.440853  0.304139  ...  0.299629 -2.486379  0.035388 -0.755988
+1  High  Medium -0.440853  0.177175  ...  0.243583 -2.537236  0.030893 -0.630989
+2   Low  Medium  0.304139  0.177175  ...  0.282377  0.449625  0.885803  0.129329
+
+[3 rows x 9 columns]
+[0.03538832242062151, 0.030892880261886857, 0.8858031441142098]
+[False False False] [0.05308248 0.05308248 0.88580314]
+                  reject                                              pvals
+0  [False, False, False]  [0.053082483630932265, 0.053082483630932265, 0...
+Current Column Cnt = 9; Colum Length = 82
+Len = 82
+                 sum_sq    df             F    PR(>F)
+Intercept  5.415134e-08   1.0  5.224060e-08  0.999818
+C(group)   1.105155e-01   2.0  5.330797e-02  0.948122
+Residual   8.188948e+01  79.0           NaN       NaN
+                 sum_sq    df             F    PR(>F)
+Intercept  5.415134e-08   1.0  5.224060e-08  0.999818
+C(group)   1.105155e-01   2.0  5.330797e-02  0.948122
+Residual   8.188948e+01  79.0           NaN       NaN
+Saving anova_table table @ /pl/meg/analysis/ica_output/processed_gfp/vis/10/subj/csv/stat/cog_group_anova_10_colnum_9.csv
+      A       B   mean(A)   mean(B)  ...        se         T  p-tukey    hedges
+0  High     Low  0.000045 -0.067041  ...  0.315225  0.212818      0.9  0.064708
+1  High  Medium  0.000045  0.029960  ...  0.256262 -0.116738      0.9 -0.029032
+2   Low  Medium -0.067041  0.029960  ...  0.297075 -0.326521      0.9 -0.093920
+
+[3 rows x 9 columns]
+[0.9, 0.9, 0.9]
+[False False False] [0.9 0.9 0.9]
+                  reject            pvals
+0  [False, False, False]  [0.9, 0.9, 0.9]
+Current Column Cnt = 10; Colum Length = 82
+Len = 82
+              sum_sq    df         F    PR(>F)
+Intercept   0.172550   1.0  0.167392  0.683547
+C(group)    0.565658   2.0  0.274374  0.760769
+Residual   81.434342  79.0       NaN       NaN
+              sum_sq    df         F    PR(>F)
+Intercept   0.172550   1.0  0.167392  0.683547
+C(group)    0.565658   2.0  0.274374  0.760769
+Residual   81.434342  79.0       NaN       NaN
+Saving anova_table table @ /pl/meg/analysis/ica_output/processed_gfp/vis/10/subj/csv/stat/cog_group_anova_10_colnum_10.csv
+      A       B   mean(A)   mean(B)  ...        se         T   p-tukey    hedges
+0  High     Low  0.079942  0.072711  ...  0.314348  0.023004  0.900000  0.006994
+1  High  Medium  0.079942 -0.089330  ...  0.255548  0.662386  0.764193  0.164730
+2   Low  Medium  0.072711 -0.089330  ...  0.296248  0.546976  0.830161  0.157331
+
+[3 rows x 9 columns]
+[0.9, 0.7641925115397863, 0.8301614734254181]
+[False False False] [0.9 0.9 0.9]
+                  reject            pvals
+0  [False, False, False]  [0.9, 0.9, 0.9]
+Saved Gender Significance @/pl/meg/analysis/ica_output/processed_gfp/vis/10/subj/csv/stat/vis10_gen_sign_id.csv
+Saved Cognition Significance @10/pl/meg/analysis/ica_output/processed_gfp/vis/10/subj/csv/stat/vis10_cog_sign_id.csv
+Target Directory =/pl/meg/analysis/ica_output/processed_gfp/vis/15
+Subject Matlab Path = /pl/meg/analysis/ica_output/processed_gfp/vis/15/vis_15_ica_br1.mat
+Subject Len 82
+M87105265
+1.0
+Low
+M87197917
+1.0
+Low
+M87112743
+2.0
+Medium
+M87104714
+2.0
+Medium
+M87131012
+3.0
+High
+M87130656
+1.0
+Low
+M87117365
+3.0
+High
+M87168050
+3.0
+High
+M87100788
+2.0
+Medium
+M87189143
+1.0
+Low
+M87160162
+2.0
+Medium
+M87120532
+2.0
+Medium
+M87178513
+1.0
+Low
+M87177235
+2.0
+Medium
+M87187253
+3.0
+High
+M87196316
+2.0
+Medium
+M87102589
+nan
+nan
+M87137879
+nan
+nan
+M87195745
+3.0
+High
+M87120319
+2.0
+Medium
+M87133640
+3.0
+High
+M87104918
+2.0
+Medium
+M87135262
+3.0
+High
+M87158016
+2.0
+Medium
+M87106704
+1.0
+Low
+M87131845
+2.0
+Medium
+M87199117
+3.0
+High
+M87192301
+1.0
+Low
+M87196579
+2.0
+Medium
+M87190684
+2.0
+Medium
+M87149105
+3.0
+High
+M87186783
+2.0
+Medium
+M87160608
+2.0
+Medium
+M87111372
+1.0
+Low
+M87155237
+3.0
+High
+M87128044
+2.0
+Medium
+M87184856
+3.0
+High
+M87154350
+3.0
+High
+M87132364
+2.0
+Medium
+M87105689
+3.0
+High
+M87139741
+2.0
+Medium
+M87173380
+1.0
+Low
+M87113328
+3.0
+High
+M87186620
+3.0
+High
+M87138931
+2.0
+Medium
+M87177624
+3.0
+High
+M87152436
+1.0
+Low
+M87152059
+3.0
+High
+M87140340
+2.0
+Medium
+M87197917
+1.0
+Low
+M87105265
+1.0
+Low
+M87146442
+1.0
+Low
+M87193022
+2.0
+Medium
+M87151599
+2.0
+Medium
+M87131012
+3.0
+High
+M87104714
+2.0
+Medium
+M87175951
+3.0
+High
+M87112743
+2.0
+Medium
+M87161703
+2.0
+Medium
+M87120532
+2.0
+Medium
+M87184504
+2.0
+Medium
+M87172564
+3.0
+High
+M87104289
+1.0
+Low
+M87166199
+1.0
+Low
+M87170742
+3.0
+High
+M87114683
+3.0
+High
+M87152779
+1.0
+Low
+M87135262
+3.0
+High
+M87126689
+2.0
+Medium
+M87133640
+3.0
+High
+M87109237
+3.0
+High
+M87106704
+1.0
+Low
+M87196268
+2.0
+Medium
+M87149105
+3.0
+High
+M87190684
+2.0
+Medium
+M87116559
+3.0
+High
+M87111261
+1.0
+Low
+M87100718
+3.0
+High
+M87147424
+3.0
+High
+M87181301
+2.0
+Medium
+M87154350
+3.0
+High
+M87155634
+2.0
+Medium
+M87155237
+3.0
+High
+M87181340
+2.0
+Medium
+M87173380
+1.0
+Low
+M87161334
+2.0
+Medium
+M87191024
+3.0
+High
+M87186620
+3.0
+High
+M87113328
+3.0
+High
+M87183741
+2.0
+Medium
+M87197917
+1.0
+Low
+M87193022
+2.0
+Medium
+M87104714
+2.0
+Medium
+M87116480
+2.0
+Medium
+M87160162
+2.0
+Medium
+M87155705
+2.0
+Medium
+M87172564
+3.0
+High
+M87184673
+2.0
+Medium
+M87114683
+3.0
+High
+M87173481
+2.0
+Medium
+M87169425
+2.0
+Medium
+M87195745
+3.0
+High
+M87104918
+2.0
+Medium
+M87135262
+3.0
+High
+M87106704
+1.0
+Low
+M87199117
+3.0
+High
+M87149105
+3.0
+High
+M87124949
+1.0
+Low
+M87122548
+2.0
+Medium
+M87173380
+1.0
+Low
+M87181340
+2.0
+Medium
+M87132364
+2.0
+Medium
+M87123871
+2.0
+Medium
+M87177624
+3.0
+High
+M87113328
+3.0
+High
+   subject_name  ... cog_group
+0     M87100788  ...    Medium
+1     M87104714  ...    Medium
+2     M87104918  ...    Medium
+3     M87105265  ...       Low
+4     M87105689  ...      High
+..          ...  ...       ...
+77    M87106704  ...       Low
+78    M87112743  ...    Medium
+79    M87113328  ...      High
+80    M87120532  ...    Medium
+81    M87131012  ...      High
+
+[82 rows x 10 columns]
+Saved Subjects with Cognition Scores @/pl/meg/analysis/ica_output/data/subject_map_with_scores.csv
+Reading TC @ /pl/meg/analysis/ica_output/processed_gfp/vis/15/subj/data/agg/tc_vis_15.npy; TC.shape: (15, 82)
+Running T-tests for = /pl/meg/analysis/ica_output/processed_gfp/vis/15
+Gender T-TEST
+Current Column Cnt = 1; Colum Length = 82
+Len = 82
+              sum_sq    df         F    PR(>F)
+Intercept   3.399939   1.0  3.625146  0.060508
+C(group)    6.969876   1.0  7.431549  0.007872
+Residual   75.030124  80.0       NaN       NaN
+              sum_sq    df         F    PR(>F)
+Intercept   3.399939   1.0  3.625146  0.060508
+C(group)    6.969876   1.0  7.431549  0.007872
+Residual   75.030124  80.0       NaN       NaN
+Saving anova_table table @ /pl/meg/analysis/ica_output/processed_gfp/vis/15/subj/csv/stat/gender_anova_15_colnum_1.csv
+   A  B   mean(A)   mean(B)      diff        se         T   p-tukey    hedges
+0  F  M -0.284519  0.298745 -0.583264  0.213956 -2.726087  0.006408 -0.596607
+[0.0064084915227722306]
+True 0.0064084915227722306
+   reject                  pvals
+0    True  0.0064084915227722306
+Current Column Cnt = 2; Colum Length = 82
+Len = 82
+              sum_sq    df         F    PR(>F)
+Intercept   2.573413   1.0  2.683276  0.105334
+C(group)    5.275496   1.0  5.500715  0.021487
+Residual   76.724504  80.0       NaN       NaN
+              sum_sq    df         F    PR(>F)
+Intercept   2.573413   1.0  2.683276  0.105334
+C(group)    5.275496   1.0  5.500715  0.021487
+Residual   76.724504  80.0       NaN       NaN
+Saving anova_table table @ /pl/meg/analysis/ica_output/processed_gfp/vis/15/subj/csv/stat/gender_anova_15_colnum_2.csv
+   A  B   mean(A)   mean(B)      diff        se        T   p-tukey    hedges
+0  F  M -0.247531  0.259908 -0.507439  0.216359 -2.34536  0.019007 -0.513285
+[0.019007437374460978]
+True 0.019007437374460978
+   reject                 pvals
+0    True  0.019007437374460978
+Current Column Cnt = 3; Colum Length = 82
+Len = 82
+              sum_sq    df         F    PR(>F)
+Intercept   0.643721   1.0  0.638292  0.426695
+C(group)    1.319627   1.0  1.308499  0.256078
+Residual   80.680373  80.0       NaN       NaN
+              sum_sq    df         F    PR(>F)
+Intercept   0.643721   1.0  0.638292  0.426695
+C(group)    1.319627   1.0  1.308499  0.256078
+Residual   80.680373  80.0       NaN       NaN
+Saving anova_table table @ /pl/meg/analysis/ica_output/processed_gfp/vis/15/subj/csv/stat/gender_anova_15_colnum_3.csv
+   A  B   mean(A)   mean(B)      diff        se         T   p-tukey    hedges
+0  F  M  0.123801 -0.129991  0.253792  0.221866  1.143896  0.252668  0.250343
+[0.2526675960401463]
+False 0.2526675960401463
+   reject               pvals
+0   False  0.2526675960401463
+Current Column Cnt = 4; Colum Length = 82
+Len = 82
+              sum_sq    df         F    PR(>F)
+Intercept   0.001880   1.0  0.001834  0.965946
+C(group)    0.003854   1.0  0.003760  0.951257
+Residual   81.996146  80.0       NaN       NaN
+              sum_sq    df         F    PR(>F)
+Intercept   0.001880   1.0  0.001834  0.965946
+C(group)    0.003854   1.0  0.003760  0.951257
+Residual   81.996146  80.0       NaN       NaN
+Saving anova_table table @ /pl/meg/analysis/ica_output/processed_gfp/vis/15/subj/csv/stat/gender_anova_15_colnum_4.csv
+   A  B  mean(A)   mean(B)      diff        se        T  p-tukey   hedges
+0  F  M -0.00669  0.007025 -0.013715  0.223668 -0.06132      0.9 -0.01342
+[0.9]
+False 0.9
+   reject pvals
+0   False   0.9
+Current Column Cnt = 5; Colum Length = 82
+Len = 82
+              sum_sq    df         F    PR(>F)
+Intercept   0.485343   1.0  0.479321  0.490735
+C(group)    0.994952   1.0  0.982608  0.324545
+Residual   81.005048  80.0       NaN       NaN
+              sum_sq    df         F    PR(>F)
+Intercept   0.485343   1.0  0.479321  0.490735
+C(group)    0.994952   1.0  0.982608  0.324545
+Residual   81.005048  80.0       NaN       NaN
+Saving anova_table table @ /pl/meg/analysis/ica_output/processed_gfp/vis/15/subj/csv/stat/gender_anova_15_colnum_5.csv
+   A  B   mean(A)   mean(B)     diff        se         T   p-tukey   hedges
+0  F  M  0.107498 -0.112873  0.22037  0.222312  0.991266  0.321555  0.21694
+[0.3215546329361053]
+False 0.3215546329361053
+   reject               pvals
+0   False  0.3215546329361053
+Current Column Cnt = 6; Colum Length = 82
+Len = 82
+              sum_sq    df         F    PR(>F)
+Intercept   0.206170   1.0  0.202183  0.654180
+C(group)    0.422648   1.0  0.414476  0.521548
+Residual   81.577352  80.0       NaN       NaN
+              sum_sq    df         F    PR(>F)
+Intercept   0.206170   1.0  0.202183  0.654180
+C(group)    0.422648   1.0  0.414476  0.521548
+Residual   81.577352  80.0       NaN       NaN
+Saving anova_table table @ /pl/meg/analysis/ica_output/processed_gfp/vis/15/subj/csv/stat/gender_anova_15_colnum_6.csv
+   A  B   mean(A)   mean(B)      diff        se         T  p-tukey    hedges
+0  F  M -0.070063  0.073566 -0.143629  0.223096 -0.643798  0.52237 -0.140896
+[0.5223699677896074]
+False 0.5223699677896074
+   reject               pvals
+0   False  0.5223699677896074
+Current Column Cnt = 7; Colum Length = 82
+Len = 82
+              sum_sq    df         F    PR(>F)
+Intercept   0.083673   1.0  0.081803  0.775608
+C(group)    0.171530   1.0  0.167697  0.683261
+Residual   81.828470  80.0       NaN       NaN
+              sum_sq    df         F    PR(>F)
+Intercept   0.083673   1.0  0.081803  0.775608
+C(group)    0.171530   1.0  0.167697  0.683261
+Residual   81.828470  80.0       NaN       NaN
+Saving anova_table table @ /pl/meg/analysis/ica_output/processed_gfp/vis/15/subj/csv/stat/gender_anova_15_colnum_7.csv
+   A  B   mean(A)   mean(B)    diff        se         T   p-tukey    hedges
+0  F  M -0.044634  0.046866 -0.0915  0.223439 -0.409508  0.693125 -0.089621
+[0.6931247980308569]
+False 0.6931247980308569
+   reject               pvals
+0   False  0.6931247980308569
+Current Column Cnt = 8; Colum Length = 82
+Len = 82
+              sum_sq    df         F    PR(>F)
+Intercept   0.759617   1.0  0.755436  0.387361
+C(group)    1.557216   1.0  1.548644  0.216969
+Residual   80.442784  80.0       NaN       NaN
+              sum_sq    df         F    PR(>F)
+Intercept   0.759617   1.0  0.755436  0.387361
+C(group)    1.557216   1.0  1.548644  0.216969
+Residual   80.442784  80.0       NaN       NaN
+Saving anova_table table @ /pl/meg/analysis/ica_output/processed_gfp/vis/15/subj/csv/stat/gender_anova_15_colnum_8.csv
+   A  B   mean(A)   mean(B)      diff        se         T   p-tukey    hedges
+0  F  M  0.134485 -0.141209  0.275694  0.221539  1.244445  0.213336  0.272348
+[0.21333570165138493]
+False 0.21333570165138493
+   reject                pvals
+0   False  0.21333570165138493
+Current Column Cnt = 9; Colum Length = 82
+Len = 82
+              sum_sq    df         F    PR(>F)
+Intercept   0.161461   1.0  0.158161  0.691914
+C(group)    0.330995   1.0  0.324231  0.570671
+Residual   81.669005  80.0       NaN       NaN
+              sum_sq    df         F    PR(>F)
+Intercept   0.161461   1.0  0.158161  0.691914
+C(group)    0.330995   1.0  0.324231  0.570671
+Residual   81.669005  80.0       NaN       NaN
+Saving anova_table table @ /pl/meg/analysis/ica_output/processed_gfp/vis/15/subj/csv/stat/gender_anova_15_colnum_9.csv
+   A  B   mean(A)   mean(B)      diff        se         T  p-tukey    hedges
+0  F  M  0.062003 -0.065103  0.127105  0.223221  0.569413  0.57658  0.124617
+[0.5765802642897988]
+False 0.5765802642897988
+   reject               pvals
+0   False  0.5765802642897988
+Current Column Cnt = 10; Colum Length = 82
+Len = 82
+              sum_sq    df         F    PR(>F)
+Intercept   1.130967   1.0  1.135487  0.289813
+C(group)    2.318481   1.0  2.327748  0.131030
+Residual   79.681519  80.0       NaN       NaN
+              sum_sq    df         F    PR(>F)
+Intercept   1.130967   1.0  1.135487  0.289813
+C(group)    2.318481   1.0  2.327748  0.131030
+Residual   79.681519  80.0       NaN       NaN
+Saving anova_table table @ /pl/meg/analysis/ica_output/processed_gfp/vis/15/subj/csv/stat/gender_anova_15_colnum_10.csv
+   A  B   mean(A)   mean(B)      diff        se         T   p-tukey  hedges
+0  F  M  0.164097 -0.172302  0.336399  0.220489  1.525696  0.127086  0.3339
+[0.12708634696463372]
+False 0.12708634696463372
+   reject                pvals
+0   False  0.12708634696463372
+Current Column Cnt = 11; Colum Length = 82
+Len = 82
+              sum_sq    df         F    PR(>F)
+Intercept   0.725464   1.0  0.720844  0.398401
+C(group)    1.487202   1.0  1.477730  0.227705
+Residual   80.512798  80.0       NaN       NaN
+              sum_sq    df         F    PR(>F)
+Intercept   0.725464   1.0  0.720844  0.398401
+C(group)    1.487202   1.0  1.477730  0.227705
+Residual   80.512798  80.0       NaN       NaN
+Saving anova_table table @ /pl/meg/analysis/ica_output/processed_gfp/vis/15/subj/csv/stat/gender_anova_15_colnum_11.csv
+   A  B   mean(A)   mean(B)      diff        se         T   p-tukey   hedges
+0  F  M -0.131427  0.137998 -0.269425  0.221636 -1.215619  0.224131 -0.26604
+[0.22413082607366364]
+False 0.22413082607366364
+   reject                pvals
+0   False  0.22413082607366364
+Current Column Cnt = 12; Colum Length = 82
+Len = 82
+              sum_sq    df         F    PR(>F)
+Intercept   0.490453   1.0  0.484430  0.488440
+C(group)    1.005428   1.0  0.993082  0.321995
+Residual   80.994572  80.0       NaN       NaN
+              sum_sq    df         F    PR(>F)
+Intercept   0.490453   1.0  0.484430  0.488440
+C(group)    1.005428   1.0  0.993082  0.321995
+Residual   80.994572  80.0       NaN       NaN
+Saving anova_table table @ /pl/meg/analysis/ica_output/processed_gfp/vis/15/subj/csv/stat/gender_anova_15_colnum_12.csv
+   A  B   mean(A)   mean(B)      diff        se         T   p-tukey    hedges
+0  F  M  0.108062 -0.113465  0.221528  0.222298  0.996535  0.318992  0.218093
+[0.3189915202605794]
+False 0.3189915202605794
+   reject               pvals
+0   False  0.3189915202605794
+Current Column Cnt = 13; Colum Length = 82
+Len = 82
+              sum_sq    df         F    PR(>F)
+Intercept   0.082560   1.0  0.080713  0.777068
+C(group)    0.169247   1.0  0.165461  0.685264
+Residual   81.830753  80.0       NaN       NaN
+              sum_sq    df         F    PR(>F)
+Intercept   0.082560   1.0  0.080713  0.777068
+C(group)    0.169247   1.0  0.165461  0.685264
+Residual   81.830753  80.0       NaN       NaN
+Saving anova_table table @ /pl/meg/analysis/ica_output/processed_gfp/vis/15/subj/csv/stat/gender_anova_15_colnum_13.csv
+   A  B   mean(A)   mean(B)      diff        se         T   p-tukey    hedges
+0  F  M  0.044336 -0.046553  0.090889  0.223442  0.406769  0.695122  0.089022
+[0.6951218220205055]
+False 0.6951218220205055
+   reject               pvals
+0   False  0.6951218220205055
+Current Column Cnt = 14; Colum Length = 82
+Len = 82
+              sum_sq    df         F    PR(>F)
+Intercept   1.365582   1.0  1.379367  0.243693
+C(group)    2.799444   1.0  2.827701  0.096551
+Residual   79.200556  80.0       NaN       NaN
+              sum_sq    df         F    PR(>F)
+Intercept   1.365582   1.0  1.379367  0.243693
+C(group)    2.799444   1.0  2.827701  0.096551
+Residual   79.200556  80.0       NaN       NaN
+Saving anova_table table @ /pl/meg/analysis/ica_output/processed_gfp/vis/15/subj/csv/stat/gender_anova_15_colnum_14.csv
+   A  B   mean(A)   mean(B)      diff        se         T   p-tukey    hedges
+0  F  M -0.180316  0.189332 -0.369648  0.219822 -1.681577  0.092652 -0.368015
+[0.09265166498037569]
+False 0.09265166498037569
+   reject                pvals
+0   False  0.09265166498037569
+Current Column Cnt = 15; Colum Length = 82
+Len = 82
+              sum_sq    df         F    PR(>F)
+Intercept   0.093702   1.0  0.091631  0.762900
+C(group)    0.192088   1.0  0.187843  0.665884
+Residual   81.807912  80.0       NaN       NaN
+              sum_sq    df         F    PR(>F)
+Intercept   0.093702   1.0  0.091631  0.762900
+C(group)    0.192088   1.0  0.187843  0.665884
+Residual   81.807912  80.0       NaN       NaN
+Saving anova_table table @ /pl/meg/analysis/ica_output/processed_gfp/vis/15/subj/csv/stat/gender_anova_15_colnum_15.csv
+   A  B   mean(A)   mean(B)      diff        se         T   p-tukey    hedges
+0  F  M -0.047233  0.049595 -0.096828  0.223411 -0.433409  0.675706 -0.094852
+[0.6757058343735115]
+False 0.6757058343735115
+   reject               pvals
+0   False  0.6757058343735115
+Cognition Score T-TEST
+Current Column Cnt = 1; Colum Length = 82
+Len = 82
+              sum_sq    df         F    PR(>F)
+Intercept   2.484375   1.0  2.537695  0.115150
+C(group)    4.659867   2.0  2.379938  0.099162
+Residual   77.340133  79.0       NaN       NaN
+              sum_sq    df         F    PR(>F)
+Intercept   2.484375   1.0  2.537695  0.115150
+C(group)    4.659867   2.0  2.379938  0.099162
+Residual   77.340133  79.0       NaN       NaN
+Saving anova_table table @ /pl/meg/analysis/ica_output/processed_gfp/vis/15/subj/csv/stat/cog_group_anova_15_colnum_1.csv
+      A       B   mean(A)   mean(B)  ...        se         T   p-tukey    hedges
+0  High     Low  0.303338 -0.346013  ...  0.306344  2.119680  0.087217  0.644492
+1  High  Medium  0.303338 -0.060734  ...  0.249042  1.461894  0.310644  0.363561
+2   Low  Medium -0.346013 -0.060734  ...  0.288705 -0.988132  0.578003 -0.284224
+
+[3 rows x 9 columns]
+[0.08721718648417365, 0.31064390091903005, 0.5780033211068731]
+[False False False] [0.26165156 0.46596585 0.57800332]
+                  reject                                              pvals
+0  [False, False, False]  [0.26165155945252094, 0.46596585137854507, 0.5...
+Current Column Cnt = 2; Colum Length = 82
+Len = 82
+              sum_sq    df         F    PR(>F)
+Intercept   2.662258   1.0  2.710458  0.103665
+C(group)    4.404850   2.0  2.242300  0.112932
+Residual   77.595150  79.0       NaN       NaN
+              sum_sq    df         F    PR(>F)
+Intercept   2.662258   1.0  2.710458  0.103665
+C(group)    4.404850   2.0  2.242300  0.112932
+Residual   77.595150  79.0       NaN       NaN
+Saving anova_table table @ /pl/meg/analysis/ica_output/processed_gfp/vis/15/subj/csv/stat/cog_group_anova_15_colnum_2.csv
+      A       B   mean(A)   mean(B)  ...        se         T   p-tukey    hedges
+0  High     Low  0.314010 -0.287215  ...  0.306848  1.959355  0.123905  0.595745
+1  High  Medium  0.314010 -0.094621  ...  0.249452  1.638116  0.230953  0.407386
+2   Low  Medium -0.287215 -0.094621  ...  0.289180 -0.665998  0.762130 -0.191566
+
+[3 rows x 9 columns]
+[0.12390527430229326, 0.23095264352401168, 0.762129663556514]
+[False False False] [0.34642897 0.34642897 0.76212966]
+                  reject                                              pvals
+0  [False, False, False]  [0.3464289652860175, 0.3464289652860175, 0.762...
+Current Column Cnt = 3; Colum Length = 82
+Len = 82
+              sum_sq    df         F    PR(>F)
+Intercept   3.301297   1.0  3.390430  0.069330
+C(group)    5.076883   2.0  2.606978  0.080094
+Residual   76.923117  79.0       NaN       NaN
+              sum_sq    df         F    PR(>F)
+Intercept   3.301297   1.0  3.390430  0.069330
+C(group)    5.076883   2.0  2.606978  0.080094
+Residual   76.923117  79.0       NaN       NaN
+Saving anova_table table @ /pl/meg/analysis/ica_output/processed_gfp/vis/15/subj/csv/stat/cog_group_anova_15_colnum_3.csv
+      A       B   mean(A)   mean(B)  ...        se         T   p-tukey    hedges
+0  High     Low -0.349672  0.251013  ...  0.305517 -1.966127  0.122146 -0.597804
+1  High  Medium -0.349672  0.136156  ...  0.248369 -1.956068  0.124768 -0.486458
+2   Low  Medium  0.251013  0.136156  ...  0.287925  0.398914  0.900000  0.114743
+
+[3 rows x 9 columns]
+[0.122145754998227, 0.1247675098782196, 0.9]
+[False False False] [0.18715126 0.18715126 0.9       ]
+                  reject                                          pvals
+0  [False, False, False]  [0.1871512648173294, 0.1871512648173294, 0.9]
+Current Column Cnt = 4; Colum Length = 82
+Len = 82
+              sum_sq    df         F    PR(>F)
+Intercept   0.242557   1.0  0.234882  0.629268
+C(group)    0.418521   2.0  0.202639  0.816996
+Residual   81.581479  79.0       NaN       NaN
+              sum_sq    df         F    PR(>F)
+Intercept   0.242557   1.0  0.234882  0.629268
+C(group)    0.418521   2.0  0.202639  0.816996
+Residual   81.581479  79.0       NaN       NaN
+Saving anova_table table @ /pl/meg/analysis/ica_output/processed_gfp/vis/15/subj/csv/stat/cog_group_anova_15_colnum_4.csv
+      A       B   mean(A)   mean(B)  ...        se         T   p-tukey    hedges
+0  High     Low -0.094782  0.094614  ...  0.314632 -0.601960  0.798732 -0.183027
+1  High  Medium -0.094782  0.025018  ...  0.255779 -0.468371  0.875086 -0.116480
+2   Low  Medium  0.094614  0.025018  ...  0.296515  0.234713  0.900000  0.067512
+
+[3 rows x 9 columns]
+[0.7987320232604389, 0.8750863888613715, 0.9]
+[False False False] [0.9 0.9 0.9]
+                  reject            pvals
+0  [False, False, False]  [0.9, 0.9, 0.9]
+Current Column Cnt = 5; Colum Length = 82
+Len = 82
+              sum_sq    df         F    PR(>F)
+Intercept   0.062023   1.0  0.059913  0.807268
+C(group)    0.217822   2.0  0.105206  0.900265
+Residual   81.782178  79.0       NaN       NaN
+              sum_sq    df         F    PR(>F)
+Intercept   0.062023   1.0  0.059913  0.807268
+C(group)    0.217822   2.0  0.105206  0.900265
+Residual   81.782178  79.0       NaN       NaN
+Saving anova_table table @ /pl/meg/analysis/ica_output/processed_gfp/vis/15/subj/csv/stat/cog_group_anova_15_colnum_5.csv
+      A       B   mean(A)   mean(B)  ...        se         T  p-tukey    hedges
+0  High     Low -0.047929 -0.047847  ...  0.315018 -0.000258      0.9 -0.000079
+1  High  Medium -0.047929  0.055460  ...  0.256094 -0.403714      0.9 -0.100400
+2   Low  Medium -0.047847  0.055460  ...  0.296880 -0.347976      0.9 -0.100091
+
+[3 rows x 9 columns]
+[0.9, 0.9, 0.9]
+[False False False] [0.9 0.9 0.9]
+                  reject            pvals
+0  [False, False, False]  [0.9, 0.9, 0.9]
+Current Column Cnt = 6; Colum Length = 82
+Len = 82
+              sum_sq    df         F    PR(>F)
+Intercept   0.387982   1.0  0.379680  0.539546
+C(group)    1.272709   2.0  0.622739  0.539086
+Residual   80.727291  79.0       NaN       NaN
+              sum_sq    df         F    PR(>F)
+Intercept   0.387982   1.0  0.379680  0.539546
+C(group)    1.272709   2.0  0.622739  0.539086
+Residual   80.727291  79.0       NaN       NaN
+Saving anova_table table @ /pl/meg/analysis/ica_output/processed_gfp/vis/15/subj/csv/stat/cog_group_anova_15_colnum_6.csv
+      A       B   mean(A)   mean(B)  ...        se         T   p-tukey    hedges
+0  High     Low -0.119874 -0.109129  ...  0.312980 -0.034329  0.900000 -0.010438
+1  High  Medium -0.119874  0.133994  ...  0.254437 -0.997765  0.572499 -0.248136
+2   Low  Medium -0.109129  0.133994  ...  0.294959 -0.824263  0.671667 -0.237089
+
+[3 rows x 9 columns]
+[0.9, 0.5724992271274788, 0.671667342684982]
+[False False False] [0.9 0.9 0.9]
+                  reject            pvals
+0  [False, False, False]  [0.9, 0.9, 0.9]
+Current Column Cnt = 7; Colum Length = 82
+Len = 82
+              sum_sq    df         F    PR(>F)
+Intercept   0.763756   1.0  0.753180  0.388100
+C(group)    1.890618   2.0  0.932218  0.397966
+Residual   80.109382  79.0       NaN       NaN
+              sum_sq    df         F    PR(>F)
+Intercept   0.763756   1.0  0.753180  0.388100
+C(group)    1.890618   2.0  0.932218  0.397966
+Residual   80.109382  79.0       NaN       NaN
+Saving anova_table table @ /pl/meg/analysis/ica_output/processed_gfp/vis/15/subj/csv/stat/cog_group_anova_15_colnum_7.csv
+      A       B   mean(A)   mean(B)  ...        se         T   p-tukey    hedges
+0  High     Low -0.168188  0.257378  ...  0.311780 -1.364958  0.360911 -0.415018
+1  High  Medium -0.168188  0.004359  ...  0.253461 -0.680765  0.753687 -0.169301
+2   Low  Medium  0.257378  0.004359  ...  0.293828  0.861112  0.650607  0.247688
+
+[3 rows x 9 columns]
+[0.360911443552165, 0.7536873960658752, 0.6506070027804909]
+[False False False] [0.7536874 0.7536874 0.7536874]
+                  reject                                              pvals
+0  [False, False, False]  [0.7536873960658752, 0.7536873960658752, 0.753...
+Current Column Cnt = 8; Colum Length = 82
+Len = 82
+              sum_sq    df         F    PR(>F)
+Intercept   2.510764   1.0  2.559633  0.113616
+C(group)    4.508289   2.0  2.298019  0.107136
+Residual   77.491711  79.0       NaN       NaN
+              sum_sq    df         F    PR(>F)
+Intercept   2.510764   1.0  2.559633  0.113616
+C(group)    4.508289   2.0  2.298019  0.107136
+Residual   77.491711  79.0       NaN       NaN
+Saving anova_table table @ /pl/meg/analysis/ica_output/processed_gfp/vis/15/subj/csv/stat/cog_group_anova_15_colnum_8.csv
+      A       B   mean(A)   mean(B)  ...        se         T   p-tukey    hedges
+0  High     Low -0.304945  0.326023  ...  0.306644 -2.057656  0.100143 -0.625634
+1  High  Medium -0.304945  0.070819  ...  0.249286 -1.507363  0.288689 -0.374868
+2   Low  Medium  0.326023  0.070819  ...  0.288988  0.883095  0.638041  0.254012
+
+[3 rows x 9 columns]
+[0.10014308605002531, 0.2886885361805772, 0.6380408809718453]
+[False False False] [0.30042926 0.4330328  0.63804088]
+                  reject                                              pvals
+0  [False, False, False]  [0.30042925815007593, 0.4330328042708658, 0.63...
+Current Column Cnt = 9; Colum Length = 82
+Len = 82
+              sum_sq    df         F    PR(>F)
+Intercept   0.545448   1.0  0.539193  0.464941
+C(group)    2.083568   2.0  1.029837  0.361808
+Residual   79.916432  79.0       NaN       NaN
+              sum_sq    df         F    PR(>F)
+Intercept   0.545448   1.0  0.539193  0.464941
+C(group)    2.083568   2.0  1.029837  0.361808
+Residual   79.916432  79.0       NaN       NaN
+Saving anova_table table @ /pl/meg/analysis/ica_output/processed_gfp/vis/15/subj/csv/stat/cog_group_anova_15_colnum_9.csv
+      A       B   mean(A)   mean(B)  ...        se         T   p-tukey    hedges
+0  High     Low -0.142133  0.296995  ...  0.311404 -1.410155  0.336840 -0.428760
+1  High  Medium -0.142133 -0.031877  ...  0.253156 -0.435526  0.893862 -0.108312
+2   Low  Medium  0.296995 -0.031877  ...  0.293474  1.120619  0.502278  0.322332
+
+[3 rows x 9 columns]
+[0.33684038195595667, 0.8938616061611213, 0.5022776553393182]
+[False False False] [0.75341648 0.89386161 0.75341648]
+                  reject                                              pvals
+0  [False, False, False]  [0.7534164830089773, 0.8938616061611213, 0.753...
+Current Column Cnt = 10; Colum Length = 82
+Len = 82
+              sum_sq    df         F    PR(>F)
+Intercept   1.443964   1.0  1.439711  0.233772
+C(group)    2.766612   2.0  1.379231  0.257767
+Residual   79.233388  79.0       NaN       NaN
+              sum_sq    df         F    PR(>F)
+Intercept   1.443964   1.0  1.439711  0.233772
+C(group)    2.766612   2.0  1.379231  0.257767
+Residual   79.233388  79.0       NaN       NaN
+Saving anova_table table @ /pl/meg/analysis/ica_output/processed_gfp/vis/15/subj/csv/stat/cog_group_anova_15_colnum_10.csv
+      A       B   mean(A)   mean(B)  ...        se         T   p-tukey    hedges
+0  High     Low -0.231258  0.271468  ...  0.310071 -1.621328  0.237822 -0.492967
+1  High  Medium -0.231258  0.042868  ...  0.252071 -1.087494  0.521211 -0.270451
+2   Low  Medium  0.271468  0.042868  ...  0.292217  0.782294  0.695657  0.225017
+
+[3 rows x 9 columns]
+[0.23782168290088845, 0.5212108917934214, 0.6956568978878581]
+[False False False] [0.6956569 0.6956569 0.6956569]
+                  reject                                              pvals
+0  [False, False, False]  [0.6956568978878581, 0.6956568978878581, 0.695...
+Current Column Cnt = 11; Colum Length = 82
+Len = 82
+              sum_sq    df         F    PR(>F)
+Intercept   0.047867   1.0  0.048688  0.825932
+C(group)    4.331321   2.0  2.202782  0.117238
+Residual   77.668679  79.0       NaN       NaN
+              sum_sq    df         F    PR(>F)
+Intercept   0.047867   1.0  0.048688  0.825932
+C(group)    4.331321   2.0  2.202782  0.117238
+Residual   77.668679  79.0       NaN       NaN
+Saving anova_table table @ /pl/meg/analysis/ica_output/processed_gfp/vis/15/subj/csv/stat/cog_group_anova_15_colnum_11.csv
+      A       B   mean(A)   mean(B)  ...        se         T   p-tukey    hedges
+0  High     Low  0.042105  0.395421  ...  0.306994 -1.150890  0.484281 -0.349930
+1  High  Medium  0.042105 -0.206816  ...  0.249570  0.997401  0.572705  0.248045
+2   Low  Medium  0.395421 -0.206816  ...  0.289317  2.081580  0.094940  0.598741
+
+[3 rows x 9 columns]
+[0.4842814078133295, 0.5727047843347278, 0.09494033028100213]
+[False False False] [0.57270478 0.57270478 0.28482099]
+                  reject                                              pvals
+0  [False, False, False]  [0.5727047843347278, 0.5727047843347278, 0.284...
+Current Column Cnt = 12; Colum Length = 82
+Len = 82
+              sum_sq    df         F    PR(>F)
+Intercept   3.674859   1.0  3.795621  0.054938
+C(group)    5.513468   2.0  2.847324  0.063967
+Residual   76.486532  79.0       NaN       NaN
+              sum_sq    df         F    PR(>F)
+Intercept   3.674859   1.0  3.795621  0.054938
+C(group)    5.513468   2.0  2.847324  0.063967
+Residual   76.486532  79.0       NaN       NaN
+Saving anova_table table @ /pl/meg/analysis/ica_output/processed_gfp/vis/15/subj/csv/stat/cog_group_anova_15_colnum_12.csv
+      A       B   mean(A)   mean(B)  ...        se         T   p-tukey    hedges
+0  High     Low -0.368925  0.143617  ...  0.304648 -1.682405  0.213271 -0.511538
+1  High  Medium -0.368925  0.197882  ...  0.247663 -2.288617  0.058538 -0.569160
+2   Low  Medium  0.143617  0.197882  ...  0.287107 -0.189006  0.900000 -0.054365
+
+[3 rows x 9 columns]
+[0.21327130269222228, 0.058537827333599024, 0.9]
+[False False False] [0.31990695 0.17561348 0.9       ]
+                  reject                                           pvals
+0  [False, False, False]  [0.3199069540383334, 0.17561348200079707, 0.9]
+Current Column Cnt = 13; Colum Length = 82
+Len = 82
+              sum_sq    df         F    PR(>F)
+Intercept   0.083331   1.0  0.081059  0.776613
+C(group)    0.785866   2.0  0.382220  0.683600
+Residual   81.214134  79.0       NaN       NaN
+              sum_sq    df         F    PR(>F)
+Intercept   0.083331   1.0  0.081059  0.776613
+C(group)    0.785866   2.0  0.382220  0.683600
+Residual   81.214134  79.0       NaN       NaN
+Saving anova_table table @ /pl/meg/analysis/ica_output/processed_gfp/vis/15/subj/csv/stat/cog_group_anova_15_colnum_13.csv
+      A       B   mean(A)   mean(B)  ...        se         T   p-tukey    hedges
+0  High     Low -0.055555 -0.136708  ...  0.313922  0.258515  0.900000  0.078602
+1  High  Medium -0.055555  0.100632  ...  0.255203 -0.612011  0.792986 -0.152202
+2   Low  Medium -0.136708  0.100632  ...  0.295847 -0.802240  0.684256 -0.230755
+
+[3 rows x 9 columns]
+[0.9, 0.7929863180536678, 0.6842560352254252]
+[False False False] [0.9 0.9 0.9]
+                  reject            pvals
+0  [False, False, False]  [0.9, 0.9, 0.9]
+Current Column Cnt = 14; Colum Length = 82
+Len = 82
+              sum_sq    df         F    PR(>F)
+Intercept   2.748074   1.0  2.829386  0.096503
+C(group)    5.270334   2.0  2.713138  0.072511
+Residual   76.729666  79.0       NaN       NaN
+              sum_sq    df         F    PR(>F)
+Intercept   2.748074   1.0  2.829386  0.096503
+C(group)    5.270334   2.0  2.713138  0.072511
+Residual   76.729666  79.0       NaN       NaN
+Saving anova_table table @ /pl/meg/analysis/ica_output/processed_gfp/vis/15/subj/csv/stat/cog_group_anova_15_colnum_14.csv
+      A       B   mean(A)   mean(B)  ...        se         T   p-tukey    hedges
+0  High     Low  0.319031 -0.374975  ...  0.305132  2.274442  0.060600  0.691548
+1  High  Medium  0.319031 -0.058928  ...  0.248057  1.523676  0.281033  0.378925
+2   Low  Medium -0.374975 -0.058928  ...  0.287563 -1.099054  0.514604 -0.316129
+
+[3 rows x 9 columns]
+[0.0606002448446773, 0.2810326887928919, 0.514603762809545]
+[False False False] [0.18180073 0.42154903 0.51460376]
+                  reject                                              pvals
+0  [False, False, False]  [0.1818007345340319, 0.42154903318933784, 0.51...
+Current Column Cnt = 15; Colum Length = 82
+Len = 82
+              sum_sq    df         F    PR(>F)
+Intercept   0.364797   1.0  0.355706  0.552606
+C(group)    0.980889   2.0  0.478222  0.621667
+Residual   81.019111  79.0       NaN       NaN
+              sum_sq    df         F    PR(>F)
+Intercept   0.364797   1.0  0.355706  0.552606
+C(group)    0.980889   2.0  0.478222  0.621667
+Residual   81.019111  79.0       NaN       NaN
+Saving anova_table table @ /pl/meg/analysis/ica_output/processed_gfp/vis/15/subj/csv/stat/cog_group_anova_15_colnum_15.csv
+      A       B   mean(A)   mean(B)  ...        se         T   p-tukey    hedges
+0  High     Low  0.116237  0.076208  ...  0.313545  0.127665  0.900000  0.038817
+1  High  Medium  0.116237 -0.116682  ...  0.254896  0.913781  0.620502  0.227250
+2   Low  Medium  0.076208 -0.116682  ...  0.295492  0.652778  0.769685  0.187764
+
+[3 rows x 9 columns]
+[0.9, 0.6205017371514594, 0.7696851902091879]
+[False False False] [0.9 0.9 0.9]
+                  reject            pvals
+0  [False, False, False]  [0.9, 0.9, 0.9]
+Saved Gender Significance @/pl/meg/analysis/ica_output/processed_gfp/vis/15/subj/csv/stat/vis15_gen_sign_id.csv
+Saved Cognition Significance @15/pl/meg/analysis/ica_output/processed_gfp/vis/15/subj/csv/stat/vis15_cog_sign_id.csv
+Target Directory =/pl/meg/analysis/ica_output/processed_gfp/vis/20
+Subject Matlab Path = /pl/meg/analysis/ica_output/processed_gfp/vis/20/vis_20_ica_br1.mat
+Subject Len 82
+M87105265
+1.0
+Low
+M87197917
+1.0
+Low
+M87112743
+2.0
+Medium
+M87104714
+2.0
+Medium
+M87131012
+3.0
+High
+M87130656
+1.0
+Low
+M87117365
+3.0
+High
+M87168050
+3.0
+High
+M87100788
+2.0
+Medium
+M87189143
+1.0
+Low
+M87160162
+2.0
+Medium
+M87120532
+2.0
+Medium
+M87178513
+1.0
+Low
+M87177235
+2.0
+Medium
+M87187253
+3.0
+High
+M87196316
+2.0
+Medium
+M87102589
+nan
+nan
+M87137879
+nan
+nan
+M87195745
+3.0
+High
+M87120319
+2.0
+Medium
+M87133640
+3.0
+High
+M87104918
+2.0
+Medium
+M87135262
+3.0
+High
+M87158016
+2.0
+Medium
+M87106704
+1.0
+Low
+M87131845
+2.0
+Medium
+M87199117
+3.0
+High
+M87192301
+1.0
+Low
+M87196579
+2.0
+Medium
+M87190684
+2.0
+Medium
+M87149105
+3.0
+High
+M87186783
+2.0
+Medium
+M87160608
+2.0
+Medium
+M87111372
+1.0
+Low
+M87155237
+3.0
+High
+M87128044
+2.0
+Medium
+M87184856
+3.0
+High
+M87154350
+3.0
+High
+M87132364
+2.0
+Medium
+M87105689
+3.0
+High
+M87139741
+2.0
+Medium
+M87173380
+1.0
+Low
+M87113328
+3.0
+High
+M87186620
+3.0
+High
+M87138931
+2.0
+Medium
+M87177624
+3.0
+High
+M87152436
+1.0
+Low
+M87152059
+3.0
+High
+M87140340
+2.0
+Medium
+M87197917
+1.0
+Low
+M87105265
+1.0
+Low
+M87146442
+1.0
+Low
+M87193022
+2.0
+Medium
+M87151599
+2.0
+Medium
+M87131012
+3.0
+High
+M87104714
+2.0
+Medium
+M87175951
+3.0
+High
+M87112743
+2.0
+Medium
+M87161703
+2.0
+Medium
+M87120532
+2.0
+Medium
+M87184504
+2.0
+Medium
+M87172564
+3.0
+High
+M87104289
+1.0
+Low
+M87166199
+1.0
+Low
+M87170742
+3.0
+High
+M87114683
+3.0
+High
+M87152779
+1.0
+Low
+M87135262
+3.0
+High
+M87126689
+2.0
+Medium
+M87133640
+3.0
+High
+M87109237
+3.0
+High
+M87106704
+1.0
+Low
+M87196268
+2.0
+Medium
+M87149105
+3.0
+High
+M87190684
+2.0
+Medium
+M87116559
+3.0
+High
+M87111261
+1.0
+Low
+M87100718
+3.0
+High
+M87147424
+3.0
+High
+M87181301
+2.0
+Medium
+M87154350
+3.0
+High
+M87155634
+2.0
+Medium
+M87155237
+3.0
+High
+M87181340
+2.0
+Medium
+M87173380
+1.0
+Low
+M87161334
+2.0
+Medium
+M87191024
+3.0
+High
+M87186620
+3.0
+High
+M87113328
+3.0
+High
+M87183741
+2.0
+Medium
+M87197917
+1.0
+Low
+M87193022
+2.0
+Medium
+M87104714
+2.0
+Medium
+M87116480
+2.0
+Medium
+M87160162
+2.0
+Medium
+M87155705
+2.0
+Medium
+M87172564
+3.0
+High
+M87184673
+2.0
+Medium
+M87114683
+3.0
+High
+M87173481
+2.0
+Medium
+M87169425
+2.0
+Medium
+M87195745
+3.0
+High
+M87104918
+2.0
+Medium
+M87135262
+3.0
+High
+M87106704
+1.0
+Low
+M87199117
+3.0
+High
+M87149105
+3.0
+High
+M87124949
+1.0
+Low
+M87122548
+2.0
+Medium
+M87173380
+1.0
+Low
+M87181340
+2.0
+Medium
+M87132364
+2.0
+Medium
+M87123871
+2.0
+Medium
+M87177624
+3.0
+High
+M87113328
+3.0
+High
+   subject_name  ... cog_group
+0     M87100788  ...    Medium
+1     M87104714  ...    Medium
+2     M87104918  ...    Medium
+3     M87105265  ...       Low
+4     M87105689  ...      High
+..          ...  ...       ...
+77    M87106704  ...       Low
+78    M87112743  ...    Medium
+79    M87113328  ...      High
+80    M87120532  ...    Medium
+81    M87131012  ...      High
+
+[82 rows x 10 columns]
+Saved Subjects with Cognition Scores @/pl/meg/analysis/ica_output/data/subject_map_with_scores.csv
+Reading TC @ /pl/meg/analysis/ica_output/processed_gfp/vis/20/subj/data/agg/tc_vis_20.npy; TC.shape: (20, 82)
+Running T-tests for = /pl/meg/analysis/ica_output/processed_gfp/vis/20
+Gender T-TEST
+Current Column Cnt = 1; Colum Length = 82
+Len = 82
+              sum_sq    df         F    PR(>F)
+Intercept   0.257854   1.0  0.253197  0.616215
+C(group)    0.528602   1.0  0.519055  0.473345
+Residual   81.471398  80.0       NaN       NaN
+              sum_sq    df         F    PR(>F)
+Intercept   0.257854   1.0  0.253197  0.616215
+C(group)    0.528602   1.0  0.519055  0.473345
+Residual   81.471398  80.0       NaN       NaN
+Saving anova_table table @ /pl/meg/analysis/ica_output/processed_gfp/vis/20/subj/csv/stat/gender_anova_20_colnum_1.csv
+   A  B   mean(A)   mean(B)      diff        se         T   p-tukey    hedges
+0  F  M  0.078354 -0.082272  0.160626  0.222951  0.720455  0.471246  0.157672
+[0.4712458008823258]
+False 0.4712458008823258
+   reject               pvals
+0   False  0.4712458008823258
+Current Column Cnt = 2; Colum Length = 82
+Len = 82
+              sum_sq    df         F    PR(>F)
+Intercept   0.050720   1.0  0.049546  0.824422
+C(group)    0.103977   1.0  0.101569  0.750785
+Residual   81.896023  80.0       NaN       NaN
+              sum_sq    df         F    PR(>F)
+Intercept   0.050720   1.0  0.049546  0.824422
+C(group)    0.103977   1.0  0.101569  0.750785
+Residual   81.896023  80.0       NaN       NaN
+Saving anova_table table @ /pl/meg/analysis/ica_output/processed_gfp/vis/20/subj/csv/stat/gender_anova_20_colnum_2.csv
+   A  B   mean(A)   mean(B)      diff        se         T   p-tukey    hedges
+0  F  M -0.034751  0.036488 -0.071239  0.223531 -0.318699  0.759308 -0.069748
+[0.7593079222445083]
+False 0.7593079222445083
+   reject               pvals
+0   False  0.7593079222445083
+Current Column Cnt = 3; Colum Length = 82
+Len = 82
+              sum_sq    df         F    PR(>F)
+Intercept   0.020006   1.0  0.019528  0.889214
+C(group)    0.041013   1.0  0.040033  0.841924
+Residual   81.958987  80.0       NaN       NaN
+              sum_sq    df         F    PR(>F)
+Intercept   0.020006   1.0  0.019528  0.889214
+C(group)    0.041013   1.0  0.040033  0.841924
+Residual   81.958987  80.0       NaN       NaN
+Saving anova_table table @ /pl/meg/analysis/ica_output/processed_gfp/vis/20/subj/csv/stat/gender_anova_20_colnum_3.csv
+   A  B   mean(A)   mean(B)      diff        se         T  p-tukey    hedges
+0  F  M -0.021825  0.022917 -0.044742  0.223617 -0.200082  0.84576 -0.043788
+[0.8457603241404013]
+False 0.8457603241404013
+   reject               pvals
+0   False  0.8457603241404013
+Current Column Cnt = 4; Colum Length = 82
+Len = 82
+              sum_sq    df         F    PR(>F)
+Intercept   0.422802   1.0  0.416896  0.520338
+C(group)    0.866743   1.0  0.854637  0.358024
+Residual   81.133257  80.0       NaN       NaN
+              sum_sq    df         F    PR(>F)
+Intercept   0.422802   1.0  0.416896  0.520338
+C(group)    0.866743   1.0  0.854637  0.358024
+Residual   81.133257  80.0       NaN       NaN
+Saving anova_table table @ /pl/meg/analysis/ica_output/processed_gfp/vis/20/subj/csv/stat/gender_anova_20_colnum_4.csv
+   A  B   mean(A)  mean(B)      diff        se         T   p-tukey   hedges
+0  F  M  0.100333 -0.10535  0.205683  0.222488  0.924466  0.355245  0.20232
+[0.3552446012476097]
+False 0.3552446012476097
+   reject               pvals
+0   False  0.3552446012476097
+Current Column Cnt = 5; Colum Length = 82
+Len = 82
+              sum_sq    df         F    PR(>F)
+Intercept   1.609015   1.0  1.635562  0.204633
+C(group)    3.298481   1.0  3.352902  0.070810
+Residual   78.701519  80.0       NaN       NaN
+              sum_sq    df         F    PR(>F)
+Intercept   1.609015   1.0  1.635562  0.204633
+C(group)    3.298481   1.0  3.352902  0.070810
+Residual   78.701519  80.0       NaN       NaN
+Saving anova_table table @ /pl/meg/analysis/ica_output/processed_gfp/vis/20/subj/csv/stat/gender_anova_20_colnum_5.csv
+   A  B   mean(A)   mean(B)      diff        se         T   p-tukey    hedges
+0  F  M  0.195729 -0.205516  0.401245  0.219128  1.831093  0.067086  0.400737
+[0.06708556729162074]
+False 0.06708556729162074
+   reject                pvals
+0   False  0.06708556729162074
+Current Column Cnt = 6; Colum Length = 82
+Len = 82
+              sum_sq    df         F    PR(>F)
+Intercept   1.069266   1.0  1.071838  0.303650
+C(group)    2.191994   1.0  2.197268  0.142184
+Residual   79.808006  80.0       NaN       NaN
+              sum_sq    df         F    PR(>F)
+Intercept   1.069266   1.0  1.071838  0.303650
+C(group)    2.191994   1.0  2.197268  0.142184
+Residual   79.808006  80.0       NaN       NaN
+Saving anova_table table @ /pl/meg/analysis/ica_output/processed_gfp/vis/20/subj/csv/stat/gender_anova_20_colnum_6.csv
+   A  B   mean(A)   mean(B)      diff        se         T   p-tukey    hedges
+0  F  M  0.159558 -0.167536  0.327094  0.220664  1.482318  0.138255  0.324407
+[0.13825513117252142]
+False 0.13825513117252142
+   reject                pvals
+0   False  0.13825513117252142
+Current Column Cnt = 7; Colum Length = 82
+Len = 82
+              sum_sq    df         F    PR(>F)
+Intercept   1.043145   1.0  1.044953  0.309754
+C(group)    2.138447   1.0  2.142154  0.147219
+Residual   79.861553  80.0       NaN       NaN
+              sum_sq    df         F    PR(>F)
+Intercept   1.043145   1.0  1.044953  0.309754
+C(group)    2.138447   1.0  2.142154  0.147219
+Residual   79.861553  80.0       NaN       NaN
+Saving anova_table table @ /pl/meg/analysis/ica_output/processed_gfp/vis/20/subj/csv/stat/gender_anova_20_colnum_7.csv
+   A  B   mean(A)   mean(B)      diff        se        T   p-tukey    hedges
+0  F  M -0.157597  0.165477 -0.323074  0.220738 -1.46361  0.143302 -0.320313
+[0.14330174417155295]
+False 0.14330174417155295
+   reject                pvals
+0   False  0.14330174417155295
+Current Column Cnt = 8; Colum Length = 82
+Len = 82
+              sum_sq    df         F    PR(>F)
+Intercept   0.012018   1.0  0.011728  0.914032
+C(group)    0.024636   1.0  0.024043  0.877167
+Residual   81.975364  80.0       NaN       NaN
+              sum_sq    df         F    PR(>F)
+Intercept   0.012018   1.0  0.011728  0.914032
+C(group)    0.024636   1.0  0.024043  0.877167
+Residual   81.975364  80.0       NaN       NaN
+Saving anova_table table @ /pl/meg/analysis/ica_output/processed_gfp/vis/20/subj/csv/stat/gender_anova_20_colnum_8.csv
+   A  B   mean(A)   mean(B)      diff       se         T   p-tukey    hedges
+0  F  M -0.016916  0.017761 -0.034677  0.22364 -0.155056  0.878576 -0.033934
+[0.8785760501497148]
+False 0.8785760501497148
+   reject               pvals
+0   False  0.8785760501497148
+Current Column Cnt = 9; Colum Length = 82
+Len = 82
+              sum_sq    df         F    PR(>F)
+Intercept   0.111269   1.0  0.108858  0.742311
+C(group)    0.228101   1.0  0.223159  0.637930
+Residual   81.771899  80.0       NaN       NaN
+              sum_sq    df         F    PR(>F)
+Intercept   0.111269   1.0  0.108858  0.742311
+C(group)    0.228101   1.0  0.223159  0.637930
+Residual   81.771899  80.0       NaN       NaN
+Saving anova_table table @ /pl/meg/analysis/ica_output/processed_gfp/vis/20/subj/csv/stat/gender_anova_20_colnum_9.csv
+   A  B   mean(A)   mean(B)      diff        se         T   p-tukey    hedges
+0  F  M  0.051471 -0.054045  0.105515  0.223362  0.472397  0.647292  0.103385
+[0.6472917430676371]
+False 0.6472917430676371
+   reject               pvals
+0   False  0.6472917430676371
+Current Column Cnt = 10; Colum Length = 82
+Len = 82
+              sum_sq    df         F    PR(>F)
+Intercept   0.235701   1.0  0.231315  0.631863
+C(group)    0.483187   1.0  0.474196  0.493055
+Residual   81.516813  80.0       NaN       NaN
+              sum_sq    df         F    PR(>F)
+Intercept   0.235701   1.0  0.231315  0.631863
+C(group)    0.483187   1.0  0.474196  0.493055
+Residual   81.516813  80.0       NaN       NaN
+Saving anova_table table @ /pl/meg/analysis/ica_output/processed_gfp/vis/20/subj/csv/stat/gender_anova_20_colnum_10.csv
+   A  B   mean(A)   mean(B)      diff        se         T   p-tukey    hedges
+0  F  M -0.074913  0.078658 -0.153571  0.223013 -0.688619  0.491063 -0.150705
+[0.49106294163723674]
+False 0.49106294163723674
+   reject                pvals
+0   False  0.49106294163723674
+Current Column Cnt = 11; Colum Length = 82
+Len = 82
+              sum_sq    df         F    PR(>F)
+Intercept   1.343487   1.0  1.356272  0.247646
+C(group)    2.754148   1.0  2.780358  0.099337
+Residual   79.245852  80.0       NaN       NaN
+              sum_sq    df         F    PR(>F)
+Intercept   1.343487   1.0  1.356272  0.247646
+C(group)    2.754148   1.0  2.780358  0.099337
+Residual   79.245852  80.0       NaN       NaN
+Saving anova_table table @ /pl/meg/analysis/ica_output/processed_gfp/vis/20/subj/csv/stat/gender_anova_20_colnum_11.csv
+   A  B   mean(A)   mean(B)      diff        se         T   p-tukey    hedges
+0  F  M -0.178851  0.187794 -0.366645  0.219885 -1.667441  0.095428 -0.364921
+[0.09542764248930269]
+False 0.09542764248930269
+   reject                pvals
+0   False  0.09542764248930269
+Current Column Cnt = 12; Colum Length = 82
+Len = 82
+              sum_sq    df         F    PR(>F)
+Intercept   1.449908   1.0  1.467747  0.229268
+C(group)    2.972312   1.0  3.008881  0.086661
+Residual   79.027688  80.0       NaN       NaN
+              sum_sq    df         F    PR(>F)
+Intercept   1.449908   1.0  1.467747  0.229268
+C(group)    2.972312   1.0  3.008881  0.086661
+Residual   79.027688  80.0       NaN       NaN
+Saving anova_table table @ /pl/meg/analysis/ica_output/processed_gfp/vis/20/subj/csv/stat/gender_anova_20_colnum_12.csv
+   A  B  mean(A)  mean(B)     diff        se         T   p-tukey    hedges
+0  F  M  -0.1858  0.19509 -0.38089  0.219582 -1.734613  0.082812 -0.379622
+[0.08281231328361605]
+False 0.08281231328361605
+   reject                pvals
+0   False  0.08281231328361605
+Current Column Cnt = 13; Colum Length = 82
+Len = 82
+              sum_sq    df         F    PR(>F)
+Intercept   0.157426   1.0  0.154193  0.695605
+C(group)    0.322723   1.0  0.316096  0.575536
+Residual   81.677277  80.0       NaN       NaN
+              sum_sq    df         F    PR(>F)
+Intercept   0.157426   1.0  0.154193  0.695605
+C(group)    0.322723   1.0  0.316096  0.575536
+Residual   81.677277  80.0       NaN       NaN
+Saving anova_table table @ /pl/meg/analysis/ica_output/processed_gfp/vis/20/subj/csv/stat/gender_anova_20_colnum_13.csv
+   A  B   mean(A)   mean(B)      diff        se         T   p-tukey    hedges
+0  F  M  0.061223 -0.064284  0.125507  0.223233  0.562224  0.581822  0.123043
+[0.581822110951282]
+False 0.581822110951282
+   reject              pvals
+0   False  0.581822110951282
+Current Column Cnt = 14; Colum Length = 82
+Len = 82
+              sum_sq    df         F    PR(>F)
+Intercept   0.343453   1.0  0.337978  0.562633
+C(group)    0.704079   1.0  0.692855  0.407673
+Residual   81.295921  80.0       NaN       NaN
+              sum_sq    df         F    PR(>F)
+Intercept   0.343453   1.0  0.337978  0.562633
+C(group)    0.704079   1.0  0.692855  0.407673
+Residual   81.295921  80.0       NaN       NaN
+Saving anova_table table @ /pl/meg/analysis/ica_output/processed_gfp/vis/20/subj/csv/stat/gender_anova_20_colnum_14.csv
+   A  B   mean(A)   mean(B)     diff        se         T   p-tukey    hedges
+0  F  M -0.090429  0.094951 -0.18538  0.222711 -0.832379  0.405195 -0.182167
+[0.40519506737765765]
+False 0.40519506737765765
+   reject                pvals
+0   False  0.40519506737765765
+Current Column Cnt = 15; Colum Length = 82
+Len = 82
+              sum_sq    df         F    PR(>F)
+Intercept   0.111793   1.0  0.109372  0.741725
+C(group)    0.229175   1.0  0.224212  0.637139
+Residual   81.770825  80.0       NaN       NaN
+              sum_sq    df         F    PR(>F)
+Intercept   0.111793   1.0  0.109372  0.741725
+C(group)    0.229175   1.0  0.224212  0.637139
+Residual   81.770825  80.0       NaN       NaN
+Saving anova_table table @ /pl/meg/analysis/ica_output/processed_gfp/vis/20/subj/csv/stat/gender_anova_20_colnum_15.csv
+   A  B   mean(A)   mean(B)      diff        se         T   p-tukey    hedges
+0  F  M -0.051592  0.054172 -0.105764  0.223361 -0.473511  0.646479 -0.103628
+[0.646479337337146]
+False 0.646479337337146
+   reject              pvals
+0   False  0.646479337337146
+Current Column Cnt = 16; Colum Length = 82
+Len = 82
+              sum_sq    df         F    PR(>F)
+Intercept   1.246006   1.0  1.254700  0.266008
+C(group)    2.554313   1.0  2.572135  0.112702
+Residual   79.445687  80.0       NaN       NaN
+              sum_sq    df         F    PR(>F)
+Intercept   1.246006   1.0  1.254700  0.266008
+C(group)    2.554313   1.0  2.572135  0.112702
+Residual   79.445687  80.0       NaN       NaN
+Saving anova_table table @ /pl/meg/analysis/ica_output/processed_gfp/vis/20/subj/csv/stat/gender_anova_20_colnum_16.csv
+   A  B   mean(A)   mean(B)      diff        se         T   p-tukey    hedges
+0  F  M  0.172241 -0.180853  0.353093  0.220162  1.603788  0.108759  0.350991
+[0.10875929374780124]
+False 0.10875929374780124
+   reject                pvals
+0   False  0.10875929374780124
+Current Column Cnt = 17; Colum Length = 82
+Len = 82
+              sum_sq    df         F    PR(>F)
+Intercept   0.042764   1.0  0.041766  0.838586
+C(group)    0.087666   1.0  0.085620  0.770579
+Residual   81.912334  80.0       NaN       NaN
+              sum_sq    df         F    PR(>F)
+Intercept   0.042764   1.0  0.041766  0.838586
+C(group)    0.087666   1.0  0.085620  0.770579
+Residual   81.912334  80.0       NaN       NaN
+Saving anova_table table @ /pl/meg/analysis/ica_output/processed_gfp/vis/20/subj/csv/stat/gender_anova_20_colnum_17.csv
+   A  B   mean(A)   mean(B)      diff        se         T   p-tukey    hedges
+0  F  M  0.031909 -0.033505  0.065414  0.223554  0.292609  0.778324  0.064038
+[0.778323935149543]
+False 0.778323935149543
+   reject              pvals
+0   False  0.778323935149543
+Current Column Cnt = 18; Colum Length = 82
+Len = 82
+              sum_sq    df         F    PR(>F)
+Intercept   2.095642   1.0  2.157566  0.145791
+C(group)    4.296066   1.0  4.423010  0.038600
+Residual   77.703934  80.0       NaN       NaN
+              sum_sq    df         F    PR(>F)
+Intercept   2.095642   1.0  2.157566  0.145791
+C(group)    4.296066   1.0  4.423010  0.038600
+Residual   77.703934  80.0       NaN       NaN
+Saving anova_table table @ /pl/meg/analysis/ica_output/processed_gfp/vis/20/subj/csv/stat/gender_anova_20_colnum_18.csv
+   A  B   mean(A)   mean(B)      diff        se         T   p-tukey    hedges
+0  F  M  0.223375 -0.234543  0.457918  0.217735  2.103095  0.035456  0.460265
+[0.035456195384716005]
+True 0.035456195384716005
+   reject                 pvals
+0    True  0.035456195384716005
+Current Column Cnt = 19; Colum Length = 82
+Len = 82
+              sum_sq    df         F    PR(>F)
+Intercept   0.546543   1.0  0.540600  0.464334
+C(group)    1.120414   1.0  1.108229  0.295637
+Residual   80.879586  80.0       NaN       NaN
+              sum_sq    df         F    PR(>F)
+Intercept   0.546543   1.0  0.540600  0.464334
+C(group)    1.120414   1.0  1.108229  0.295637
+Residual   80.879586  80.0       NaN       NaN
+Saving anova_table table @ /pl/meg/analysis/ica_output/processed_gfp/vis/20/subj/csv/stat/gender_anova_20_colnum_19.csv
+   A  B   mean(A)   mean(B)      diff       se         T   p-tukey   hedges
+0  F  M -0.114074  0.119778 -0.233852  0.22214 -1.052725  0.292468 -0.23039
+[0.29246827178118195]
+False 0.29246827178118195
+   reject                pvals
+0   False  0.29246827178118195
+Current Column Cnt = 20; Colum Length = 82
+Len = 82
+              sum_sq    df         F    PR(>F)
+Intercept   2.157214   1.0  2.224571  0.139763
+C(group)    4.422289   1.0  4.560371  0.035779
+Residual   77.577711  80.0       NaN       NaN
+              sum_sq    df         F    PR(>F)
+Intercept   2.157214   1.0  2.224571  0.139763
+C(group)    4.422289   1.0  4.560371  0.035779
+Residual   77.577711  80.0       NaN       NaN
+Saving anova_table table @ /pl/meg/analysis/ica_output/processed_gfp/vis/20/subj/csv/stat/gender_anova_20_colnum_20.csv
+   A  B   mean(A)   mean(B)      diff        se         T   p-tukey    hedges
+0  F  M  0.226632 -0.237964  0.464596  0.217558  2.135503  0.032719  0.467357
+[0.032719434702004]
+True 0.032719434702004
+   reject              pvals
+0    True  0.032719434702004
+Cognition Score T-TEST
+Current Column Cnt = 1; Colum Length = 82
+Len = 82
+              sum_sq    df         F    PR(>F)
+Intercept   1.601778   1.0  1.593032  0.210607
+C(group)    2.566256   2.0  1.276121  0.284808
+Residual   79.433744  79.0       NaN       NaN
+              sum_sq    df         F    PR(>F)
+Intercept   1.601778   1.0  1.593032  0.210607
+C(group)    2.566256   2.0  1.276121  0.284808
+Residual   79.433744  79.0       NaN       NaN
+Saving anova_table table @ /pl/meg/analysis/ica_output/processed_gfp/vis/20/subj/csv/stat/cog_group_anova_20_colnum_1.csv
+      A       B   mean(A)   mean(B)  ...        se         T   p-tukey    hedges
+0  High     Low -0.243568  0.034479  ...  0.310462 -0.895590  0.630898 -0.272306
+1  High  Medium -0.243568  0.157636  ...  0.252390 -1.589618  0.251346 -0.395325
+2   Low  Medium  0.034479  0.157636  ...  0.292586 -0.420924  0.900000 -0.121074
+
+[3 rows x 9 columns]
+[0.6308979254139644, 0.25134611352642444, 0.9]
+[False False False] [0.9        0.75403834 0.9       ]
+                  reject                           pvals
+0  [False, False, False]  [0.9, 0.7540383405792733, 0.9]
+Current Column Cnt = 2; Colum Length = 82
+Len = 82
+              sum_sq    df         F    PR(>F)
+Intercept   0.295107   1.0  0.286212  0.594161
+C(group)    0.544940   2.0  0.264258  0.768452
+Residual   81.455060  79.0       NaN       NaN
+              sum_sq    df         F    PR(>F)
+Intercept   0.295107   1.0  0.286212  0.594161
+C(group)    0.544940   2.0  0.264258  0.768452
+Residual   81.455060  79.0       NaN       NaN
+Saving anova_table table @ /pl/meg/analysis/ica_output/processed_gfp/vis/20/subj/csv/stat/cog_group_anova_20_colnum_2.csv
+      A       B   mean(A)   mean(B)  ...        se         T   p-tukey    hedges
+0  High     Low  0.104546 -0.116636  ...  0.314388  0.703534  0.740673  0.213911
+1  High  Medium  0.104546 -0.022103  ...  0.255581  0.495535  0.859562  0.123235
+2   Low  Medium -0.116636 -0.022103  ...  0.296286 -0.319060  0.900000 -0.091774
+
+[3 rows x 9 columns]
+[0.7406729816671775, 0.8595624837137102, 0.9]
+[False False False] [0.9 0.9 0.9]
+                  reject            pvals
+0  [False, False, False]  [0.9, 0.9, 0.9]
+Current Column Cnt = 3; Colum Length = 82
+Len = 82
+              sum_sq    df         F    PR(>F)
+Intercept   0.196832   1.0  0.190484  0.663704
+C(group)    0.367309   2.0  0.177731  0.837501
+Residual   81.632691  79.0       NaN       NaN
+              sum_sq    df         F    PR(>F)
+Intercept   0.196832   1.0  0.190484  0.663704
+C(group)    0.367309   2.0  0.177731  0.837501
+Residual   81.632691  79.0       NaN       NaN
+Saving anova_table table @ /pl/meg/analysis/ica_output/processed_gfp/vis/20/subj/csv/stat/cog_group_anova_20_colnum_3.csv
+      A       B   mean(A)   mean(B)  ...        se         T   p-tukey    hedges
+0  High     Low  0.085382 -0.096700  ...  0.314730  0.578533  0.812122  0.175904
+1  High  Medium  0.085382 -0.017406  ...  0.255859  0.401735  0.900000  0.099908
+2   Low  Medium -0.096700 -0.017406  ...  0.296609 -0.267336  0.900000 -0.076896
+
+[3 rows x 9 columns]
+[0.8121219513673117, 0.9, 0.9]
+[False False False] [0.9 0.9 0.9]
+                  reject            pvals
+0  [False, False, False]  [0.9, 0.9, 0.9]
+Current Column Cnt = 4; Colum Length = 82
+Len = 82
+              sum_sq    df         F    PR(>F)
+Intercept   0.082419   1.0  0.082152  0.775153
+C(group)    2.742976   2.0  1.367040  0.260822
+Residual   79.257024  79.0       NaN       NaN
+              sum_sq    df         F    PR(>F)
+Intercept   0.082419   1.0  0.082152  0.775153
+C(group)    2.742976   2.0  1.367040  0.260822
+Residual   79.257024  79.0       NaN       NaN
+Saving anova_table table @ /pl/meg/analysis/ica_output/processed_gfp/vis/20/subj/csv/stat/cog_group_anova_20_colnum_4.csv
+      A       B   mean(A)   mean(B)  ...        se         T   p-tukey    hedges
+0  High     Low  0.055250 -0.353443  ...  0.310117  1.317869  0.386901  0.400700
+1  High  Medium  0.055250  0.118863  ...  0.252109 -0.252323  0.900000 -0.062751
+2   Low  Medium -0.353443  0.118863  ...  0.292261 -1.616044  0.240041 -0.464835
+
+[3 rows x 9 columns]
+[0.3869012977547093, 0.9, 0.24004070440815362]
+[False False False] [0.58035195 0.9        0.58035195]
+                  reject                                          pvals
+0  [False, False, False]  [0.5803519466320639, 0.9, 0.5803519466320639]
+Current Column Cnt = 5; Colum Length = 82
+Len = 82
+              sum_sq    df         F    PR(>F)
+Intercept   0.003264   1.0  0.003164  0.955287
+C(group)    0.493129   2.0  0.238981  0.787997
+Residual   81.506871  79.0       NaN       NaN
+              sum_sq    df         F    PR(>F)
+Intercept   0.003264   1.0  0.003164  0.955287
+C(group)    0.493129   2.0  0.238981  0.787997
+Residual   81.506871  79.0       NaN       NaN
+Saving anova_table table @ /pl/meg/analysis/ica_output/processed_gfp/vis/20/subj/csv/stat/cog_group_anova_20_colnum_5.csv
+      A       B   mean(A)   mean(B)  ...        se         T   p-tukey    hedges
+0  High     Low -0.010995  0.146266  ...  0.314488 -0.500054  0.856979 -0.152042
+1  High  Medium -0.010995 -0.057622  ...  0.255662  0.182379  0.900000  0.045356
+2   Low  Medium  0.146266 -0.057622  ...  0.296380  0.687928  0.749594  0.197874
+
+[3 rows x 9 columns]
+[0.8569793798436192, 0.9, 0.7495936430555252]
+[False False False] [0.9 0.9 0.9]
+                  reject            pvals
+0  [False, False, False]  [0.9, 0.9, 0.9]
+Current Column Cnt = 6; Colum Length = 82
+Len = 82
+              sum_sq    df         F    PR(>F)
+Intercept   0.608915   1.0  0.599456  0.441097
+C(group)    1.753541   2.0  0.863152  0.425770
+Residual   80.246459  79.0       NaN       NaN
+              sum_sq    df         F    PR(>F)
+Intercept   0.608915   1.0  0.599456  0.441097
+C(group)    1.753541   2.0  0.863152  0.425770
+Residual   80.246459  79.0       NaN       NaN
+Saving anova_table table @ /pl/meg/analysis/ica_output/processed_gfp/vis/20/subj/csv/stat/cog_group_anova_20_colnum_6.csv
+      A       B   mean(A)   mean(B)  ...        se         T   p-tukey    hedges
+0  High     Low -0.150175  0.259116  ...  0.312047 -1.311633  0.390407 -0.398804
+1  High  Medium -0.150175 -0.009217  ...  0.253678 -0.555655  0.825199 -0.138187
+2   Low  Medium  0.259116 -0.009217  ...  0.294079  0.912452  0.621262  0.262456
+
+[3 rows x 9 columns]
+[0.39040688807814106, 0.8251994629660564, 0.6212619370433503]
+[False False False] [0.82519946 0.82519946 0.82519946]
+                  reject                                              pvals
+0  [False, False, False]  [0.8251994629660564, 0.8251994629660564, 0.825...
+Current Column Cnt = 7; Colum Length = 82
+Len = 82
+              sum_sq    df         F    PR(>F)
+Intercept   0.054042   1.0  0.056792  0.812257
+C(group)    6.825180   2.0  3.586235  0.032301
+Residual   75.174820  79.0       NaN       NaN
+              sum_sq    df         F    PR(>F)
+Intercept   0.054042   1.0  0.056792  0.812257
+C(group)    6.825180   2.0  3.586235  0.032301
+Residual   75.174820  79.0       NaN       NaN
+Saving anova_table table @ /pl/meg/analysis/ica_output/processed_gfp/vis/20/subj/csv/stat/cog_group_anova_20_colnum_7.csv
+      A       B   mean(A)   mean(B)  ...        se         T   p-tukey    hedges
+0  High     Low  0.044739  0.501595  ...  0.302025 -1.512644  0.286200 -0.459922
+1  High  Medium  0.044739 -0.256186  ...  0.245531  1.225609  0.439969  0.304799
+2   Low  Medium  0.501595 -0.256186  ...  0.284635  2.662292  0.021873  0.765776
+
+[3 rows x 9 columns]
+[0.2862003345139259, 0.43996914222905836, 0.02187329510281255]
+[False False False] [0.4293005  0.43996914 0.06561989]
+                  reject                                              pvals
+0  [False, False, False]  [0.42930050177088885, 0.43996914222905836, 0.0...
+Current Column Cnt = 8; Colum Length = 82
+Len = 82
+              sum_sq    df         F    PR(>F)
+Intercept   0.329345   1.0  0.319220  0.573678
+C(group)    0.494253   2.0  0.239529  0.787568
+Residual   81.505747  79.0       NaN       NaN
+              sum_sq    df         F    PR(>F)
+Intercept   0.329345   1.0  0.319220  0.573678
+C(group)    0.494253   2.0  0.239529  0.787568
+Residual   81.505747  79.0       NaN       NaN
+Saving anova_table table @ /pl/meg/analysis/ica_output/processed_gfp/vis/20/subj/csv/stat/cog_group_anova_20_colnum_8.csv
+      A       B   mean(A)   mean(B)  ...        se         T   p-tukey    hedges
+0  High     Low -0.110444  0.042761  ...  0.314485 -0.487160  0.864348 -0.148122
+1  High  Medium -0.110444  0.059344  ...  0.255660 -0.664116  0.763203 -0.165160
+2   Low  Medium  0.042761  0.059344  ...  0.296378 -0.055954  0.900000 -0.016094
+
+[3 rows x 9 columns]
+[0.8643479617513898, 0.7632034083422459, 0.9]
+[False False False] [0.9 0.9 0.9]
+                  reject            pvals
+0  [False, False, False]  [0.9, 0.9, 0.9]
+Current Column Cnt = 9; Colum Length = 82
+Len = 82
+              sum_sq    df         F    PR(>F)
+Intercept   0.831041   1.0  0.836204  0.363267
+C(group)    3.487801   2.0  1.754736  0.179626
+Residual   78.512199  79.0       NaN       NaN
+              sum_sq    df         F    PR(>F)
+Intercept   0.831041   1.0  0.836204  0.363267
+C(group)    3.487801   2.0  1.754736  0.179626
+Residual   78.512199  79.0       NaN       NaN
+Saving anova_table table @ /pl/meg/analysis/ica_output/processed_gfp/vis/20/subj/csv/stat/cog_group_anova_20_colnum_9.csv
+      A       B   mean(A)   mean(B)  ...        se         T   p-tukey    hedges
+0  High     Low -0.175440 -0.216191  ...  0.308656  0.132025  0.900000  0.040143
+1  High  Medium -0.175440  0.221372  ...  0.250922 -1.581418  0.254924 -0.393285
+2   Low  Medium -0.216191  0.221372  ...  0.290884 -1.504250  0.290164 -0.432679
+
+[3 rows x 9 columns]
+[0.9, 0.25492361013288345, 0.2901643830649002]
+[False False False] [0.9        0.43524657 0.43524657]
+                  reject                                            pvals
+0  [False, False, False]  [0.9, 0.43524657459735033, 0.43524657459735033]
+Current Column Cnt = 10; Colum Length = 82
+Len = 82
+              sum_sq    df         F    PR(>F)
+Intercept   0.301902   1.0  0.294752  0.588720
+C(group)    1.083818   2.0  0.529076  0.591222
+Residual   80.916182  79.0       NaN       NaN
+              sum_sq    df         F    PR(>F)
+Intercept   0.301902   1.0  0.294752  0.588720
+C(group)    1.083818   2.0  0.529076  0.591222
+Residual   80.916182  79.0       NaN       NaN
+Saving anova_table table @ /pl/meg/analysis/ica_output/processed_gfp/vis/20/subj/csv/stat/cog_group_anova_20_colnum_10.csv
+      A       B   mean(A)   mean(B)  ...        se         T   p-tukey    hedges
+0  High     Low  0.105743 -0.212394  ...  0.313346  1.015289  0.562478  0.308700
+1  High  Medium  0.105743  0.019885  ...  0.254734  0.337048  0.900000  0.083821
+2   Low  Medium -0.212394  0.019885  ...  0.295304 -0.786577  0.693207 -0.226249
+
+[3 rows x 9 columns]
+[0.5624784864480422, 0.9, 0.6932071994772342]
+[False False False] [0.9 0.9 0.9]
+                  reject            pvals
+0  [False, False, False]  [0.9, 0.9, 0.9]
+Current Column Cnt = 11; Colum Length = 82
+Len = 82
+              sum_sq    df         F    PR(>F)
+Intercept   2.064624   1.0  2.068608  0.154309
+C(group)    3.152130   2.0  1.579106  0.212597
+Residual   78.847870  79.0       NaN       NaN
+              sum_sq    df         F    PR(>F)
+Intercept   2.064624   1.0  2.068608  0.154309
+C(group)    3.152130   2.0  1.579106  0.212597
+Residual   78.847870  79.0       NaN       NaN
+Saving anova_table table @ /pl/meg/analysis/ica_output/processed_gfp/vis/20/subj/csv/stat/cog_group_anova_20_colnum_11.csv
+      A       B   mean(A)   mean(B)  ...        se         T   p-tukey    hedges
+0  High     Low  0.276528 -0.190577  ...  0.309315  1.510124  0.287386  0.459156
+1  High  Medium  0.276528 -0.111222  ...  0.251457  1.542010  0.272575  0.383485
+2   Low  Medium -0.190577 -0.111222  ...  0.291505 -0.272223  0.900000 -0.078302
+
+[3 rows x 9 columns]
+[0.287386481857299, 0.272575125088266, 0.9]
+[False False False] [0.43107972 0.43107972 0.9       ]
+                  reject                                            pvals
+0  [False, False, False]  [0.43107972278594847, 0.43107972278594847, 0.9]
+Current Column Cnt = 12; Colum Length = 82
+Len = 82
+              sum_sq    df         F    PR(>F)
+Intercept   4.423959   1.0  4.654956  0.034003
+C(group)    6.920276   2.0  3.640808  0.030725
+Residual   75.079724  79.0       NaN       NaN
+              sum_sq    df         F    PR(>F)
+Intercept   4.423959   1.0  4.654956  0.034003
+C(group)    6.920276   2.0  3.640808  0.030725
+Residual   75.079724  79.0       NaN       NaN
+Saving anova_table table @ /pl/meg/analysis/ica_output/processed_gfp/vis/20/subj/csv/stat/cog_group_anova_20_colnum_12.csv
+      A       B   mean(A)   mean(B)  ...        se         T   p-tukey    hedges
+0  High     Low  0.404784 -0.313562  ...  0.301834  2.379940  0.046619  0.723625
+1  High  Medium  0.404784 -0.147332  ...  0.245375  2.250090  0.064285  0.559578
+2   Low  Medium -0.313562 -0.147332  ...  0.284455 -0.584381  0.808778 -0.168090
+
+[3 rows x 9 columns]
+[0.04661901347151409, 0.06428520639348012, 0.808778484965662]
+[False False False] [0.09642781 0.09642781 0.80877848]
+                  reject                                              pvals
+0  [False, False, False]  [0.09642780959022018, 0.09642780959022018, 0.8...
+Current Column Cnt = 13; Colum Length = 82
+Len = 82
+              sum_sq    df         F    PR(>F)
+Intercept   1.088509   1.0  1.071185  0.303836
+C(group)    1.722370   2.0  0.847479  0.432352
+Residual   80.277630  79.0       NaN       NaN
+              sum_sq    df         F    PR(>F)
+Intercept   1.088509   1.0  1.071185  0.303836
+C(group)    1.722370   2.0  0.847479  0.432352
+Residual   80.277630  79.0       NaN       NaN
+Saving anova_table table @ /pl/meg/analysis/ica_output/processed_gfp/vis/20/subj/csv/stat/cog_group_anova_20_colnum_13.csv
+      A       B   mean(A)   mean(B)  ...        se         T   p-tukey    hedges
+0  High     Low  0.200786 -0.162160  ...  0.312107  1.162889  0.477122  0.353578
+1  High  Medium  0.200786 -0.070119  ...  0.253727  1.067703  0.532522  0.265529
+2   Low  Medium -0.162160 -0.070119  ...  0.294136 -0.312919  0.900000 -0.090007
+
+[3 rows x 9 columns]
+[0.4771215768684335, 0.5325219455937299, 0.9]
+[False False False] [0.79878292 0.79878292 0.9       ]
+                  reject                                          pvals
+0  [False, False, False]  [0.7987829183905949, 0.7987829183905949, 0.9]
+Current Column Cnt = 14; Colum Length = 82
+Len = 82
+              sum_sq    df         F    PR(>F)
+Intercept   0.255010   1.0  0.252056  0.617028
+C(group)    2.074217   2.0  1.025096  0.363484
+Residual   79.925783  79.0       NaN       NaN
+              sum_sq    df         F    PR(>F)
+Intercept   0.255010   1.0  0.252056  0.617028
+C(group)    2.074217   2.0  1.025096  0.363484
+Residual   79.925783  79.0       NaN       NaN
+Saving anova_table table @ /pl/meg/analysis/ica_output/processed_gfp/vis/20/subj/csv/stat/cog_group_anova_20_colnum_14.csv
+      A       B   mean(A)   mean(B)  ...        se         T   p-tukey    hedges
+0  High     Low  0.097184 -0.310098  ...  0.311422  1.307812  0.392560  0.397642
+1  High  Medium  0.097184  0.069676  ...  0.253170  0.108657  0.900000  0.027022
+2   Low  Medium -0.310098  0.069676  ...  0.293491 -1.293986  0.400395 -0.372199
+
+[3 rows x 9 columns]
+[0.39256013726045336, 0.9, 0.4003954624046905]
+[False False False] [0.60059319 0.9        0.60059319]
+                  reject                                          pvals
+0  [False, False, False]  [0.6005931936070358, 0.9, 0.6005931936070358]
+Current Column Cnt = 15; Colum Length = 82
+Len = 82
+              sum_sq    df         F    PR(>F)
+Intercept   0.264892   1.0  0.256494  0.613950
+C(group)    0.413307   2.0  0.200102  0.819061
+Residual   81.586693  79.0       NaN       NaN
+              sum_sq    df         F    PR(>F)
+Intercept   0.264892   1.0  0.256494  0.613950
+C(group)    0.413307   2.0  0.200102  0.819061
+Residual   81.586693  79.0       NaN       NaN
+Saving anova_table table @ /pl/meg/analysis/ica_output/processed_gfp/vis/20/subj/csv/stat/cog_group_anova_20_colnum_15.csv
+      A       B   mean(A)   mean(B)  ...        se         T   p-tukey    hedges
+0  High     Low -0.099050  0.075953  ...  0.314642 -0.556197  0.824887 -0.169113
+1  High  Medium -0.099050  0.036398  ...  0.255787 -0.529533  0.840130 -0.131690
+2   Low  Medium  0.075953  0.036398  ...  0.296525  0.133394  0.900000  0.038369
+
+[3 rows x 9 columns]
+[0.824887422994563, 0.8401295881619293, 0.9]
+[False False False] [0.9 0.9 0.9]
+                  reject            pvals
+0  [False, False, False]  [0.9, 0.9, 0.9]
+Current Column Cnt = 16; Colum Length = 82
+Len = 82
+              sum_sq    df         F    PR(>F)
+Intercept   5.100401   1.0  5.449632  0.022114
+C(group)    8.062596   2.0  4.307326  0.016768
+Residual   73.937404  79.0       NaN       NaN
+              sum_sq    df         F    PR(>F)
+Intercept   5.100401   1.0  5.449632  0.022114
+C(group)    8.062596   2.0  4.307326  0.016768
+Residual   73.937404  79.0       NaN       NaN
+Saving anova_table table @ /pl/meg/analysis/ica_output/processed_gfp/vis/20/subj/csv/stat/cog_group_anova_20_colnum_16.csv
+      A       B   mean(A)   mean(B)  ...        se         T   p-tukey    hedges
+0  High     Low -0.434631  0.076877  ...  0.299529 -1.707709  0.203586 -0.519232
+1  High  Medium -0.434631  0.274424  ...  0.243501 -2.911911  0.010481 -0.724167
+2   Low  Medium  0.076877  0.274424  ...  0.282282 -0.699819  0.742796 -0.201294
+
+[3 rows x 9 columns]
+[0.2035861797167411, 0.010481224921625176, 0.7427961639886722]
+[False  True False] [0.30537927 0.03144367 0.74279616]
+                 reject                                              pvals
+0  [False, True, False]  [0.30537926957511163, 0.03144367476487553, 0.7...
+Current Column Cnt = 17; Colum Length = 82
+Len = 82
+              sum_sq    df         F    PR(>F)
+Intercept   0.000007   1.0  0.000007  0.997877
+C(group)    0.415547   2.0  0.201192  0.818173
+Residual   81.584453  79.0       NaN       NaN
+              sum_sq    df         F    PR(>F)
+Intercept   0.000007   1.0  0.000007  0.997877
+C(group)    0.415547   2.0  0.201192  0.818173
+Residual   81.584453  79.0       NaN       NaN
+Saving anova_table table @ /pl/meg/analysis/ica_output/processed_gfp/vis/20/subj/csv/stat/cog_group_anova_20_colnum_17.csv
+      A       B   mean(A)   mean(B)  ...        se         T   p-tukey    hedges
+0  High     Low -0.000522  0.130211  ...  0.314637 -0.415502  0.900000 -0.126334
+1  High  Medium -0.000522 -0.057881  ...  0.255784  0.224248  0.900000  0.055769
+2   Low  Medium  0.130211 -0.057881  ...  0.296521  0.634329  0.780232  0.182457
+
+[3 rows x 9 columns]
+[0.9, 0.9, 0.7802319823971723]
+[False False False] [0.9 0.9 0.9]
+                  reject            pvals
+0  [False, False, False]  [0.9, 0.9, 0.9]
+Current Column Cnt = 18; Colum Length = 82
+Len = 82
+              sum_sq    df         F    PR(>F)
+Intercept   2.230198   1.0  2.434628  0.122679
+C(group)    9.633440   2.0  5.258242  0.007180
+Residual   72.366560  79.0       NaN       NaN
+              sum_sq    df         F    PR(>F)
+Intercept   2.230198   1.0  2.434628  0.122679
+C(group)    9.633440   2.0  5.258242  0.007180
+Residual   72.366560  79.0       NaN       NaN
+Saving anova_table table @ /pl/meg/analysis/ica_output/processed_gfp/vis/20/subj/csv/stat/cog_group_anova_20_colnum_18.csv
+      A       B   mean(A)   mean(B)  ...        se         T   p-tukey    hedges
+0  High     Low -0.287402  0.647433  ...  0.296330 -3.154711  0.004831 -0.959195
+1  High  Medium -0.287402 -0.085434  ...  0.240901 -0.838385  0.663595 -0.208499
+2   Low  Medium  0.647433 -0.085434  ...  0.279268  2.624247  0.024337  0.754833
+
+[3 rows x 9 columns]
+[0.0048314142553090855, 0.6635947770058255, 0.024337335059935516]
+[ True False  True] [0.01449424 0.66359478 0.036506  ]
+                reject                                              pvals
+0  [True, False, True]  [0.014494242765927257, 0.6635947770058255, 0.0...
+Current Column Cnt = 19; Colum Length = 82
+Len = 82
+              sum_sq    df         F    PR(>F)
+Intercept   0.834779   1.0  0.816782  0.368871
+C(group)    1.259234   2.0  0.616043  0.542651
+Residual   80.740766  79.0       NaN       NaN
+              sum_sq    df         F    PR(>F)
+Intercept   0.834779   1.0  0.816782  0.368871
+C(group)    1.259234   2.0  0.616043  0.542651
+Residual   80.740766  79.0       NaN       NaN
+Saving anova_table table @ /pl/meg/analysis/ica_output/processed_gfp/vis/20/subj/csv/stat/cog_group_anova_20_colnum_19.csv
+      A       B   mean(A)   mean(B)  ...        se         T   p-tukey    hedges
+0  High     Low -0.175834  0.110723  ...  0.313006 -0.915500  0.619519 -0.278359
+1  High  Medium -0.175834  0.075401  ...  0.254458 -0.987337  0.578459 -0.245542
+2   Low  Medium  0.110723  0.075401  ...  0.294984  0.119741  0.900000  0.034442
+
+[3 rows x 9 columns]
+[0.619518737381552, 0.5784587720128832, 0.9]
+[False False False] [0.9 0.9 0.9]
+                  reject            pvals
+0  [False, False, False]  [0.9, 0.9, 0.9]
+Current Column Cnt = 20; Colum Length = 82
+Len = 82
+              sum_sq    df         F    PR(>F)
+Intercept   0.110024   1.0  0.106237  0.745332
+C(group)    0.184125   2.0  0.088894  0.915034
+Residual   81.815875  79.0       NaN       NaN
+              sum_sq    df         F    PR(>F)
+Intercept   0.110024   1.0  0.106237  0.745332
+C(group)    0.184125   2.0  0.088894  0.915034
+Residual   81.815875  79.0       NaN       NaN
+Saving anova_table table @ /pl/meg/analysis/ica_output/processed_gfp/vis/20/subj/csv/stat/cog_group_anova_20_colnum_20.csv
+      A       B   mean(A)   mean(B)  ...        se         T  p-tukey    hedges
+0  High     Low -0.063835  0.059911  ...  0.315083 -0.392743      0.9 -0.119414
+1  High  Medium -0.063835  0.018554  ...  0.256146 -0.321650      0.9 -0.079992
+2   Low  Medium  0.059911  0.018554  ...  0.296941  0.139277      0.9  0.040061
+
+[3 rows x 9 columns]
+[0.9, 0.9, 0.9]
+[False False False] [0.9 0.9 0.9]
+                  reject            pvals
+0  [False, False, False]  [0.9, 0.9, 0.9]
+Saved Gender Significance @/pl/meg/analysis/ica_output/processed_gfp/vis/20/subj/csv/stat/vis20_gen_sign_id.csv
+Saved Cognition Significance @20/pl/meg/analysis/ica_output/processed_gfp/vis/20/subj/csv/stat/vis20_cog_sign_id.csv
+Target Directory =/pl/meg/analysis/ica_output/processed_gfp/vis/25
+Subject Matlab Path = /pl/meg/analysis/ica_output/processed_gfp/vis/25/vis_25_ica_br1.mat
+Subject Len 82
+M87105265
+1.0
+Low
+M87197917
+1.0
+Low
+M87112743
+2.0
+Medium
+M87104714
+2.0
+Medium
+M87131012
+3.0
+High
+M87130656
+1.0
+Low
+M87117365
+3.0
+High
+M87168050
+3.0
+High
+M87100788
+2.0
+Medium
+M87189143
+1.0
+Low
+M87160162
+2.0
+Medium
+M87120532
+2.0
+Medium
+M87178513
+1.0
+Low
+M87177235
+2.0
+Medium
+M87187253
+3.0
+High
+M87196316
+2.0
+Medium
+M87102589
+nan
+nan
+M87137879
+nan
+nan
+M87195745
+3.0
+High
+M87120319
+2.0
+Medium
+M87133640
+3.0
+High
+M87104918
+2.0
+Medium
+M87135262
+3.0
+High
+M87158016
+2.0
+Medium
+M87106704
+1.0
+Low
+M87131845
+2.0
+Medium
+M87199117
+3.0
+High
+M87192301
+1.0
+Low
+M87196579
+2.0
+Medium
+M87190684
+2.0
+Medium
+M87149105
+3.0
+High
+M87186783
+2.0
+Medium
+M87160608
+2.0
+Medium
+M87111372
+1.0
+Low
+M87155237
+3.0
+High
+M87128044
+2.0
+Medium
+M87184856
+3.0
+High
+M87154350
+3.0
+High
+M87132364
+2.0
+Medium
+M87105689
+3.0
+High
+M87139741
+2.0
+Medium
+M87173380
+1.0
+Low
+M87113328
+3.0
+High
+M87186620
+3.0
+High
+M87138931
+2.0
+Medium
+M87177624
+3.0
+High
+M87152436
+1.0
+Low
+M87152059
+3.0
+High
+M87140340
+2.0
+Medium
+M87197917
+1.0
+Low
+M87105265
+1.0
+Low
+M87146442
+1.0
+Low
+M87193022
+2.0
+Medium
+M87151599
+2.0
+Medium
+M87131012
+3.0
+High
+M87104714
+2.0
+Medium
+M87175951
+3.0
+High
+M87112743
+2.0
+Medium
+M87161703
+2.0
+Medium
+M87120532
+2.0
+Medium
+M87184504
+2.0
+Medium
+M87172564
+3.0
+High
+M87104289
+1.0
+Low
+M87166199
+1.0
+Low
+M87170742
+3.0
+High
+M87114683
+3.0
+High
+M87152779
+1.0
+Low
+M87135262
+3.0
+High
+M87126689
+2.0
+Medium
+M87133640
+3.0
+High
+M87109237
+3.0
+High
+M87106704
+1.0
+Low
+M87196268
+2.0
+Medium
+M87149105
+3.0
+High
+M87190684
+2.0
+Medium
+M87116559
+3.0
+High
+M87111261
+1.0
+Low
+M87100718
+3.0
+High
+M87147424
+3.0
+High
+M87181301
+2.0
+Medium
+M87154350
+3.0
+High
+M87155634
+2.0
+Medium
+M87155237
+3.0
+High
+M87181340
+2.0
+Medium
+M87173380
+1.0
+Low
+M87161334
+2.0
+Medium
+M87191024
+3.0
+High
+M87186620
+3.0
+High
+M87113328
+3.0
+High
+M87183741
+2.0
+Medium
+M87197917
+1.0
+Low
+M87193022
+2.0
+Medium
+M87104714
+2.0
+Medium
+M87116480
+2.0
+Medium
+M87160162
+2.0
+Medium
+M87155705
+2.0
+Medium
+M87172564
+3.0
+High
+M87184673
+2.0
+Medium
+M87114683
+3.0
+High
+M87173481
+2.0
+Medium
+M87169425
+2.0
+Medium
+M87195745
+3.0
+High
+M87104918
+2.0
+Medium
+M87135262
+3.0
+High
+M87106704
+1.0
+Low
+M87199117
+3.0
+High
+M87149105
+3.0
+High
+M87124949
+1.0
+Low
+M87122548
+2.0
+Medium
+M87173380
+1.0
+Low
+M87181340
+2.0
+Medium
+M87132364
+2.0
+Medium
+M87123871
+2.0
+Medium
+M87177624
+3.0
+High
+M87113328
+3.0
+High
+   subject_name  ... cog_group
+0     M87100788  ...    Medium
+1     M87104714  ...    Medium
+2     M87104918  ...    Medium
+3     M87105265  ...       Low
+4     M87105689  ...      High
+..          ...  ...       ...
+77    M87106704  ...       Low
+78    M87112743  ...    Medium
+79    M87113328  ...      High
+80    M87120532  ...    Medium
+81    M87131012  ...      High
+
+[82 rows x 10 columns]
+Saved Subjects with Cognition Scores @/pl/meg/analysis/ica_output/data/subject_map_with_scores.csv
+Reading TC @ /pl/meg/analysis/ica_output/processed_gfp/vis/25/subj/data/agg/tc_vis_25.npy; TC.shape: (25, 82)
+Running T-tests for = /pl/meg/analysis/ica_output/processed_gfp/vis/25
+Gender T-TEST
+Current Column Cnt = 1; Colum Length = 82
+Len = 82
+              sum_sq    df         F    PR(>F)
+Intercept   0.000288   1.0  0.000281  0.986665
+C(group)    0.000591   1.0  0.000576  0.980909
+Residual   81.999409  80.0       NaN       NaN
+              sum_sq    df         F    PR(>F)
+Intercept   0.000288   1.0  0.000281  0.986665
+C(group)    0.000591   1.0  0.000576  0.980909
+Residual   81.999409  80.0       NaN       NaN
+Saving anova_table table @ /pl/meg/analysis/ica_output/processed_gfp/vis/25/subj/csv/stat/gender_anova_25_colnum_1.csv
+   A  B   mean(A)  mean(B)      diff        se         T  p-tukey    hedges
+0  F  M -0.002619  0.00275 -0.005369  0.223673 -0.024005      0.9 -0.005253
+[0.9]
+False 0.9
+   reject pvals
+0   False   0.9
+Current Column Cnt = 2; Colum Length = 82
+Len = 82
+              sum_sq    df         F    PR(>F)
+Intercept   0.149437   1.0  0.146339  0.703073
+C(group)    0.306346   1.0  0.299995  0.585411
+Residual   81.693654  80.0       NaN       NaN
+              sum_sq    df         F    PR(>F)
+Intercept   0.149437   1.0  0.146339  0.703073
+C(group)    0.306346   1.0  0.299995  0.585411
+Residual   81.693654  80.0       NaN       NaN
+Saving anova_table table @ /pl/meg/analysis/ica_output/processed_gfp/vis/25/subj/csv/stat/gender_anova_25_colnum_2.csv
+   A  B   mean(A)   mean(B)      diff        se         T   p-tukey    hedges
+0  F  M  0.059649 -0.062632  0.122281  0.223255  0.547718  0.592395  0.119869
+[0.5923948195439699]
+False 0.5923948195439699
+   reject               pvals
+0   False  0.5923948195439699
+Current Column Cnt = 3; Colum Length = 82
+Len = 82
+              sum_sq    df         F    PR(>F)
+Intercept   1.449841   1.0  1.467676  0.229279
+C(group)    2.972173   1.0  3.008736  0.086668
+Residual   79.027827  80.0       NaN       NaN
+              sum_sq    df         F    PR(>F)
+Intercept   1.449841   1.0  1.467676  0.229279
+C(group)    2.972173   1.0  3.008736  0.086668
+Residual   79.027827  80.0       NaN       NaN
+Saving anova_table table @ /pl/meg/analysis/ica_output/processed_gfp/vis/25/subj/csv/stat/gender_anova_25_colnum_3.csv
+   A  B   mean(A)   mean(B)      diff        se         T   p-tukey    hedges
+0  F  M -0.185796  0.195085 -0.380881  0.219582 -1.734571  0.082817 -0.379613
+[0.08281680672174763]
+False 0.08281680672174763
+   reject                pvals
+0   False  0.08281680672174763
+Current Column Cnt = 4; Colum Length = 82
+Len = 82
+              sum_sq    df         F    PR(>F)
+Intercept   1.032835   1.0  1.034352  0.312205
+C(group)    2.117312   1.0  2.120421  0.149260
+Residual   79.882688  80.0       NaN       NaN
+              sum_sq    df         F    PR(>F)
+Intercept   1.032835   1.0  1.034352  0.312205
+C(group)    2.117312   1.0  2.120421  0.149260
+Residual   79.882688  80.0       NaN       NaN
+Saving anova_table table @ /pl/meg/analysis/ica_output/processed_gfp/vis/25/subj/csv/stat/gender_anova_25_colnum_4.csv
+   A  B   mean(A)   mean(B)      diff        se         T   p-tukey    hedges
+0  F  M  0.156816 -0.164657  0.321473  0.220767  1.456167  0.145345  0.318684
+[0.1453449446904317]
+False 0.1453449446904317
+   reject               pvals
+0   False  0.1453449446904317
+Current Column Cnt = 5; Colum Length = 82
+Len = 82
+              sum_sq    df         F    PR(>F)
+Intercept   0.521195   1.0  0.515196  0.474989
+C(group)    1.068450   1.0  1.056152  0.307192
+Residual   80.931550  80.0       NaN       NaN
+              sum_sq    df         F    PR(>F)
+Intercept   0.521195   1.0  0.515196  0.474989
+C(group)    1.068450   1.0  1.056152  0.307192
+Residual   80.931550  80.0       NaN       NaN
+Saving anova_table table @ /pl/meg/analysis/ica_output/processed_gfp/vis/25/subj/csv/stat/gender_anova_25_colnum_5.csv
+   A  B   mean(A)   mean(B)      diff        se         T   p-tukey    hedges
+0  F  M -0.111398  0.116967 -0.228365  0.222211 -1.027692  0.304095 -0.224912
+[0.3040949591391814]
+False 0.3040949591391814
+   reject               pvals
+0   False  0.3040949591391814
+Current Column Cnt = 6; Colum Length = 82
+Len = 82
+              sum_sq    df         F    PR(>F)
+Intercept   0.476245   1.0  0.470228  0.494865
+C(group)    0.976303   1.0  0.963967  0.329149
+Residual   81.023697  80.0       NaN       NaN
+              sum_sq    df         F    PR(>F)
+Intercept   0.476245   1.0  0.470228  0.494865
+C(group)    0.976303   1.0  0.963967  0.329149
+Residual   81.023697  80.0       NaN       NaN
+Saving anova_table table @ /pl/meg/analysis/ica_output/processed_gfp/vis/25/subj/csv/stat/gender_anova_25_colnum_6.csv
+   A  B   mean(A)  mean(B)      diff        se         T   p-tukey    hedges
+0  F  M -0.106486  0.11181 -0.218295  0.222338 -0.981818  0.326189 -0.214872
+[0.32618859210891094]
+False 0.32618859210891094
+   reject                pvals
+0   False  0.32618859210891094
+Current Column Cnt = 7; Colum Length = 82
+Len = 82
+              sum_sq    df         F    PR(>F)
+Intercept   0.558477   1.0  0.552571  0.459447
+C(group)    1.144878   1.0  1.132770  0.290387
+Residual   80.855122  80.0       NaN       NaN
+              sum_sq    df         F    PR(>F)
+Intercept   0.558477   1.0  0.552571  0.459447
+C(group)    1.144878   1.0  1.132770  0.290387
+Residual   80.855122  80.0       NaN       NaN
+Saving anova_table table @ /pl/meg/analysis/ica_output/processed_gfp/vis/25/subj/csv/stat/gender_anova_25_colnum_7.csv
+   A  B   mean(A)   mean(B)      diff        se         T   p-tukey    hedges
+0  F  M  0.115313 -0.121079  0.236392  0.222106  1.064317  0.287184  0.232927
+[0.2871843061009024]
+False 0.2871843061009024
+   reject               pvals
+0   False  0.2871843061009024
+Current Column Cnt = 8; Colum Length = 82
+Len = 82
+              sum_sq    df         F    PR(>F)
+Intercept   2.422929   1.0  2.516251  0.116623
+C(group)    4.967005   1.0  5.158314  0.025823
+Residual   77.032995  80.0       NaN       NaN
+              sum_sq    df         F    PR(>F)
+Intercept   2.422929   1.0  2.516251  0.116623
+C(group)    4.967005   1.0  5.158314  0.025823
+Residual   77.032995  80.0       NaN       NaN
+Saving anova_table table @ /pl/meg/analysis/ica_output/processed_gfp/vis/25/subj/csv/stat/gender_anova_25_colnum_8.csv
+   A  B   mean(A)   mean(B)      diff        se         T   p-tukey    hedges
+0  F  M -0.240185  0.252194 -0.492379  0.216793 -2.271192  0.023137 -0.497053
+[0.023136739971791664]
+True 0.023136739971791664
+   reject                 pvals
+0    True  0.023136739971791664
+Current Column Cnt = 9; Colum Length = 82
+Len = 82
+              sum_sq    df         F    PR(>F)
+Intercept   0.171543   1.0  0.168080  0.682919
+C(group)    0.351664   1.0  0.344565  0.558859
+Residual   81.648336  80.0       NaN       NaN
+              sum_sq    df         F    PR(>F)
+Intercept   0.171543   1.0  0.168080  0.682919
+C(group)    0.351664   1.0  0.344565  0.558859
+Residual   81.648336  80.0       NaN       NaN
+Saving anova_table table @ /pl/meg/analysis/ica_output/processed_gfp/vis/25/subj/csv/stat/gender_anova_25_colnum_9.csv
+   A  B   mean(A)   mean(B)      diff        se         T   p-tukey    hedges
+0  F  M -0.063909  0.067105 -0.131014  0.223193 -0.586996  0.563769 -0.128465
+[0.5637687449444859]
+False 0.5637687449444859
+   reject               pvals
+0   False  0.5637687449444859
+Current Column Cnt = 10; Colum Length = 82
+Len = 82
+              sum_sq    df         F    PR(>F)
+Intercept   0.418779   1.0  0.412888  0.522345
+C(group)    0.858498   1.0  0.846420  0.360333
+Residual   81.141502  80.0       NaN       NaN
+              sum_sq    df         F    PR(>F)
+Intercept   0.418779   1.0  0.412888  0.522345
+C(group)    0.858498   1.0  0.846420  0.360333
+Residual   81.141502  80.0       NaN       NaN
+Saving anova_table table @ /pl/meg/analysis/ica_output/processed_gfp/vis/25/subj/csv/stat/gender_anova_25_colnum_10.csv
+   A  B   mean(A)   mean(B)      diff        se         T   p-tukey    hedges
+0  F  M  0.099855 -0.104847  0.204702  0.222499  0.920011  0.357567  0.201345
+[0.3575667368671199]
+False 0.3575667368671199
+   reject               pvals
+0   False  0.3575667368671199
+Current Column Cnt = 11; Colum Length = 82
+Len = 82
+              sum_sq    df         F    PR(>F)
+Intercept   0.004236   1.0  0.004133  0.948901
+C(group)    0.008684   1.0  0.008473  0.926890
+Residual   81.991316  80.0       NaN       NaN
+              sum_sq    df         F    PR(>F)
+Intercept   0.004236   1.0  0.004133  0.948901
+C(group)    0.008684   1.0  0.008473  0.926890
+Residual   81.991316  80.0       NaN       NaN
+Saving anova_table table @ /pl/meg/analysis/ica_output/processed_gfp/vis/25/subj/csv/stat/gender_anova_25_colnum_11.csv
+   A  B   mean(A)   mean(B)      diff        se         T  p-tukey    hedges
+0  F  M -0.010043  0.010545 -0.020587  0.223661 -0.092048      0.9 -0.020145
+[0.9]
+False 0.9
+   reject pvals
+0   False   0.9
+Current Column Cnt = 12; Colum Length = 82
+Len = 82
+              sum_sq    df         F    PR(>F)
+Intercept   0.000347   1.0  0.000338  0.985367
+C(group)    0.000711   1.0  0.000694  0.979050
+Residual   81.999289  80.0       NaN       NaN
+              sum_sq    df         F    PR(>F)
+Intercept   0.000347   1.0  0.000338  0.985367
+C(group)    0.000711   1.0  0.000694  0.979050
+Residual   81.999289  80.0       NaN       NaN
+Saving anova_table table @ /pl/meg/analysis/ica_output/processed_gfp/vis/25/subj/csv/stat/gender_anova_25_colnum_12.csv
+   A  B   mean(A)   mean(B)      diff        se         T  p-tukey    hedges
+0  F  M  0.002874 -0.003018  0.005892  0.223672  0.026342      0.9  0.005765
+[0.9]
+False 0.9
+   reject pvals
+0   False   0.9
+Current Column Cnt = 13; Colum Length = 82
+Len = 82
+              sum_sq    df         F    PR(>F)
+Intercept   0.489496   1.0  0.483474  0.488868
+C(group)    1.003468   1.0  0.991122  0.322470
+Residual   80.996532  80.0       NaN       NaN
+              sum_sq    df         F    PR(>F)
+Intercept   0.489496   1.0  0.483474  0.488868
+C(group)    1.003468   1.0  0.991122  0.322470
+Residual   80.996532  80.0       NaN       NaN
+Saving anova_table table @ /pl/meg/analysis/ica_output/processed_gfp/vis/25/subj/csv/stat/gender_anova_25_colnum_13.csv
+   A  B   mean(A)   mean(B)      diff        se         T   p-tukey    hedges
+0  F  M  0.107957 -0.113355  0.221312  0.222301  0.995551  0.319469  0.217877
+[0.31946868847584997]
+False 0.31946868847584997
+   reject                pvals
+0   False  0.31946868847584997
+Current Column Cnt = 14; Colum Length = 82
+Len = 82
+              sum_sq    df         F    PR(>F)
+Intercept   0.238628   1.0  0.234205  0.629746
+C(group)    0.489187   1.0  0.480120  0.490375
+Residual   81.510813  80.0       NaN       NaN
+              sum_sq    df         F    PR(>F)
+Intercept   0.238628   1.0  0.234205  0.629746
+C(group)    0.489187   1.0  0.480120  0.490375
+Residual   81.510813  80.0       NaN       NaN
+Saving anova_table table @ /pl/meg/analysis/ica_output/processed_gfp/vis/25/subj/csv/stat/gender_anova_25_colnum_14.csv
+   A  B   mean(A)   mean(B)      diff        se         T   p-tukey    hedges
+0  F  M -0.075376  0.079145 -0.154522  0.223005 -0.692907  0.488369 -0.151643
+[0.48836939051477113]
+False 0.48836939051477113
+   reject                pvals
+0   False  0.48836939051477113
+Current Column Cnt = 15; Colum Length = 82
+Len = 82
+              sum_sq    df         F    PR(>F)
+Intercept   0.247157   1.0  0.242628  0.623663
+C(group)    0.506672   1.0  0.497388  0.482699
+Residual   81.493328  80.0       NaN       NaN
+              sum_sq    df         F    PR(>F)
+Intercept   0.247157   1.0  0.242628  0.623663
+C(group)    0.506672   1.0  0.497388  0.482699
+Residual   81.493328  80.0       NaN       NaN
+Saving anova_table table @ /pl/meg/analysis/ica_output/processed_gfp/vis/25/subj/csv/stat/gender_anova_25_colnum_15.csv
+   A  B   mean(A)   mean(B)      diff        se         T   p-tukey    hedges
+0  F  M  0.076712 -0.080547  0.157259  0.222981  0.705257  0.480649  0.154346
+[0.48064906361996285]
+False 0.48064906361996285
+   reject                pvals
+0   False  0.48064906361996285
+Current Column Cnt = 16; Colum Length = 82
+Len = 82
+                 sum_sq    df             F    PR(>F)
+Intercept  4.113492e-08   1.0  4.013163e-08  0.999841
+C(group)   8.432659e-08   1.0  8.226984e-08  0.999772
+Residual   8.200000e+01  80.0           NaN       NaN
+                 sum_sq    df             F    PR(>F)
+Intercept  4.113492e-08   1.0  4.013163e-08  0.999841
+C(group)   8.432659e-08   1.0  8.226984e-08  0.999772
+Residual   8.200000e+01  80.0           NaN       NaN
+Saving anova_table table @ /pl/meg/analysis/ica_output/processed_gfp/vis/25/subj/csv/stat/gender_anova_25_colnum_16.csv
+   A  B   mean(A)   mean(B)      diff        se         T  p-tukey    hedges
+0  F  M -0.000031  0.000033 -0.000064  0.223673 -0.000287      0.9 -0.000063
+[0.9]
+False 0.9
+   reject pvals
+0   False   0.9
+Current Column Cnt = 17; Colum Length = 82
+Len = 82
+              sum_sq    df         F    PR(>F)
+Intercept   0.361473   1.0  0.355872  0.552492
+C(group)    0.741019   1.0  0.729538  0.395583
+Residual   81.258981  80.0       NaN       NaN
+              sum_sq    df         F    PR(>F)
+Intercept   0.361473   1.0  0.355872  0.552492
+C(group)    0.741019   1.0  0.729538  0.395583
+Residual   81.258981  80.0       NaN       NaN
+Saving anova_table table @ /pl/meg/analysis/ica_output/processed_gfp/vis/25/subj/csv/stat/gender_anova_25_colnum_17.csv
+   A  B   mean(A)  mean(B)      diff       se        T   p-tukey    hedges
+0  F  M  0.092771 -0.09741  0.190181  0.22266  0.85413  0.393033  0.186927
+[0.393032583874489]
+False 0.393032583874489
+   reject              pvals
+0   False  0.393032583874489
+Current Column Cnt = 18; Colum Length = 82
+Len = 82
+              sum_sq    df         F    PR(>F)
+Intercept   0.206974   1.0  0.202976  0.653548
+C(group)    0.424297   1.0  0.416101  0.520735
+Residual   81.575703  80.0       NaN       NaN
+              sum_sq    df         F    PR(>F)
+Intercept   0.206974   1.0  0.202976  0.653548
+C(group)    0.424297   1.0  0.416101  0.520735
+Residual   81.575703  80.0       NaN       NaN
+Saving anova_table table @ /pl/meg/analysis/ica_output/processed_gfp/vis/25/subj/csv/stat/gender_anova_25_colnum_18.csv
+   A  B   mean(A)   mean(B)      diff        se         T   p-tukey    hedges
+0  F  M -0.070199  0.073709 -0.143909  0.223094 -0.645059  0.521449 -0.141172
+[0.5214485724238982]
+False 0.5214485724238982
+   reject               pvals
+0   False  0.5214485724238982
+Current Column Cnt = 19; Colum Length = 82
+Len = 82
+              sum_sq    df         F    PR(>F)
+Intercept   2.635261   1.0  2.752313  0.101030
+C(group)    5.402285   1.0  5.642242  0.019926
+Residual   76.597715  80.0       NaN       NaN
+              sum_sq    df         F    PR(>F)
+Intercept   2.635261   1.0  2.752313  0.101030
+C(group)    5.402285   1.0  5.642242  0.019926
+Residual   76.597715  80.0       NaN       NaN
+Saving anova_table table @ /pl/meg/analysis/ica_output/processed_gfp/vis/25/subj/csv/stat/gender_anova_25_colnum_19.csv
+   A  B   mean(A)   mean(B)      diff       se        T   p-tukey    hedges
+0  F  M  0.250488 -0.263013  0.513501  0.21618  2.37534  0.017533  0.519846
+[0.017533127894187817]
+True 0.017533127894187817
+   reject                 pvals
+0    True  0.017533127894187817
+Current Column Cnt = 20; Colum Length = 82
+Len = 82
+              sum_sq    df         F    PR(>F)
+Intercept   0.414187   1.0  0.408313  0.524652
+C(group)    0.849083   1.0  0.837041  0.362994
+Residual   81.150917  80.0       NaN       NaN
+              sum_sq    df         F    PR(>F)
+Intercept   0.414187   1.0  0.408313  0.524652
+C(group)    0.849083   1.0  0.837041  0.362994
+Residual   81.150917  80.0       NaN       NaN
+Saving anova_table table @ /pl/meg/analysis/ica_output/processed_gfp/vis/25/subj/csv/stat/gender_anova_25_colnum_20.csv
+   A  B   mean(A)   mean(B)      diff        se       T   p-tukey    hedges
+0  F  M  0.099306 -0.104271  0.203576  0.222512  0.9149  0.360246  0.200227
+[0.3602455226295356]
+False 0.3602455226295356
+   reject               pvals
+0   False  0.3602455226295356
+Current Column Cnt = 21; Colum Length = 82
+Len = 82
+              sum_sq    df         F    PR(>F)
+Intercept   1.508851   1.0  1.529754  0.219768
+C(group)    3.093144   1.0  3.135995  0.080391
+Residual   78.906856  80.0       NaN       NaN
+              sum_sq    df         F    PR(>F)
+Intercept   1.508851   1.0  1.529754  0.219768
+C(group)    3.093144   1.0  3.135995  0.080391
+Residual   78.906856  80.0       NaN       NaN
+Saving anova_table table @ /pl/meg/analysis/ica_output/processed_gfp/vis/25/subj/csv/stat/gender_anova_25_colnum_21.csv
+   A  B   mean(A)   mean(B)      diff        se         T   p-tukey    hedges
+0  F  M  0.189539 -0.199016  0.388555  0.219414  1.770874  0.076582  0.387558
+[0.07658208072912431]
+False 0.07658208072912431
+   reject                pvals
+0   False  0.07658208072912431
+Current Column Cnt = 22; Colum Length = 82
+Len = 82
+              sum_sq    df         F    PR(>F)
+Intercept   0.001209   1.0  0.001179  0.972693
+C(group)    0.002477   1.0  0.002417  0.960911
+Residual   81.997523  80.0       NaN       NaN
+              sum_sq    df         F    PR(>F)
+Intercept   0.001209   1.0  0.001179  0.972693
+C(group)    0.002477   1.0  0.002417  0.960911
+Residual   81.997523  80.0       NaN       NaN
+Saving anova_table table @ /pl/meg/analysis/ica_output/processed_gfp/vis/25/subj/csv/stat/gender_anova_25_colnum_22.csv
+   A  B   mean(A)   mean(B)      diff       se         T  p-tukey   hedges
+0  F  M  0.005364 -0.005632  0.010997  0.22367  0.049164      0.9  0.01076
+[0.9]
+False 0.9
+   reject pvals
+0   False   0.9
+Current Column Cnt = 23; Colum Length = 82
+Len = 82
+              sum_sq    df         F    PR(>F)
+Intercept   1.921580   1.0  1.969317  0.164390
+C(group)    3.939238   1.0  4.037100  0.047883
+Residual   78.060762  80.0       NaN       NaN
+              sum_sq    df         F    PR(>F)
+Intercept   1.921580   1.0  1.969317  0.164390
+C(group)    3.939238   1.0  4.037100  0.047883
+Residual   78.060762  80.0       NaN       NaN
+Saving anova_table table @ /pl/meg/analysis/ica_output/processed_gfp/vis/25/subj/csv/stat/gender_anova_25_colnum_23.csv
+   A  B   mean(A)   mean(B)      diff        se         T   p-tukey    hedges
+0  F  M -0.213897  0.224592 -0.438489  0.218235 -2.009253  0.044509 -0.439727
+[0.0445089945436451]
+True 0.0445089945436451
+   reject               pvals
+0    True  0.0445089945436451
+Current Column Cnt = 24; Colum Length = 82
+Len = 82
+              sum_sq    df         F    PR(>F)
+Intercept   0.820363   1.0  0.817113  0.368740
+C(group)    1.681745   1.0  1.675081  0.199303
+Residual   80.318255  80.0       NaN       NaN
+              sum_sq    df         F    PR(>F)
+Intercept   0.820363   1.0  0.817113  0.368740
+C(group)    1.681745   1.0  1.675081  0.199303
+Residual   80.318255  80.0       NaN       NaN
+Saving anova_table table @ /pl/meg/analysis/ica_output/processed_gfp/vis/25/subj/csv/stat/gender_anova_25_colnum_24.csv
+   A  B   mean(A)   mean(B)      diff        se         T  p-tukey    hedges
+0  F  M  0.139759 -0.146747  0.286505  0.221368  1.294249  0.19558  0.283248
+[0.19557983397489265]
+False 0.19557983397489265
+   reject                pvals
+0   False  0.19557983397489265
+Current Column Cnt = 25; Colum Length = 82
+Len = 82
+              sum_sq    df         F    PR(>F)
+Intercept   0.436628   1.0  0.430679  0.513539
+C(group)    0.895087   1.0  0.882893  0.350239
+Residual   81.104913  80.0       NaN       NaN
+              sum_sq    df         F    PR(>F)
+Intercept   0.436628   1.0  0.430679  0.513539
+C(group)    0.895087   1.0  0.882893  0.350239
+Residual   81.104913  80.0       NaN       NaN
+Saving anova_table table @ /pl/meg/analysis/ica_output/processed_gfp/vis/25/subj/csv/stat/gender_anova_25_colnum_25.csv
+   A  B  mean(A)   mean(B)      diff        se         T  p-tukey    hedges
+0  F  M -0.10196  0.107058 -0.209019  0.222449 -0.939624  0.34741 -0.205638
+[0.347410168096966]
+False 0.347410168096966
+   reject              pvals
+0   False  0.347410168096966
+Cognition Score T-TEST
+Current Column Cnt = 1; Colum Length = 82
+Len = 82
+              sum_sq    df         F    PR(>F)
+Intercept   1.199757   1.0  1.191168  0.278412
+C(group)    2.430326   2.0  1.206463  0.304707
+Residual   79.569674  79.0       NaN       NaN
+              sum_sq    df         F    PR(>F)
+Intercept   1.199757   1.0  1.191168  0.278412
+C(group)    2.430326   2.0  1.206463  0.304707
+Residual   79.569674  79.0       NaN       NaN
+Saving anova_table table @ /pl/meg/analysis/ica_output/processed_gfp/vis/25/subj/csv/stat/cog_group_anova_25_colnum_1.csv
+      A       B   mean(A)   mean(B)  ...        se         T   p-tukey    hedges
+0  High     Low  0.210797 -0.264962  ...  0.310728  1.531111  0.277584  0.465537
+1  High  Medium  0.210797 -0.031241  ...  0.252606  0.958168  0.595131  0.238288
+2   Low  Medium -0.264962 -0.031241  ...  0.292837 -0.798125  0.686607 -0.229571
+
+[3 rows x 9 columns]
+[0.2775842574097591, 0.5951314627761173, 0.6866070264498568]
+[False False False] [0.68660703 0.68660703 0.68660703]
+                  reject                                              pvals
+0  [False, False, False]  [0.6866070264498568, 0.6866070264498568, 0.686...
+Current Column Cnt = 2; Colum Length = 82
+Len = 82
+              sum_sq    df         F    PR(>F)
+Intercept   0.889255   1.0  0.891637  0.347913
+C(group)    3.211029   2.0  1.609815  0.206413
+Residual   78.788971  79.0       NaN       NaN
+              sum_sq    df         F    PR(>F)
+Intercept   0.889255   1.0  0.891637  0.347913
+C(group)    3.211029   2.0  1.609815  0.206413
+Residual   78.788971  79.0       NaN       NaN
+Saving anova_table table @ /pl/meg/analysis/ica_output/processed_gfp/vis/25/subj/csv/stat/cog_group_anova_25_colnum_2.csv
+      A       B   mean(A)   mean(B)  ...        se         T   p-tukey    hedges
+0  High     Low  0.181481  0.187711  ...  0.309200 -0.020147  0.900000 -0.006126
+1  High  Medium  0.181481 -0.212923  ...  0.251363  1.569058  0.260380  0.390211
+2   Low  Medium  0.187711 -0.212923  ...  0.291396  1.374874  0.355552  0.395466
+
+[3 rows x 9 columns]
+[0.9, 0.2603803646389018, 0.35555183251463474]
+[False False False] [0.9        0.53332775 0.53332775]
+                  reject                                          pvals
+0  [False, False, False]  [0.9, 0.5333277487719521, 0.5333277487719521]
+Current Column Cnt = 3; Colum Length = 82
+Len = 82
+              sum_sq    df         F    PR(>F)
+Intercept   1.022677   1.0  1.067440  0.304677
+C(group)    6.312858   2.0  3.294587  0.042240
+Residual   75.687142  79.0       NaN       NaN
+              sum_sq    df         F    PR(>F)
+Intercept   1.022677   1.0  1.067440  0.304677
+C(group)    6.312858   2.0  3.294587  0.042240
+Residual   75.687142  79.0       NaN       NaN
+Saving anova_table table @ /pl/meg/analysis/ica_output/processed_gfp/vis/25/subj/csv/stat/cog_group_anova_25_colnum_3.csv
+      A       B   mean(A)   mean(B)  ...        se         T   p-tukey    hedges
+0  High     Low  0.194620 -0.536674  ...  0.303052  2.413094  0.042838  0.733705
+1  High  Medium  0.194620  0.101808  ...  0.246366  0.376723  0.900000  0.093688
+2   Low  Medium -0.536674  0.101808  ...  0.285603 -2.235558  0.066567 -0.643031
+
+[3 rows x 9 columns]
+[0.042838483865873966, 0.9, 0.06656696402087137]
+[False False False] [0.09985045 0.9        0.09985045]
+                  reject                                            pvals
+0  [False, False, False]  [0.09985044603130705, 0.9, 0.09985044603130705]
+Current Column Cnt = 4; Colum Length = 82
+Len = 82
+              sum_sq    df         F    PR(>F)
+Intercept   5.645606   1.0  6.061229  0.015996
+C(group)    8.417093   2.0  4.518375  0.013869
+Residual   73.582907  79.0       NaN       NaN
+              sum_sq    df         F    PR(>F)
+Intercept   5.645606   1.0  6.061229  0.015996
+C(group)    8.417093   2.0  4.518375  0.013869
+Residual   73.582907  79.0       NaN       NaN
+Saving anova_table table @ /pl/meg/analysis/ica_output/processed_gfp/vis/25/subj/csv/stat/cog_group_anova_25_colnum_4.csv
+      A       B   mean(A)   mean(B)  ...        se         T   p-tukey    hedges
+0  High     Low -0.457271  0.223904  ...  0.298810 -2.279625  0.059839 -0.693124
+1  High  Medium -0.457271  0.224735  ...  0.242917 -2.807568  0.014362 -0.698218
+2   Low  Medium  0.223904  0.224735  ...  0.281605 -0.002953  0.900000 -0.000849
+
+[3 rows x 9 columns]
+[0.059838972055278994, 0.014361765749826727, 0.9]
+[False  True False] [0.08975846 0.0430853  0.9       ]
+                 reject                                            pvals
+0  [False, True, False]  [0.08975845808291849, 0.04308529724948018, 0.9]
+Current Column Cnt = 5; Colum Length = 82
+Len = 82
+              sum_sq    df         F    PR(>F)
+Intercept   1.319878   1.0  1.304980  0.256756
+C(group)    2.098171   2.0  1.037245  0.359206
+Residual   79.901829  79.0       NaN       NaN
+              sum_sq    df         F    PR(>F)
+Intercept   1.319878   1.0  1.304980  0.256756
+C(group)    2.098171   2.0  1.037245  0.359206
+Residual   79.901829  79.0       NaN       NaN
+Saving anova_table table @ /pl/meg/analysis/ica_output/processed_gfp/vis/25/subj/csv/stat/cog_group_anova_25_colnum_5.csv
+      A       B   mean(A)   mean(B)  ...        se         T   p-tukey    hedges
+0  High     Low  0.221098 -0.181325  ...  0.311376  1.292404  0.401299  0.392957
+1  High  Medium  0.221098 -0.075977  ...  0.253132  1.173595  0.470744  0.291863
+2   Low  Medium -0.181325 -0.075977  ...  0.293447 -0.359002  0.900000 -0.103263
+
+[3 rows x 9 columns]
+[0.4012986541296123, 0.47074417285468384, 0.9]
+[False False False] [0.70611626 0.70611626 0.9       ]
+                  reject                                          pvals
+0  [False, False, False]  [0.7061162592820258, 0.7061162592820258, 0.9]
+Current Column Cnt = 6; Colum Length = 82
+Len = 82
+              sum_sq    df         F    PR(>F)
+Intercept   0.513574   1.0  0.499939  0.481608
+C(group)    0.845317   2.0  0.411437  0.664109
+Residual   81.154683  79.0       NaN       NaN
+              sum_sq    df         F    PR(>F)
+Intercept   0.513574   1.0  0.499939  0.481608
+C(group)    0.845317   2.0  0.411437  0.664109
+Residual   81.154683  79.0       NaN       NaN
+Saving anova_table table @ /pl/meg/analysis/ica_output/processed_gfp/vis/25/subj/csv/stat/cog_group_anova_25_colnum_6.csv
+      A       B   mean(A)   mean(B)  ...        se         T   p-tukey    hedges
+0  High     Low  0.137918 -0.010818  ...  0.313807  0.473972  0.871886  0.144112
+1  High  Medium  0.137918 -0.093154  ...  0.255109  0.905776  0.625076  0.225259
+2   Low  Medium -0.010818 -0.093154  ...  0.295739  0.278407  0.900000  0.080080
+
+[3 rows x 9 columns]
+[0.8718861739134698, 0.6250762641280458, 0.9]
+[False False False] [0.9 0.9 0.9]
+                  reject            pvals
+0  [False, False, False]  [0.9, 0.9, 0.9]
+Current Column Cnt = 7; Colum Length = 82
+Len = 82
+              sum_sq    df         F    PR(>F)
+Intercept   0.036946   1.0  0.035786  0.850444
+C(group)    0.438265   2.0  0.212250  0.809222
+Residual   81.561735  79.0       NaN       NaN
+              sum_sq    df         F    PR(>F)
+Intercept   0.036946   1.0  0.035786  0.850444
+C(group)    0.438265   2.0  0.212250  0.809222
+Residual   81.561735  79.0       NaN       NaN
+Saving anova_table table @ /pl/meg/analysis/ica_output/processed_gfp/vis/25/subj/csv/stat/cog_group_anova_25_colnum_7.csv
+      A       B   mean(A)   mean(B)  ...        se         T   p-tukey    hedges
+0  High     Low  0.036991 -0.142952  ...  0.314593  0.571987  0.815862  0.173914
+1  High  Medium  0.036991  0.037669  ...  0.255748 -0.002648  0.900000 -0.000659
+2   Low  Medium -0.142952  0.037669  ...  0.296480 -0.609218  0.794585 -0.175234
+
+[3 rows x 9 columns]
+[0.815862136846153, 0.9, 0.7945849328048731]
+[False False False] [0.9 0.9 0.9]
+                  reject            pvals
+0  [False, False, False]  [0.9, 0.9, 0.9]
+Current Column Cnt = 8; Colum Length = 82
+Len = 82
+              sum_sq    df         F    PR(>F)
+Intercept   3.427527   1.0  3.521606  0.064266
+C(group)    5.110468   2.0  2.625370  0.078724
+Residual   76.889532  79.0       NaN       NaN
+              sum_sq    df         F    PR(>F)
+Intercept   3.427527   1.0  3.521606  0.064266
+C(group)    5.110468   2.0  2.625370  0.078724
+Residual   76.889532  79.0       NaN       NaN
+Saving anova_table table @ /pl/meg/analysis/ica_output/processed_gfp/vis/25/subj/csv/stat/cog_group_anova_25_colnum_8.csv
+      A       B   mean(A)   mean(B)  ...        se         T   p-tukey    hedges
+0  High     Low  0.356294 -0.171205  ...  0.305450  1.726957  0.196422  0.525084
+1  High  Medium  0.356294 -0.176565  ...  0.248315  2.145897  0.082155  0.533666
+2   Low  Medium -0.171205 -0.176565  ...  0.287863  0.018619  0.900000  0.005355
+
+[3 rows x 9 columns]
+[0.1964220637362446, 0.08215544455665291, 0.9]
+[False False False] [0.2946331  0.24646633 0.9       ]
+                  reject                                           pvals
+0  [False, False, False]  [0.2946330956043669, 0.24646633366995874, 0.9]
+Current Column Cnt = 9; Colum Length = 82
+Len = 82
+              sum_sq    df         F    PR(>F)
+Intercept   0.012516   1.0  0.012309  0.911941
+C(group)    1.672830   2.0  0.822596  0.443017
+Residual   80.327170  79.0       NaN       NaN
+              sum_sq    df         F    PR(>F)
+Intercept   0.012516   1.0  0.012309  0.911941
+C(group)    1.672830   2.0  0.822596  0.443017
+Residual   80.327170  79.0       NaN       NaN
+Saving anova_table table @ /pl/meg/analysis/ica_output/processed_gfp/vis/25/subj/csv/stat/cog_group_anova_25_colnum_9.csv
+      A       B   mean(A)   mean(B)  ...        se         T   p-tukey    hedges
+0  High     Low -0.021530 -0.248715  ...  0.312203  0.727682  0.726872  0.221253
+1  High  Medium -0.021530  0.126565  ...  0.253805 -0.583498  0.809283 -0.145111
+2   Low  Medium -0.248715  0.126565  ...  0.294227 -1.275476  0.410984 -0.366875
+
+[3 rows x 9 columns]
+[0.7268716516041399, 0.8092832481049703, 0.4109838198506759]
+[False False False] [0.80928325 0.80928325 0.80928325]
+                  reject                                              pvals
+0  [False, False, False]  [0.8092832481049703, 0.8092832481049703, 0.809...
+Current Column Cnt = 10; Colum Length = 82
+Len = 82
+              sum_sq    df         F    PR(>F)
+Intercept   0.641079   1.0  0.626071  0.431169
+C(group)    1.106273   2.0  0.540187  0.584776
+Residual   80.893727  79.0       NaN       NaN
+              sum_sq    df         F    PR(>F)
+Intercept   0.641079   1.0  0.626071  0.431169
+C(group)    1.106273   2.0  0.540187  0.584776
+Residual   80.893727  79.0       NaN       NaN
+Saving anova_table table @ /pl/meg/analysis/ica_output/processed_gfp/vis/25/subj/csv/stat/cog_group_anova_25_colnum_10.csv
+      A       B   mean(A)   mean(B)  ...        se         T   p-tukey    hedges
+0  High     Low -0.154090  0.153848  ...  0.313303 -0.982877  0.581005 -0.298845
+1  High  Medium -0.154090  0.040658  ...  0.254699 -0.764620  0.705759 -0.190155
+2   Low  Medium  0.153848  0.040658  ...  0.295263  0.383353  0.900000  0.110267
+
+[3 rows x 9 columns]
+[0.5810047508718819, 0.7057592094664993, 0.9]
+[False False False] [0.9 0.9 0.9]
+                  reject            pvals
+0  [False, False, False]  [0.9, 0.9, 0.9]
+Current Column Cnt = 11; Colum Length = 82
+Len = 82
+              sum_sq    df         F    PR(>F)
+Intercept   0.697885   1.0  0.687433  0.409537
+C(group)    1.798821   2.0  0.885940  0.416383
+Residual   80.201179  79.0       NaN       NaN
+              sum_sq    df         F    PR(>F)
+Intercept   0.697885   1.0  0.687433  0.409537
+C(group)    1.798821   2.0  0.885940  0.416383
+Residual   80.201179  79.0       NaN       NaN
+Saving anova_table table @ /pl/meg/analysis/ica_output/processed_gfp/vis/25/subj/csv/stat/cog_group_anova_25_colnum_11.csv
+      A       B   mean(A)   mean(B)  ...        se         T   p-tukey    hedges
+0  High     Low -0.160772 -0.096632  ...  0.311959 -0.205603  0.900000 -0.062514
+1  High  Medium -0.160772  0.157463  ...  0.253606 -1.254838  0.422902 -0.312068
+2   Low  Medium -0.096632  0.157463  ...  0.293996 -0.864280  0.648796 -0.248600
+
+[3 rows x 9 columns]
+[0.9, 0.4229015948053546, 0.6487958590531794]
+[False False False] [0.9 0.9 0.9]
+                  reject            pvals
+0  [False, False, False]  [0.9, 0.9, 0.9]
+Current Column Cnt = 12; Colum Length = 82
+Len = 82
+              sum_sq    df         F    PR(>F)
+Intercept   0.039210   1.0  0.038168  0.845608
+C(group)    0.842599   2.0  0.410100  0.664988
+Residual   81.157401  79.0       NaN       NaN
+              sum_sq    df         F    PR(>F)
+Intercept   0.039210   1.0  0.038168  0.845608
+C(group)    0.842599   2.0  0.410100  0.664988
+Residual   81.157401  79.0       NaN       NaN
+Saving anova_table table @ /pl/meg/analysis/ica_output/processed_gfp/vis/25/subj/csv/stat/cog_group_anova_25_colnum_12.csv
+      A       B   mean(A)   mean(B)  ...        se         T   p-tukey    hedges
+0  High     Low  0.038108 -0.197226  ...  0.313813  0.749919  0.714163  0.228014
+1  High  Medium  0.038108  0.061156  ...  0.255114 -0.090342  0.900000 -0.022467
+2   Low  Medium -0.197226  0.061156  ...  0.295744 -0.873668  0.643427 -0.251300
+
+[3 rows x 9 columns]
+[0.7141626256736322, 0.9, 0.6434265465883646]
+[False False False] [0.9 0.9 0.9]
+                  reject            pvals
+0  [False, False, False]  [0.9, 0.9, 0.9]
+Current Column Cnt = 13; Colum Length = 82
+Len = 82
+              sum_sq    df         F    PR(>F)
+Intercept   0.027441   1.0  0.027410  0.868927
+C(group)    2.910466   2.0  1.453586  0.239913
+Residual   79.089534  79.0       NaN       NaN
+              sum_sq    df         F    PR(>F)
+Intercept   0.027441   1.0  0.027410  0.868927
+C(group)    2.910466   2.0  1.453586  0.239913
+Residual   79.089534  79.0       NaN       NaN
+Saving anova_table table @ /pl/meg/analysis/ica_output/processed_gfp/vis/25/subj/csv/stat/cog_group_anova_25_colnum_13.csv
+      A       B   mean(A)   mean(B)  ...        se         T   p-tukey    hedges
+0  High     Low  0.031880 -0.357152  ...  0.309789  1.255796  0.422348  0.381827
+1  High  Medium  0.031880  0.137127  ...  0.251842 -0.417909  0.900000 -0.103930
+2   Low  Medium -0.357152  0.137127  ...  0.291952 -1.693017  0.209173 -0.486976
+
+[3 rows x 9 columns]
+[0.4223477378213323, 0.9, 0.209172755756173]
+[False False False] [0.63352161 0.9        0.62751827]
+                  reject                                         pvals
+0  [False, False, False]  [0.6335216067319984, 0.9, 0.627518267268519]
+Current Column Cnt = 14; Colum Length = 82
+Len = 82
+              sum_sq    df         F    PR(>F)
+Intercept   0.011593   1.0  0.011178  0.916067
+C(group)    0.066532   2.0  0.032075  0.968447
+Residual   81.933468  79.0       NaN       NaN
+              sum_sq    df         F    PR(>F)
+Intercept   0.011593   1.0  0.011178  0.916067
+C(group)    0.066532   2.0  0.032075  0.968447
+Residual   81.933468  79.0       NaN       NaN
+Saving anova_table table @ /pl/meg/analysis/ica_output/processed_gfp/vis/25/subj/csv/stat/cog_group_anova_25_colnum_14.csv
+      A       B   mean(A)   mean(B)  ...        se         T  p-tukey    hedges
+0  High     Low -0.020722 -0.034566  ...  0.315310  0.043906      0.9  0.013350
+1  High  Medium -0.020722  0.030187  ...  0.256330 -0.198605      0.9 -0.049391
+2   Low  Medium -0.034566  0.030187  ...  0.297154 -0.217909      0.9 -0.062679
+
+[3 rows x 9 columns]
+[0.9, 0.9, 0.9]
+[False False False] [0.9 0.9 0.9]
+                  reject            pvals
+0  [False, False, False]  [0.9, 0.9, 0.9]
+Current Column Cnt = 15; Colum Length = 82
+Len = 82
+              sum_sq    df         F    PR(>F)
+Intercept   0.011325   1.0  0.010949  0.916929
+C(group)    0.288183   2.0  0.139310  0.870172
+Residual   81.711817  79.0       NaN       NaN
+              sum_sq    df         F    PR(>F)
+Intercept   0.011325   1.0  0.010949  0.916929
+C(group)    0.288183   2.0  0.139310  0.870172
+Residual   81.711817  79.0       NaN       NaN
+Saving anova_table table @ /pl/meg/analysis/ica_output/processed_gfp/vis/25/subj/csv/stat/cog_group_anova_25_colnum_15.csv
+      A       B   mean(A)   mean(B)  ...        se         T   p-tukey    hedges
+0  High     Low  0.020480  0.094951  ...  0.314883 -0.236504  0.900000 -0.071910
+1  High  Medium  0.020480 -0.057030  ...  0.255983  0.302793  0.900000  0.075302
+2   Low  Medium  0.094951 -0.057030  ...  0.296752  0.512148  0.850066  0.147313
+
+[3 rows x 9 columns]
+[0.9, 0.9, 0.8500656779401259]
+[False False False] [0.9 0.9 0.9]
+                  reject            pvals
+0  [False, False, False]  [0.9, 0.9, 0.9]
+Current Column Cnt = 16; Colum Length = 82
+Len = 82
+              sum_sq    df         F    PR(>F)
+Intercept   0.068386   1.0  0.067447  0.795767
+C(group)    1.899635   2.0  0.936770  0.396201
+Residual   80.100365  79.0       NaN       NaN
+              sum_sq    df         F    PR(>F)
+Intercept   0.068386   1.0  0.067447  0.795767
+C(group)    1.899635   2.0  0.936770  0.396201
+Residual   80.100365  79.0       NaN       NaN
+Saving anova_table table @ /pl/meg/analysis/ica_output/processed_gfp/vis/25/subj/csv/stat/cog_group_anova_25_colnum_16.csv
+      A       B   mean(A)   mean(B)  ...        se         T   p-tukey    hedges
+0  High     Low  0.050327  0.245591  ...  0.311762 -0.626324  0.784806 -0.190435
+1  High  Medium  0.050327 -0.145629  ...  0.253447  0.773163  0.700878  0.192279
+2   Low  Medium  0.245591 -0.145629  ...  0.293811  1.331534  0.379272  0.382999
+
+[3 rows x 9 columns]
+[0.7848059216030655, 0.7008780518107214, 0.37927195131936986]
+[False False False] [0.78480592 0.78480592 0.78480592]
+                  reject                                              pvals
+0  [False, False, False]  [0.7848059216030655, 0.7848059216030655, 0.784...
+Current Column Cnt = 17; Colum Length = 82
+Len = 82
+              sum_sq    df         F    PR(>F)
+Intercept   0.121379   1.0  0.117530  0.732640
+C(group)    0.412607   2.0  0.199761  0.819339
+Residual   81.587393  79.0       NaN       NaN
+              sum_sq    df         F    PR(>F)
+Intercept   0.121379   1.0  0.117530  0.732640
+C(group)    0.412607   2.0  0.199761  0.819339
+Residual   81.587393  79.0       NaN       NaN
+Saving anova_table table @ /pl/meg/analysis/ica_output/processed_gfp/vis/25/subj/csv/stat/cog_group_anova_25_colnum_17.csv
+      A       B   mean(A)   mean(B)  ...        se         T   p-tukey    hedges
+0  High     Low -0.067049  0.129942  ...  0.314643 -0.626077  0.784947 -0.190360
+1  High  Medium -0.067049 -0.010492  ...  0.255788 -0.221106  0.900000 -0.054987
+2   Low  Medium  0.129942 -0.010492  ...  0.296526  0.473599  0.872101  0.136225
+
+[3 rows x 9 columns]
+[0.7849471881050079, 0.9, 0.872101375593633]
+[False False False] [0.9 0.9 0.9]
+                  reject            pvals
+0  [False, False, False]  [0.9, 0.9, 0.9]
+Current Column Cnt = 18; Colum Length = 82
+Len = 82
+              sum_sq    df        F    PR(>F)
+Intercept   1.397215   1.0  1.38242  0.243220
+C(group)    2.154573   2.0  1.06588  0.349325
+Residual   79.845427  79.0      NaN       NaN
+              sum_sq    df        F    PR(>F)
+Intercept   1.397215   1.0  1.38242  0.243220
+C(group)    2.154573   2.0  1.06588  0.349325
+Residual   79.845427  79.0      NaN       NaN
+Saving anova_table table @ /pl/meg/analysis/ica_output/processed_gfp/vis/25/subj/csv/stat/cog_group_anova_25_colnum_18.csv
+      A       B   mean(A)   mean(B)  ...        se         T  p-tukey    hedges
+0  High     Low -0.227483  0.057785  ...  0.311266 -0.916479  0.61896 -0.278657
+1  High  Medium -0.227483  0.135782  ...  0.253043 -1.435586  0.32373 -0.357018
+2   Low  Medium  0.057785  0.135782  ...  0.293344 -0.265888  0.90000 -0.076479
+
+[3 rows x 9 columns]
+[0.6189596772392951, 0.32372988751898923, 0.9]
+[False False False] [0.9 0.9 0.9]
+                  reject            pvals
+0  [False, False, False]  [0.9, 0.9, 0.9]
+Current Column Cnt = 19; Colum Length = 82
+Len = 82
+              sum_sq    df         F    PR(>F)
+Intercept   0.021196   1.0  0.020734  0.885872
+C(group)    1.240753   2.0  0.606862  0.547579
+Residual   80.759247  79.0       NaN       NaN
+              sum_sq    df         F    PR(>F)
+Intercept   0.021196   1.0  0.020734  0.885872
+C(group)    1.240753   2.0  0.606862  0.547579
+Residual   80.759247  79.0       NaN       NaN
+Saving anova_table table @ /pl/meg/analysis/ica_output/processed_gfp/vis/25/subj/csv/stat/cog_group_anova_25_colnum_19.csv
+      A       B   mean(A)   mean(B)  ...        se         T   p-tukey    hedges
+0  High     Low  0.028018 -0.235434  ...  0.313042  0.841590  0.661765  0.255887
+1  High  Medium  0.028018  0.085418  ...  0.254487 -0.225551  0.900000 -0.056093
+2   Low  Medium -0.235434  0.085418  ...  0.295017 -1.087572  0.521166 -0.312827
+
+[3 rows x 9 columns]
+[0.6617646754871844, 0.9, 0.521166451603566]
+[False False False] [0.9 0.9 0.9]
+                  reject            pvals
+0  [False, False, False]  [0.9, 0.9, 0.9]
+Current Column Cnt = 20; Colum Length = 82
+Len = 82
+              sum_sq    df         F    PR(>F)
+Intercept   1.828473   1.0  1.836807  0.179188
+C(group)    3.358465   2.0  1.686887  0.191693
+Residual   78.641535  79.0       NaN       NaN
+              sum_sq    df         F    PR(>F)
+Intercept   1.828473   1.0  1.836807  0.179188
+C(group)    3.358465   2.0  1.686887  0.191693
+Residual   78.641535  79.0       NaN       NaN
+Saving anova_table table @ /pl/meg/analysis/ica_output/processed_gfp/vis/25/subj/csv/stat/cog_group_anova_25_colnum_20.csv
+      A       B   mean(A)   mean(B)  ...        se         T   p-tukey    hedges
+0  High     Low -0.260233 -0.032564  ...  0.308910 -0.737005  0.721543 -0.224088
+1  High  Medium -0.260233  0.199471  ...  0.251128 -1.830554  0.161043 -0.455243
+2   Low  Medium -0.032564  0.199471  ...  0.291124 -0.797033  0.687235 -0.229257
+
+[3 rows x 9 columns]
+[0.7215427878811644, 0.16104267013257034, 0.6872349231354327]
+[False False False] [0.72154279 0.48312801 0.72154279]
+                  reject                                              pvals
+0  [False, False, False]  [0.7215427878811644, 0.483128010397711, 0.7215...
+Current Column Cnt = 21; Colum Length = 82
+Len = 82
+              sum_sq    df         F    PR(>F)
+Intercept   1.225882   1.0  1.208961  0.274877
+C(group)    1.894299   2.0  0.934076  0.397245
+Residual   80.105701  79.0       NaN       NaN
+              sum_sq    df         F    PR(>F)
+Intercept   1.225882   1.0  1.208961  0.274877
+C(group)    1.894299   2.0  0.934076  0.397245
+Residual   80.105701  79.0       NaN       NaN
+Saving anova_table table @ /pl/meg/analysis/ica_output/processed_gfp/vis/25/subj/csv/stat/cog_group_anova_25_colnum_21.csv
+      A       B   mean(A)   mean(B)  ...        se         T   p-tukey    hedges
+0  High     Low -0.213080  0.052568  ...  0.311773 -0.852057  0.655781 -0.259069
+1  High  Medium -0.213080  0.127881  ...  0.253455 -1.345253  0.371681 -0.334553
+2   Low  Medium  0.052568  0.127881  ...  0.293821 -0.256323  0.900000 -0.073728
+
+[3 rows x 9 columns]
+[0.6557807019914028, 0.3716810284035593, 0.9]
+[False False False] [0.9 0.9 0.9]
+                  reject            pvals
+0  [False, False, False]  [0.9, 0.9, 0.9]
+Current Column Cnt = 22; Colum Length = 82
+Len = 82
+              sum_sq    df         F    PR(>F)
+Intercept   0.099282   1.0  0.098659  0.754272
+C(group)    2.501816   2.0  1.243069  0.294078
+Residual   79.498184  79.0       NaN       NaN
+              sum_sq    df         F    PR(>F)
+Intercept   0.099282   1.0  0.098659  0.754272
+C(group)    2.501816   2.0  1.243069  0.294078
+Residual   79.498184  79.0       NaN       NaN
+Saving anova_table table @ /pl/meg/analysis/ica_output/processed_gfp/vis/25/subj/csv/stat/cog_group_anova_25_colnum_22.csv
+      A       B   mean(A)   mean(B)  ...        se         T   p-tukey    hedges
+0  High     Low  0.060639  0.279525  ...  0.310588 -0.704746  0.739981 -0.214279
+1  High  Medium  0.060639 -0.168136  ...  0.252492  0.906069  0.624910  0.225332
+2   Low  Medium  0.279525 -0.168136  ...  0.292705  1.529394  0.278379  0.439912
+
+[3 rows x 9 columns]
+[0.7399811618080496, 0.6249100895089377, 0.278378734684269]
+[False False False] [0.73998116 0.73998116 0.73998116]
+                  reject                                              pvals
+0  [False, False, False]  [0.7399811618080496, 0.7399811618080496, 0.739...
+Current Column Cnt = 23; Colum Length = 82
+Len = 82
+              sum_sq    df         F    PR(>F)
+Intercept   2.484571   1.0  2.783572  0.099195
+C(group)   11.485895   2.0  6.434072  0.002578
+Residual   70.514105  79.0       NaN       NaN
+              sum_sq    df         F    PR(>F)
+Intercept   2.484571   1.0  2.783572  0.099195
+C(group)   11.485895   2.0  6.434072  0.002578
+Residual   70.514105  79.0       NaN       NaN
+Saving anova_table table @ /pl/meg/analysis/ica_output/processed_gfp/vis/25/subj/csv/stat/cog_group_anova_25_colnum_23.csv
+      A       B   mean(A)   mean(B)  ...        se         T   p-tukey    hedges
+0  High     Low  0.303350 -0.711286  ...  0.292513  3.468692  0.001628  1.054662
+1  High  Medium  0.303350  0.102669  ...  0.237798  0.843915  0.660434  0.209875
+2   Low  Medium -0.711286  0.102669  ...  0.275670 -2.952642  0.009243 -0.849291
+
+[3 rows x 9 columns]
+[0.0016282437583557963, 0.6604336885409257, 0.009242882717110601]
+[ True False  True] [0.00488473 0.66043369 0.01386432]
+                reject                                              pvals
+0  [True, False, True]  [0.004884731275067389, 0.6604336885409257, 0.0...
+Current Column Cnt = 24; Colum Length = 82
+Len = 82
+              sum_sq    df         F    PR(>F)
+Intercept   0.833458   1.0  0.825124  0.366449
+C(group)    2.202036   2.0  1.090008  0.341216
+Residual   79.797964  79.0       NaN       NaN
+              sum_sq    df         F    PR(>F)
+Intercept   0.833458   1.0  0.825124  0.366449
+C(group)    2.202036   2.0  1.090008  0.341216
+Residual   79.797964  79.0       NaN       NaN
+Saving anova_table table @ /pl/meg/analysis/ica_output/processed_gfp/vis/25/subj/csv/stat/cog_group_anova_25_colnum_24.csv
+      A       B   mean(A)   mean(B)  ...        se         T   p-tukey    hedges
+0  High     Low -0.175695  0.283716  ...  0.311173 -1.476384  0.303554 -0.448897
+1  High  Medium -0.175695 -0.002089  ...  0.252968 -0.686276  0.750537 -0.170671
+2   Low  Medium  0.283716 -0.002089  ...  0.293256  0.974593  0.585742  0.280330
+
+[3 rows x 9 columns]
+[0.30355387546465695, 0.750537387278601, 0.5857419576502618]
+[False False False] [0.75053739 0.75053739 0.75053739]
+                  reject                                              pvals
+0  [False, False, False]  [0.750537387278601, 0.750537387278601, 0.75053...
+Current Column Cnt = 25; Colum Length = 82
+Len = 82
+              sum_sq    df         F    PR(>F)
+Intercept   0.852974   1.0  0.834716  0.363692
+C(group)    1.271996   2.0  0.622384  0.539274
+Residual   80.728004  79.0       NaN       NaN
+              sum_sq    df         F    PR(>F)
+Intercept   0.852974   1.0  0.834716  0.363692
+C(group)    1.271996   2.0  0.622384  0.539274
+Residual   80.728004  79.0       NaN       NaN
+Saving anova_table table @ /pl/meg/analysis/ica_output/processed_gfp/vis/25/subj/csv/stat/cog_group_anova_25_colnum_25.csv
+      A       B   mean(A)   mean(B)  ...        se         T   p-tukey    hedges
+0  High     Low  0.177740 -0.083828  ...  0.312981  0.835733  0.665111  0.254106
+1  High  Medium  0.177740 -0.088787  ...  0.254438  1.047515  0.544060  0.260508
+2   Low  Medium -0.083828 -0.088787  ...  0.294960  0.016811  0.900000  0.004836
+
+[3 rows x 9 columns]
+[0.6651111625628101, 0.5440604139648746, 0.9]
+[False False False] [0.9 0.9 0.9]
+                  reject            pvals
+0  [False, False, False]  [0.9, 0.9, 0.9]
+Saved Gender Significance @/pl/meg/analysis/ica_output/processed_gfp/vis/25/subj/csv/stat/vis25_gen_sign_id.csv
+Saved Cognition Significance @25/pl/meg/analysis/ica_output/processed_gfp/vis/25/subj/csv/stat/vis25_cog_sign_id.csv

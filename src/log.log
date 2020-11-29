@@ -1,0 +1,92 @@
+Reading TC @ /pl/meg/analysis/ica_output/processed_gfp/vis/2/subj/data/agg/tc_vis_2.npy; TC.shape: (2, 82)
+Reading TP @ /pl/meg/analysis/ica_output/processed_gfp/vis/2/subj/data/agg/tp_vis_2.npy; TP.shape: (2, 1101)
+Reading /pl/meg/analysis/ica_output/data/session1/aud/merged/merged_vis_all-ave.fif ...
+    Read a total of 2 projection items:
+        axial-999--0.100-0.550-PCA-01 (1 x 102) active
+        axial-999--0.100-0.550-PCA-02 (1 x 102) active
+    Found the data of interest:
+        t =       0.00 ...    1100.00 ms (No comment)
+        0 CTF compensation matrices available
+        nave = 102 - aspect type = 101
+Projections have already been applied. Setting proj attribute to True.
+Applying baseline correction (mode: mean)
+(2, 1101)
+Montage = <DigMontage | 65 extras (headshape), 4 HPIs, 3 fiducials, 0 channels>
+[{'channels': array([333], dtype=int32), 'list': array([  27125,       0,     256, ..., 1048279,     256,       0],
+      dtype=int32)}]
+Channels Name = ['MEG0121', 'MEG0141', 'MEG0221', 'MEG0241', 'MEG0321', 'MEG0341', 'MEG0421', 'MEG0441', 'MEG0521', 'MEG0541', 'MEG0621', 'MEG0641', 'MEG0721', 'MEG0741', 'MEG0821', 'MEG0921', 'MEG0941', 'MEG1021', 'MEG1041', 'MEG1121', 'MEG1131', 'MEG1141', 'MEG1211', 'MEG1221', 'MEG1231', 'MEG1241', 'MEG1311', 'MEG1321', 'MEG1331', 'MEG1341', 'MEG1411', 'MEG1421', 'MEG1431', 'MEG1441', 'MEG1511', 'MEG1521', 'MEG1531', 'MEG1541', 'MEG1611', 'MEG1621', 'MEG1631', 'MEG1641', 'MEG1711', 'MEG1721', 'MEG1731', 'MEG1741', 'MEG1811', 'MEG1821', 'MEG1831', 'MEG1841', 'MEG1911', 'MEG1921', 'MEG1931', 'MEG1941', 'MEG2011', 'MEG2021', 'MEG2031', 'MEG2041', 'MEG2111', 'MEG2121', 'MEG2131', 'MEG2141', 'MEG2211', 'MEG2221', 'MEG2231', 'MEG2241', 'MEG2311', 'MEG2321', 'MEG2331', 'MEG2341', 'MEG2411', 'MEG2421', 'MEG2431', 'MEG2441', 'MEG2511', 'MEG2521', 'MEG2531', 'MEG2541', 'MEG2611', 'MEG2621', 'MEG2631', 'MEG2641']
+To delete Channels = 80
+Channels Length = 2
+Subject Info = <Info | 25 non-empty values
+ acq_pars: ACQch001 110113 ACQch002 110112 ACQch003 110111 ACQch004 110122 ...
+ bads: []
+ ch_names: MEG0121, MEG0141
+ chs: 2 MAG
+ custom_ref_applied: False
+ description: Vectorview system at MRN
+ dev_head_t: MEG device -> head transform
+ dig: 72 items (3 Cardinal, 4 HPI, 65 Extra)
+ events: 1 item (list)
+ experimenter: MEG (meg)
+ file_id: 4 items (dict)
+ highpass: 1.0 Hz
+ hpi_meas: 1 item (list)
+ hpi_results: 1 item (list)
+ hpi_subsystem: 2 items (dict)
+ line_freq: 60.0
+ lowpass: 50.0 Hz
+ maxshield: False
+ meas_date: 2018-06-12 15:48:06 UTC
+ meas_id: 4 items (dict)
+ nchan: 2
+ proc_history: 1 item (list)
+ proj_id: 1 item (ndarray)
+ proj_name: jstephen_devcog
+ projs: axial-999--0.100-0.550-PCA-01: on, axial-999--0.100-0.550-PCA-02: on
+ sfreq: 1000.0 Hz
+ subject_info: 6 items (dict)
+>
+<Evoked | '4' (standard_error, N=1), [0, 1.1] sec, 2 ch, ~4.9 MB>
+(2, 1101)
+Evoked = <Evoked | '4' (standard_error, N=1), [0, 1.1] sec, 2 ch, ~4.9 MB>
+Evoked Info = <Info | 25 non-empty values
+ acq_pars: ACQch001 110113 ACQch002 110112 ACQch003 110111 ACQch004 110122 ...
+ bads: []
+ ch_names: MEG0121, MEG0141
+ chs: 2 MAG
+ custom_ref_applied: False
+ description: Vectorview system at MRN
+ dev_head_t: MEG device -> head transform
+ dig: 72 items (3 Cardinal, 4 HPI, 65 Extra)
+ events: 1 item (list)
+ experimenter: MEG (meg)
+ file_id: 4 items (dict)
+ highpass: 1.0 Hz
+ hpi_meas: 1 item (list)
+ hpi_results: 1 item (list)
+ hpi_subsystem: 2 items (dict)
+ line_freq: 60.0
+ lowpass: 50.0 Hz
+ maxshield: False
+ meas_date: 2018-06-12 15:48:06 UTC
+ meas_id: 4 items (dict)
+ nchan: 2
+ proc_history: 1 item (list)
+ proj_id: 1 item (ndarray)
+ proj_name: jstephen_devcog
+ projs: axial-999--0.100-0.550-PCA-01: on, axial-999--0.100-0.550-PCA-02: on
+ sfreq: 1000.0 Hz
+ subject_info: 6 items (dict)
+>
+data shape = (1101,)
+Saving figure /pl/meg/analysis/ica_output/processed_gfp/vis/2/subj/fig/vis_agg_2_2_evoked_VIS_1.pdf
+data shape = (1101,)
+Saving figure /pl/meg/analysis/ica_output/processed_gfp/vis/2/subj/fig/vis_agg_2_2_evoked_VIS_2.pdf
+[<AxesSubplot:> <AxesSubplot:>]
+data shape = (1101,)
+data shape = (1101,)
+Saving figure /pl/meg/analysis/ica_output/processed_gfp/vis/2/subj/fig/vis_tc_grid_agg_2_2_evoked_VIS_2.pdf
+Min = -1.1345372886750135e-14
+Max = 1.1345372886750135e-14
+data shape = (1101,)
+Montage = <DigMontage | 65 extras (headshape), 4 HPIs, 3 fiducials, 0 channels>

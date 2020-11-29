@@ -1,0 +1,704 @@
+Saved TC @ /pl/meg/analysis/ica_output/processed_gfp/aud/5/subj/data/agg/tc_aud_5.npy
+Saved TP @ /pl/meg/analysis/ica_output/processed_gfp/aud/5/subj/data/agg/tp_aud_5.npy
+Reading /pl/meg/analysis/ica_output/data/session1/aud/merged/merged_aud_all-ave.fif ...
+    Read a total of 2 projection items:
+        axial-999--0.100-0.550-PCA-01 (1 x 102) active
+        axial-999--0.100-0.550-PCA-02 (1 x 102) active
+    Found the data of interest:
+        t =       0.00 ...    1100.00 ms (No comment)
+        0 CTF compensation matrices available
+        nave = 102 - aspect type = 101
+Projections have already been applied. Setting proj attribute to True.
+Applying baseline correction (mode: mean)
+Evoked fif = <Evoked | 'No comment' (standard_error, N=102), [0, 1.1] sec, 82 ch, ~5.7 MB>
+Evoked data shape= (82, 1101)
+w_k_1D shape = (5, 1)
+x_k_1D.shape = (1101, 1)
+y_k.shape = (5, 1101)
+/pl/meg/analysis/ica_output/processed_gfp/aud/5/subj/source/y_1.npy
+w_k_1D shape = (5, 1)
+x_k_1D.shape = (1101, 1)
+y_k.shape = (5, 1101)
+/pl/meg/analysis/ica_output/processed_gfp/aud/5/subj/source/y_2.npy
+w_k_1D shape = (5, 1)
+x_k_1D.shape = (1101, 1)
+y_k.shape = (5, 1101)
+/pl/meg/analysis/ica_output/processed_gfp/aud/5/subj/source/y_3.npy
+w_k_1D shape = (5, 1)
+x_k_1D.shape = (1101, 1)
+y_k.shape = (5, 1101)
+/pl/meg/analysis/ica_output/processed_gfp/aud/5/subj/source/y_4.npy
+w_k_1D shape = (5, 1)
+x_k_1D.shape = (1101, 1)
+y_k.shape = (5, 1101)
+/pl/meg/analysis/ica_output/processed_gfp/aud/5/subj/source/y_5.npy
+w_k_1D shape = (5, 1)
+x_k_1D.shape = (1101, 1)
+y_k.shape = (5, 1101)
+/pl/meg/analysis/ica_output/processed_gfp/aud/5/subj/source/y_6.npy
+w_k_1D shape = (5, 1)
+x_k_1D.shape = (1101, 1)
+y_k.shape = (5, 1101)
+/pl/meg/analysis/ica_output/processed_gfp/aud/5/subj/source/y_7.npy
+w_k_1D shape = (5, 1)
+x_k_1D.shape = (1101, 1)
+y_k.shape = (5, 1101)
+/pl/meg/analysis/ica_output/processed_gfp/aud/5/subj/source/y_8.npy
+w_k_1D shape = (5, 1)
+x_k_1D.shape = (1101, 1)
+y_k.shape = (5, 1101)
+/pl/meg/analysis/ica_output/processed_gfp/aud/5/subj/source/y_9.npy
+w_k_1D shape = (5, 1)
+x_k_1D.shape = (1101, 1)
+y_k.shape = (5, 1101)
+/pl/meg/analysis/ica_output/processed_gfp/aud/5/subj/source/y_10.npy
+w_k_1D shape = (5, 1)
+x_k_1D.shape = (1101, 1)
+y_k.shape = (5, 1101)
+/pl/meg/analysis/ica_output/processed_gfp/aud/5/subj/source/y_11.npy
+w_k_1D shape = (5, 1)
+x_k_1D.shape = (1101, 1)
+y_k.shape = (5, 1101)
+/pl/meg/analysis/ica_output/processed_gfp/aud/5/subj/source/y_12.npy
+w_k_1D shape = (5, 1)
+x_k_1D.shape = (1101, 1)
+y_k.shape = (5, 1101)
+/pl/meg/analysis/ica_output/processed_gfp/aud/5/subj/source/y_13.npy
+w_k_1D shape = (5, 1)
+x_k_1D.shape = (1101, 1)
+y_k.shape = (5, 1101)
+/pl/meg/analysis/ica_output/processed_gfp/aud/5/subj/source/y_14.npy
+w_k_1D shape = (5, 1)
+x_k_1D.shape = (1101, 1)
+y_k.shape = (5, 1101)
+/pl/meg/analysis/ica_output/processed_gfp/aud/5/subj/source/y_15.npy
+w_k_1D shape = (5, 1)
+x_k_1D.shape = (1101, 1)
+y_k.shape = (5, 1101)
+/pl/meg/analysis/ica_output/processed_gfp/aud/5/subj/source/y_16.npy
+w_k_1D shape = (5, 1)
+x_k_1D.shape = (1101, 1)
+y_k.shape = (5, 1101)
+/pl/meg/analysis/ica_output/processed_gfp/aud/5/subj/source/y_17.npy
+w_k_1D shape = (5, 1)
+x_k_1D.shape = (1101, 1)
+y_k.shape = (5, 1101)
+/pl/meg/analysis/ica_output/processed_gfp/aud/5/subj/source/y_18.npy
+w_k_1D shape = (5, 1)
+x_k_1D.shape = (1101, 1)
+y_k.shape = (5, 1101)
+/pl/meg/analysis/ica_output/processed_gfp/aud/5/subj/source/y_19.npy
+w_k_1D shape = (5, 1)
+x_k_1D.shape = (1101, 1)
+y_k.shape = (5, 1101)
+/pl/meg/analysis/ica_output/processed_gfp/aud/5/subj/source/y_20.npy
+w_k_1D shape = (5, 1)
+x_k_1D.shape = (1101, 1)
+y_k.shape = (5, 1101)
+/pl/meg/analysis/ica_output/processed_gfp/aud/5/subj/source/y_21.npy
+w_k_1D shape = (5, 1)
+x_k_1D.shape = (1101, 1)
+y_k.shape = (5, 1101)
+/pl/meg/analysis/ica_output/processed_gfp/aud/5/subj/source/y_22.npy
+w_k_1D shape = (5, 1)
+x_k_1D.shape = (1101, 1)
+y_k.shape = (5, 1101)
+/pl/meg/analysis/ica_output/processed_gfp/aud/5/subj/source/y_23.npy
+w_k_1D shape = (5, 1)
+x_k_1D.shape = (1101, 1)
+y_k.shape = (5, 1101)
+/pl/meg/analysis/ica_output/processed_gfp/aud/5/subj/source/y_24.npy
+w_k_1D shape = (5, 1)
+x_k_1D.shape = (1101, 1)
+y_k.shape = (5, 1101)
+/pl/meg/analysis/ica_output/processed_gfp/aud/5/subj/source/y_25.npy
+w_k_1D shape = (5, 1)
+x_k_1D.shape = (1101, 1)
+y_k.shape = (5, 1101)
+/pl/meg/analysis/ica_output/processed_gfp/aud/5/subj/source/y_26.npy
+w_k_1D shape = (5, 1)
+x_k_1D.shape = (1101, 1)
+y_k.shape = (5, 1101)
+/pl/meg/analysis/ica_output/processed_gfp/aud/5/subj/source/y_27.npy
+w_k_1D shape = (5, 1)
+x_k_1D.shape = (1101, 1)
+y_k.shape = (5, 1101)
+/pl/meg/analysis/ica_output/processed_gfp/aud/5/subj/source/y_28.npy
+w_k_1D shape = (5, 1)
+x_k_1D.shape = (1101, 1)
+y_k.shape = (5, 1101)
+/pl/meg/analysis/ica_output/processed_gfp/aud/5/subj/source/y_29.npy
+w_k_1D shape = (5, 1)
+x_k_1D.shape = (1101, 1)
+y_k.shape = (5, 1101)
+/pl/meg/analysis/ica_output/processed_gfp/aud/5/subj/source/y_30.npy
+w_k_1D shape = (5, 1)
+x_k_1D.shape = (1101, 1)
+y_k.shape = (5, 1101)
+/pl/meg/analysis/ica_output/processed_gfp/aud/5/subj/source/y_31.npy
+w_k_1D shape = (5, 1)
+x_k_1D.shape = (1101, 1)
+y_k.shape = (5, 1101)
+/pl/meg/analysis/ica_output/processed_gfp/aud/5/subj/source/y_32.npy
+w_k_1D shape = (5, 1)
+x_k_1D.shape = (1101, 1)
+y_k.shape = (5, 1101)
+/pl/meg/analysis/ica_output/processed_gfp/aud/5/subj/source/y_33.npy
+w_k_1D shape = (5, 1)
+x_k_1D.shape = (1101, 1)
+y_k.shape = (5, 1101)
+/pl/meg/analysis/ica_output/processed_gfp/aud/5/subj/source/y_34.npy
+w_k_1D shape = (5, 1)
+x_k_1D.shape = (1101, 1)
+y_k.shape = (5, 1101)
+/pl/meg/analysis/ica_output/processed_gfp/aud/5/subj/source/y_35.npy
+w_k_1D shape = (5, 1)
+x_k_1D.shape = (1101, 1)
+y_k.shape = (5, 1101)
+/pl/meg/analysis/ica_output/processed_gfp/aud/5/subj/source/y_36.npy
+w_k_1D shape = (5, 1)
+x_k_1D.shape = (1101, 1)
+y_k.shape = (5, 1101)
+/pl/meg/analysis/ica_output/processed_gfp/aud/5/subj/source/y_37.npy
+w_k_1D shape = (5, 1)
+x_k_1D.shape = (1101, 1)
+y_k.shape = (5, 1101)
+/pl/meg/analysis/ica_output/processed_gfp/aud/5/subj/source/y_38.npy
+w_k_1D shape = (5, 1)
+x_k_1D.shape = (1101, 1)
+y_k.shape = (5, 1101)
+/pl/meg/analysis/ica_output/processed_gfp/aud/5/subj/source/y_39.npy
+w_k_1D shape = (5, 1)
+x_k_1D.shape = (1101, 1)
+y_k.shape = (5, 1101)
+/pl/meg/analysis/ica_output/processed_gfp/aud/5/subj/source/y_40.npy
+w_k_1D shape = (5, 1)
+x_k_1D.shape = (1101, 1)
+y_k.shape = (5, 1101)
+/pl/meg/analysis/ica_output/processed_gfp/aud/5/subj/source/y_41.npy
+w_k_1D shape = (5, 1)
+x_k_1D.shape = (1101, 1)
+y_k.shape = (5, 1101)
+/pl/meg/analysis/ica_output/processed_gfp/aud/5/subj/source/y_42.npy
+w_k_1D shape = (5, 1)
+x_k_1D.shape = (1101, 1)
+y_k.shape = (5, 1101)
+/pl/meg/analysis/ica_output/processed_gfp/aud/5/subj/source/y_43.npy
+w_k_1D shape = (5, 1)
+x_k_1D.shape = (1101, 1)
+y_k.shape = (5, 1101)
+/pl/meg/analysis/ica_output/processed_gfp/aud/5/subj/source/y_44.npy
+w_k_1D shape = (5, 1)
+x_k_1D.shape = (1101, 1)
+y_k.shape = (5, 1101)
+/pl/meg/analysis/ica_output/processed_gfp/aud/5/subj/source/y_45.npy
+w_k_1D shape = (5, 1)
+x_k_1D.shape = (1101, 1)
+y_k.shape = (5, 1101)
+/pl/meg/analysis/ica_output/processed_gfp/aud/5/subj/source/y_46.npy
+w_k_1D shape = (5, 1)
+x_k_1D.shape = (1101, 1)
+y_k.shape = (5, 1101)
+/pl/meg/analysis/ica_output/processed_gfp/aud/5/subj/source/y_47.npy
+w_k_1D shape = (5, 1)
+x_k_1D.shape = (1101, 1)
+y_k.shape = (5, 1101)
+/pl/meg/analysis/ica_output/processed_gfp/aud/5/subj/source/y_48.npy
+w_k_1D shape = (5, 1)
+x_k_1D.shape = (1101, 1)
+y_k.shape = (5, 1101)
+/pl/meg/analysis/ica_output/processed_gfp/aud/5/subj/source/y_49.npy
+w_k_1D shape = (5, 1)
+x_k_1D.shape = (1101, 1)
+y_k.shape = (5, 1101)
+/pl/meg/analysis/ica_output/processed_gfp/aud/5/subj/source/y_50.npy
+w_k_1D shape = (5, 1)
+x_k_1D.shape = (1101, 1)
+y_k.shape = (5, 1101)
+/pl/meg/analysis/ica_output/processed_gfp/aud/5/subj/source/y_51.npy
+w_k_1D shape = (5, 1)
+x_k_1D.shape = (1101, 1)
+y_k.shape = (5, 1101)
+/pl/meg/analysis/ica_output/processed_gfp/aud/5/subj/source/y_52.npy
+w_k_1D shape = (5, 1)
+x_k_1D.shape = (1101, 1)
+y_k.shape = (5, 1101)
+/pl/meg/analysis/ica_output/processed_gfp/aud/5/subj/source/y_53.npy
+w_k_1D shape = (5, 1)
+x_k_1D.shape = (1101, 1)
+y_k.shape = (5, 1101)
+/pl/meg/analysis/ica_output/processed_gfp/aud/5/subj/source/y_54.npy
+w_k_1D shape = (5, 1)
+x_k_1D.shape = (1101, 1)
+y_k.shape = (5, 1101)
+/pl/meg/analysis/ica_output/processed_gfp/aud/5/subj/source/y_55.npy
+w_k_1D shape = (5, 1)
+x_k_1D.shape = (1101, 1)
+y_k.shape = (5, 1101)
+/pl/meg/analysis/ica_output/processed_gfp/aud/5/subj/source/y_56.npy
+w_k_1D shape = (5, 1)
+x_k_1D.shape = (1101, 1)
+y_k.shape = (5, 1101)
+/pl/meg/analysis/ica_output/processed_gfp/aud/5/subj/source/y_57.npy
+w_k_1D shape = (5, 1)
+x_k_1D.shape = (1101, 1)
+y_k.shape = (5, 1101)
+/pl/meg/analysis/ica_output/processed_gfp/aud/5/subj/source/y_58.npy
+w_k_1D shape = (5, 1)
+x_k_1D.shape = (1101, 1)
+y_k.shape = (5, 1101)
+/pl/meg/analysis/ica_output/processed_gfp/aud/5/subj/source/y_59.npy
+w_k_1D shape = (5, 1)
+x_k_1D.shape = (1101, 1)
+y_k.shape = (5, 1101)
+/pl/meg/analysis/ica_output/processed_gfp/aud/5/subj/source/y_60.npy
+w_k_1D shape = (5, 1)
+x_k_1D.shape = (1101, 1)
+y_k.shape = (5, 1101)
+/pl/meg/analysis/ica_output/processed_gfp/aud/5/subj/source/y_61.npy
+w_k_1D shape = (5, 1)
+x_k_1D.shape = (1101, 1)
+y_k.shape = (5, 1101)
+/pl/meg/analysis/ica_output/processed_gfp/aud/5/subj/source/y_62.npy
+w_k_1D shape = (5, 1)
+x_k_1D.shape = (1101, 1)
+y_k.shape = (5, 1101)
+/pl/meg/analysis/ica_output/processed_gfp/aud/5/subj/source/y_63.npy
+w_k_1D shape = (5, 1)
+x_k_1D.shape = (1101, 1)
+y_k.shape = (5, 1101)
+/pl/meg/analysis/ica_output/processed_gfp/aud/5/subj/source/y_64.npy
+w_k_1D shape = (5, 1)
+x_k_1D.shape = (1101, 1)
+y_k.shape = (5, 1101)
+/pl/meg/analysis/ica_output/processed_gfp/aud/5/subj/source/y_65.npy
+w_k_1D shape = (5, 1)
+x_k_1D.shape = (1101, 1)
+y_k.shape = (5, 1101)
+/pl/meg/analysis/ica_output/processed_gfp/aud/5/subj/source/y_66.npy
+w_k_1D shape = (5, 1)
+x_k_1D.shape = (1101, 1)
+y_k.shape = (5, 1101)
+/pl/meg/analysis/ica_output/processed_gfp/aud/5/subj/source/y_67.npy
+w_k_1D shape = (5, 1)
+x_k_1D.shape = (1101, 1)
+y_k.shape = (5, 1101)
+/pl/meg/analysis/ica_output/processed_gfp/aud/5/subj/source/y_68.npy
+w_k_1D shape = (5, 1)
+x_k_1D.shape = (1101, 1)
+y_k.shape = (5, 1101)
+/pl/meg/analysis/ica_output/processed_gfp/aud/5/subj/source/y_69.npy
+w_k_1D shape = (5, 1)
+x_k_1D.shape = (1101, 1)
+y_k.shape = (5, 1101)
+/pl/meg/analysis/ica_output/processed_gfp/aud/5/subj/source/y_70.npy
+w_k_1D shape = (5, 1)
+x_k_1D.shape = (1101, 1)
+y_k.shape = (5, 1101)
+/pl/meg/analysis/ica_output/processed_gfp/aud/5/subj/source/y_71.npy
+w_k_1D shape = (5, 1)
+x_k_1D.shape = (1101, 1)
+y_k.shape = (5, 1101)
+/pl/meg/analysis/ica_output/processed_gfp/aud/5/subj/source/y_72.npy
+w_k_1D shape = (5, 1)
+x_k_1D.shape = (1101, 1)
+y_k.shape = (5, 1101)
+/pl/meg/analysis/ica_output/processed_gfp/aud/5/subj/source/y_73.npy
+w_k_1D shape = (5, 1)
+x_k_1D.shape = (1101, 1)
+y_k.shape = (5, 1101)
+/pl/meg/analysis/ica_output/processed_gfp/aud/5/subj/source/y_74.npy
+w_k_1D shape = (5, 1)
+x_k_1D.shape = (1101, 1)
+y_k.shape = (5, 1101)
+/pl/meg/analysis/ica_output/processed_gfp/aud/5/subj/source/y_75.npy
+w_k_1D shape = (5, 1)
+x_k_1D.shape = (1101, 1)
+y_k.shape = (5, 1101)
+/pl/meg/analysis/ica_output/processed_gfp/aud/5/subj/source/y_76.npy
+w_k_1D shape = (5, 1)
+x_k_1D.shape = (1101, 1)
+y_k.shape = (5, 1101)
+/pl/meg/analysis/ica_output/processed_gfp/aud/5/subj/source/y_77.npy
+w_k_1D shape = (5, 1)
+x_k_1D.shape = (1101, 1)
+y_k.shape = (5, 1101)
+/pl/meg/analysis/ica_output/processed_gfp/aud/5/subj/source/y_78.npy
+w_k_1D shape = (5, 1)
+x_k_1D.shape = (1101, 1)
+y_k.shape = (5, 1101)
+/pl/meg/analysis/ica_output/processed_gfp/aud/5/subj/source/y_79.npy
+w_k_1D shape = (5, 1)
+x_k_1D.shape = (1101, 1)
+y_k.shape = (5, 1101)
+/pl/meg/analysis/ica_output/processed_gfp/aud/5/subj/source/y_80.npy
+w_k_1D shape = (5, 1)
+x_k_1D.shape = (1101, 1)
+y_k.shape = (5, 1101)
+/pl/meg/analysis/ica_output/processed_gfp/aud/5/subj/source/y_81.npy
+w_k_1D shape = (5, 1)
+x_k_1D.shape = (1101, 1)
+y_k.shape = (5, 1101)
+/pl/meg/analysis/ica_output/processed_gfp/aud/5/subj/source/y_82.npy
+Saved Subjects Sources @/pl/meg/analysis/ica_output/processed_gfp/aud/5/subj/csv/subject_sources.csv
+Subject Len 82
+M87105265
+1.0
+Low
+M87197917
+1.0
+Low
+M87112743
+2.0
+Medium
+M87104714
+2.0
+Medium
+M87131012
+3.0
+High
+M87130656
+1.0
+Low
+M87117365
+3.0
+High
+M87168050
+3.0
+High
+M87100788
+2.0
+Medium
+M87189143
+1.0
+Low
+M87160162
+2.0
+Medium
+M87120532
+2.0
+Medium
+M87178513
+1.0
+Low
+M87177235
+2.0
+Medium
+M87187253
+3.0
+High
+M87196316
+2.0
+Medium
+M87102589
+nan
+nan
+M87137879
+nan
+nan
+M87195745
+3.0
+High
+M87120319
+2.0
+Medium
+M87133640
+3.0
+High
+M87104918
+2.0
+Medium
+M87135262
+3.0
+High
+M87158016
+2.0
+Medium
+M87106704
+1.0
+Low
+M87131845
+2.0
+Medium
+M87199117
+3.0
+High
+M87192301
+1.0
+Low
+M87196579
+2.0
+Medium
+M87190684
+2.0
+Medium
+M87149105
+3.0
+High
+M87186783
+2.0
+Medium
+M87160608
+2.0
+Medium
+M87111372
+1.0
+Low
+M87155237
+3.0
+High
+M87128044
+2.0
+Medium
+M87184856
+3.0
+High
+M87154350
+3.0
+High
+M87132364
+2.0
+Medium
+M87105689
+3.0
+High
+M87139741
+2.0
+Medium
+M87173380
+1.0
+Low
+M87113328
+3.0
+High
+M87186620
+3.0
+High
+M87138931
+2.0
+Medium
+M87177624
+3.0
+High
+M87152436
+1.0
+Low
+M87152059
+3.0
+High
+M87140340
+2.0
+Medium
+M87197917
+1.0
+Low
+M87105265
+1.0
+Low
+M87146442
+1.0
+Low
+M87193022
+2.0
+Medium
+M87151599
+2.0
+Medium
+M87131012
+3.0
+High
+M87104714
+2.0
+Medium
+M87175951
+3.0
+High
+M87112743
+2.0
+Medium
+M87161703
+2.0
+Medium
+M87120532
+2.0
+Medium
+M87184504
+2.0
+Medium
+M87172564
+3.0
+High
+M87104289
+1.0
+Low
+M87166199
+1.0
+Low
+M87170742
+3.0
+High
+M87114683
+3.0
+High
+M87152779
+1.0
+Low
+M87135262
+3.0
+High
+M87126689
+2.0
+Medium
+M87133640
+3.0
+High
+M87109237
+3.0
+High
+M87106704
+1.0
+Low
+M87196268
+2.0
+Medium
+M87149105
+3.0
+High
+M87190684
+2.0
+Medium
+M87116559
+3.0
+High
+M87111261
+1.0
+Low
+M87100718
+3.0
+High
+M87147424
+3.0
+High
+M87181301
+2.0
+Medium
+M87154350
+3.0
+High
+M87155634
+2.0
+Medium
+M87155237
+3.0
+High
+M87181340
+2.0
+Medium
+M87173380
+1.0
+Low
+M87161334
+2.0
+Medium
+M87191024
+3.0
+High
+M87186620
+3.0
+High
+M87113328
+3.0
+High
+M87183741
+2.0
+Medium
+M87197917
+1.0
+Low
+M87193022
+2.0
+Medium
+M87104714
+2.0
+Medium
+M87116480
+2.0
+Medium
+M87160162
+2.0
+Medium
+M87155705
+2.0
+Medium
+M87172564
+3.0
+High
+M87184673
+2.0
+Medium
+M87114683
+3.0
+High
+M87173481
+2.0
+Medium
+M87169425
+2.0
+Medium
+M87195745
+3.0
+High
+M87104918
+2.0
+Medium
+M87135262
+3.0
+High
+M87106704
+1.0
+Low
+M87199117
+3.0
+High
+M87149105
+3.0
+High
+M87124949
+1.0
+Low
+M87122548
+2.0
+Medium
+M87173380
+1.0
+Low
+M87181340
+2.0
+Medium
+M87132364
+2.0
+Medium
+M87123871
+2.0
+Medium
+M87177624
+3.0
+High
+M87113328
+3.0
+High
+   subject_name  ... cog_group
+0     M87100788  ...    Medium
+1     M87104714  ...    Medium
+2     M87104918  ...    Medium
+3     M87105265  ...       Low
+4     M87105689  ...      High
+..          ...  ...       ...
+77    M87106704  ...       Low
+78    M87112743  ...    Medium
+79    M87113328  ...      High
+80    M87120532  ...    Medium
+81    M87131012  ...      High
+
+[82 rows x 11 columns]
+Saved Reconstructed Subjects with Cognition Scores @/pl/meg/analysis/ica_output/processed_gfp/aud/5/subj/csv/subject_bk_scores.csv
